@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body><!-- style hãy tách ra thành 1 file riêng -->
+    <style>
+        td{
+            padding: 5px;
+        }
+        button{/* tab lộn xộn, dòng 14 - 20 */
+                background-image:linear-gradient(45deg, red, black);
+                color: white;
+                width: 96px;
+                height: 40px;
+                margin-top: 10px;
+                margin-left: 150px;
+                border-radius: 20px;
+        }
+        button:hover{
+            background-image:linear-gradient(320deg, red, black);
+        }
+        h1{
+            margin-left: 70px;
+        }
+    </style><!-- h1 tab lộn xộn -->
+        <h1>Đăng ký thành viên</h1>
+    <form action=""><!-- form ghi thêm action, method, ..., tham khảo phần này của Duyên -->
+    <table border="1" style="width:400px"><!-- Không viết inline css (tách ra thành 1 file css riêng), sau dấu : thêm 1 dấu cách, cần tab table thụt vào -->
+        <tr style="text-align:center;font-weight:bold"><!-- Không viết inline css (tách ra thành 1 file css riêng), sau dấu : và ; thêm 1 dấu cách -->
+            <td>Nội dung</td>
+            <td>Giá trị</td>
+        </tr>
+        <tr >
+            <td>Họ Tên:</td><!-- chưa đặt name -->
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td><input type="email"></td>
+        </tr>
+        <tr>
+            <td>Mật Khẩu:</td>
+            <td><input type="password"></td>
+        </tr>
+        <tr>
+            <td>Ảnh đại diện:</td>
+            <td><input  type="file" multiple></td>
+        </tr>
+        <tr>
+            <td>Số điện thoại:</td>
+            <td><input type="number"></td>
+        </tr>
+        <tr>
+            <td>Tuổi</td>
+            <td><select>
+                <option value="">5</option>
+                <option >10</option><!-- <option > sửa thành <option>, tương tự dòng 62  -->
+                <option selected >15</option>
+                <option >20</option>
+              </select></td>
+        </tr>
+        <tr>
+            <td>Giới tính:</td>
+            <td>
+                <input  type="radio" name="gioitinh" value="nam">Nam <br/><!-- <input  type="radio" có 2 dấu cách, sửa thành 1 dấu cách -->
+                <input checked type="radio" name="gioitinh" value="nu">Nữ<br/><!-- name không đặt tiếng Việt -->
+                <input type="radio" name="gioitinh" value="khac">Khác
+            </td>
+        </tr>
+        <tr>
+            <td>Sở thích</td>
+            <td><!-- name của checkbox phải đặt giống nhau, tham khảo bài của Duyên cũng lỗi tương tự -->
+                <input checked type="checkbox" name="bongda">Bóng đá<br/>
+                <input type="checkbox" name="bongchuyen">Bóng chuyền<br/>
+                <input checked type="checkbox" name="caulong">Cầu lông<br/>
+                <input type="checkbox" name="bongro">Bóng rổ
+            </td>
+        </tr>
+        <tr>
+            <td>Ghi chú</td>
+            <td><textarea  name="" id="" cols="30" rows=""></textarea></td>
+        </tr>
+    </table></form><!-- phải đặt button ở trong form, entern thẻ đóng form xuống dòng mới -->
+    <button>Register</button>
+</body>
+</html>
+
+<!--
+    Góp ý:
+    1. Tab lộn xộn
+    2. Các dấu cách viết lộn xộn
+    3. Chưa dùng CSS
+    4. chưa hiểu cách dùng name, tham khảo comment bài của bạn Duyên
+    5. Tham khảo phần CSS của Hưng
+-->

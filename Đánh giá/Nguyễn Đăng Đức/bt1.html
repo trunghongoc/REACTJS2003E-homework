@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body><!-- tách css thành 1 file riêng, style nếu viết không viết trong body -->
+    <style>
+        table
+        {
+            border-collapse: collapse;/* indent: enter, dấu cách lộn xộn, dòng 13 14 19 */
+            
+            
+        }
+        td
+        {
+            min-width: 30px;
+            
+        }
+    </style>
+<table border="1">
+    <tr>
+        <td colspan="2">1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td colspan="2" rowspan="2">6</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td rowspan="4"colspan="2">2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td><!-- enter, dấu cách vô nghĩa dòng 37 -->
+        
+    </tr>
+    <tr>
+        <td>1</td>
+        <td colspan="5">2</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>2</td>
+        <td colspan="2" rowspan="2">3</td>
+        <td>4</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+    </tr>
+</table>
+</body>
+</html>
+
+<!--
+    Góp ý:
+    1. indent lộn xộn
+    2. Chưa sửa comment bài trước (tên file khó hiểu, ...)
+-->

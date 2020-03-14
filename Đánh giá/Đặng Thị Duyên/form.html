@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            color: blueviolet;
+            margin-left: 150px;
+        }
+        table, tr, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        td,th {/* sau dấu phẩy, hãy thêm 1 dấu cách */
+            width: 250px;
+            height: 50px;
+            padding-left: 20px;
+        }
+        input {/* thừa dấu cách cuối dòng 22 */
+            width: 180px;  
+        }
+        .input_r {/* tên class hãy chuyển dấu _ thành - */
+            width: 20px;
+        }
+        textarea {
+            margin: 15px 5px;
+        }
+        button {
+            width: 100px;
+            height: 30px;
+            margin: 30px 230px;
+            background-color: rgb(78, 129, 78);
+        }
+        </style><!-- tab thẻ style bị lệch -->
+</head>
+<body>
+    <form method="POST" action="" class="form" enctype="multipart/form-data">
+        <h1>Đăng kí thành viên.</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nội dung</th>
+                    <th>Giá trị</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><!-- thừa dấu cách cuối dòng 51 -->
+                        <label for="">Họ tên:</label> 
+                    </td>
+                    <td><!-- thừa dấu cách cuối dòng 54 -->
+                        <input type="text" name="name" id="">   
+                    </td>
+                </tr>
+                <tr>
+                    <td><!-- thừa dấu cách cuối dòng 58 -->
+                        <label for="">Email:</label> 
+                    </td>
+                    <td>
+                        <input type="email" name="email" id="">
+                    </td>
+                </tr>
+                <tr>
+                    <td><!-- thừa dấu cách cuối dòng 66 -->
+                        <label for="">Mật khẩu:</label> 
+                    </td>
+                    <td>
+                        <input type="password" name="password" id="">
+                    </td>
+                </tr>
+                <tr>
+                    <td><!-- thừa dấu cách cuối dòng 75 -->
+                        <label for="">Avatar:</label> 
+                    </td>
+                    <td>
+                        <input type="file" name="file" id="" multiple><!--chọn nhiều file-->
+                    </td>
+                </tr>
+                <tr>
+                    <td><!-- thừa dấu cách cuối dòng 83 -->
+                        <label for="">Số điện thoại:</label> 
+                    </td>
+                    <td><!-- thừa dấu cách cuối dòng 86 -->
+                        <input type="number" name="phone" id="">   
+                    </td>
+                </tr>
+                <tr>
+                    <td><!-- thừa dấu cách cuối dòng 91 -->
+                        <label for="">Tuổi:</label> 
+                    </td><!-- thừa dấu cách cuối dòng 93 -->
+                    <td>    
+                        <select><!-- cần đặt name cho select -->
+                            <option value="">1 tuổi</option>
+                            <option value="">2 tuổi</option>
+                            <option value="" selected >3 tuổi</option>
+                            <option value="">4 tuổi</option><!-- thừa dấu cách cuối dòng 99 -->
+                        </select> 
+                    </td>
+                </tr>
+                <tr>
+                    <td><!-- thừa dấu cách cuối dòng 104 -->
+                        <label for="">Giới tính:</label> 
+                    </td>
+                    <td>
+                        <input type="radio" name="gender" id="" class="input_r">Nam  <br><!-- thừa dấu cách cuối dòng 108 -->
+                        <input type="radio" name="gender" id="" class="input_r" checked> Nữ 
+                    </td>
+                </tr>
+                <tr>
+                    <td><!-- thừa dấu cách cuối dòng 113 -->
+                        <label for="">Sở thích:</label> 
+                    </td>
+                    <td><!-- chưa hiểu cách đặt name, check box sở thích phải có name giống nhau, value mỗi check box mới là khác nhau -->
+                        <input type="checkbox" name="bongda" id="" class="input_r"> Đá bóng <br>
+                        <input type="checkbox" name="caulong" id="" class="input_r"> Cầu lông <br>
+                        <input type="checkbox" name="duathuyen" id="" class="input_r"> Đua thuyền
+                    </td>
+                </tr>
+                <tr>
+                    <td><!-- thừa dấu cách cuối dòng 122 -->
+                        <label for="">Ghi chú:</label> 
+                    </td>
+                    <td><!-- thừa dấu cách cuối dòng  127-->
+                        <textarea rows="3" cols="25">Buổi học đầu tiên về html</textarea>  
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <button type="submit">Đăng kí</button>
+    </form>
+</body>
+</html>
+
+<!--
+    Góp ý:
+    1. Chưa dùng CSS
+    2. Vẫn còn thừa rất nhiều dấu cách vô nghĩa
+    3. Chưa hiểu cách đặt tên name
+    4. Tham khảo css của Hưng
+-->

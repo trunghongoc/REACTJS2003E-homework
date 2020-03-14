@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title><!-- tách css ra thành 1 file riêng -->
+    <style>
+        h1
+        {
+            background-color: green;
+            width: 400px;
+        }/* tab, dấu cách lộn xộn từ dòng 13 đên 25 */
+      table
+      {
+          border-collapse: collapse;
+          width: 400px;
+          height: 500px;
+      }
+      input[type="submit"]
+      {
+          width: 60px;
+          margin-top:2px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+      }
+    </style>
+</head>
+<body>
+    <h1>Đăng kí thành viên</h1>
+    <form action="//link" method="post" ><!-- method="post" > sửa thành method="post">, trong form có input file, tham khảo phần này của Duyên -->
+        <!-- 9 methods http -->
+    <table border="1">
+        <th><!-- nội dung trong thẻ quá ngắn, hãy viết thành 1 dòng, ko enter -->
+           Nội dung<!-- thừa dấu cách cuối dòng 35 -->
+        </th>  
+        <th>
+            Gía trị
+         </th><!-- thừa dấu cách trước thẻ đóng -->
+         <tr><!-- thừa dấu cách trước thẻ mở -->
+             <td>Họ tên:</td><!-- thừa dấu cách trước thẻ mở -->
+             <td><!-- thừa dấu cách trước thẻ mở -->
+                 <input type="text"><!-- thừa dấu cách trước thẻ mở -->
+             </td><!-- thừa dấu cách trước thẻ đóng -->
+         </tr><!-- thừa dấu cách trước thẻ đóng -->
+         <tr><!-- thừa dấu cách trước thẻ mở -->
+             <td>Email:</td><!-- thừa dấu cách trước thẻ mở -->
+             <td><!-- thừa dấu cách trước thẻ mở -->
+                 <input type="email"><!-- thừa dấu cách trước thẻ mở -->
+             </td><!-- thừa dấu cách trước thẻ đóng -->
+         </tr><!-- tab, dấu cách lộn xộn từ dòng 36 - 97-->
+         <tr>
+             <td>Mật Khẩu:</td>
+             <td><!-- chưa đặt name cho các ô input-->
+                 <input type="password">
+             </td>
+         </tr>
+         <tr>
+             <td>Avatar</td>
+             <td><input type="file" multiple ></td>
+         </tr>
+         <tr>
+             <td>Số điện thoại</td>
+             <td><input type="number"></td>
+         </tr>
+         <tr>
+             <td>Tuổi</td>
+             <td>
+                 <select><!-- phải đặt tên cho select -->
+                     <option value="1">1 tuổi</option>
+                     <option selected value="2">2 tuổi</option>
+                     <option value="3">3 tuổi</option>
+                     <option value="4">4 tuổi</option>
+                     <option value="5">5 tuổi</option>
+                 </select>
+             </td>
+         </tr>
+         <tr>
+             <td>Giới tính</td>
+             <td><!-- chưa hiểu cách đặt name, name đặt theo quy tắc đặt tên biến, không dùng tiếng việt -->
+                 <input type="radio" value="nam" name="giới tính"> <span>nam</span> <br><!-- thừa dấu cách cuối dòng 81-->
+                 <input type="radio" value="nam" name="giới tính"> <span>nữ</span> 
+             </td>
+         </tr>
+         <tr>
+             <td>Sở Thích</td>
+             <td><!-- chưa đặt name, và phải đặt name giống nhau -->
+                 <input type="checkbox" checked> <span>Đá bóng </span> <br>
+                 <input type="checkbox"> <span>cầu lông </span> <br>
+                 <input type="checkbox"> <span>đua thuyền </span> <br>
+             </td>
+         </tr>
+         <tr>
+             <td>Ghi chú</td>
+             <td><!-- chưa đặt name -->
+                <textarea name="first lesson" id="" cols="30" rows="10"placeholder="bai hoc dau tien" ></textarea>
+             </td>
+         </tr>
+    </table><!-- thêm value vào input -->
+    <input type="submit">
+</form><!-- tab lộn xộn, form phải tab vào 1 tab so với body-->
+</body>
+</html>
+
+<!--
+    Góp ý:
+    1. chưa dùng css
+    2. chưa sửa comment bài trước
+    3. tham khảo phần hiển thị, bài của Hưng
+-->

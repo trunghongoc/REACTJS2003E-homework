@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        tr,
+        td {
+            height: 30px;
+            font-weight: bold;
+            padding-left: 7px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="background: green;width: 55%;">Đăng ký thành viên</h1>
+    <table border="1" style="border-collapse: collapse;">
+        <tr align="center">
+            <th>Nội dung</th>
+            <th>Giá trị</th>
+        </tr>
+        <tr>
+            <td>Họ tên:</td>
+            <td><input type="text" name="Name" id="" placeholder="Họ và Tên"></td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td><input type="email" name="email" id="" placeholder="Nhập Email"></td>
+        </tr>
+        <tr>
+            <td>Mật khẩu:</td>
+            <td><input type="password" name="password" id="" placeholder="Nhập Password"></td>
+        </tr>
+        <tr>
+            <td>Avatar:</td>
+            <td><input type="file" name="file" id=""></td>
+        </tr>
+        <tr>
+            <td>Số điện thoại:</td>
+            <td>
+                <input type="number" name="number" id="" placeholder="Nhập số điện thoại">
+            </td>
+        </tr>
+        <tr>
+            <td>Tuổi:</td>
+            <td>
+                <select name="tuổi" id="" style="border-radius: 5px;">
+                    <option value="1">1 tuổi</option>
+                    <option value="2">2 tuổi</option>
+                    <option value="3">3 tuổi</option>
+                    <option value="4">4 tuổi</option>
+                    <option value="5">5 tuổi</option>
+            </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Giới tính:</td>
+            <td>
+                <input type="radio" name="radio" id="" checked>Nam <br>
+                <input type="radio" name="radio" id="">Nữ
+            </td>
+        </tr>
+        <tr>
+            <td>Sở thích:</td>
+            <td>
+                <input type="checkbox" name="checkbox" id="">Đá bóng <br>
+                <input type="checkbox" name="checkbox" id="">Cầu lông <br>
+                <input type="checkbox" name="checkbox" id="">Đua thuyền <br>
+            </td>
+        </tr>
+        <tr>
+            <td>Ghi chú:</td>
+            <td>
+                <textarea name="messenger" id="" cols="20" rows="2" placeholder="Hello"></textarea>
+            </td>
+        </tr>
+    </table>
+    <input type="submit" value="Đăng ký">
+</body>
+
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title><!-- tách css thành 1 file, tham khảo bài của Lại Tiến Đức -->
+    <style>
+        h1{/* thêm dấu cách trước { */
+            background-color: #7FFF00;
+            display: inline-block;
+        }
+        table, tr, td {
+            border: 2px solid black;
+            border-collapse: collapse;/* thừa 1 tab, dòng 15 */
+            }
+    </style>
+</head>
+<body>
+    <h1> Đăng ký thành viên</h1>
+    <form action="" class=""><!-- form thiếu các attributes cần thiết, tham khảo bài của Duyên-->
+    <table style="font-weight: bold"><!-- không viết inline css, hãy tách thành 1 file css -->
+        <tr style="text-align: center;font-size: 20px;">
+            <td >Nội dung</td>
+            <td>Giá trị</td>
+        </tr>
+        <tr>
+            <td>Họ tên</td>
+            <td><!-- chưa đặt naem cho các trường input, textarea, ... -->
+                <input type="text" id="" name="">
+            </td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td>
+                <input type="email" id="usd" name="">
+            </td>
+        </tr>
+        <tr>
+            <td>Mật khẩu</td>
+            <td>
+                <input type="password" id="sb" name="">
+            </td>
+        </tr>
+        <tr>
+            <td>Avatar</td>
+            <td >
+                <input type="file" name="anh">
+            </td>
+        </tr>
+            <td>Số điện thoại</td>
+            <td>
+                <input type="number" id="" name="">
+            </td>
+        </tr>
+        <tr>
+            <td>Tuổi</td>
+            <td >
+                <select name="" id="" >
+                <option selected value="">1 tuổi</option>
+                <option value="">2 tuổi</option>
+                <option value="">3 tuổi</option>
+                <option value="">4 tuổi</option>
+                </select>
+             </td>
+        </tr>
+        <tr>
+            <td>giới tính</td><!-- thừa dấu cách vô nghĩa cuối dòng 68 -->
+            <td> 
+                <input checked type="radio" id="male" name="namf" value="nam">
+                <label for="trai">nam</label><br>
+                <input checked type="radio" id="male" name="namf" value="Nữ">
+                <label for="gái">nữ</label>
+            </td>
+        </tr>
+        <tr>
+            <td>sở thích</td>
+            <td>
+                <input type="checkbox" id="" name="hoc" value="hocb"><!-- thừa dấu cách vô nghĩa cuối dòng 79, name đặt theo quy tắc đặt tên biến, không dùng tiếng việt, name hiện tại không mang đúng ý nghĩa -->
+                <label for="hocbai"> Đá bóng</label><br> 
+                <input type="checkbox" id="" name="hoc" value="hocb"><!-- thừa dấu cách vô nghĩa cuối dòng 80, name đặt theo quy tắc đặt tên biến, không dùng tiếng việt, name hiện tại không mang đúng ý nghĩa -->
+                <label for="hocbai"> Cầu lông</label><br> 
+                <input type="checkbox" id="" name="hoc" value="hocb"><!-- name đặt theo quy tắc đặt tên biến, không dùng tiếng việt, name hiện tại không mang đúng ý nghĩa -->
+                <label for="hocbai"> Đua thuyền</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Ghi chú</td>
+            <td>
+                <textarea name="" id="" cols="20" rows="1">Buổi học đầu tiên</textarea>
+            </td>
+        </tr>
+    </table>
+    </form>
+    <button> Đăng ký</button><!-- button phải đặt trong form, thừa dấu enter và cách vô nghĩa ở dòng 95-->
+    
+</body>
+</html>
+
+<!--
+    Góp ý:
+    1. Chưa dùng css
+    2. indent: dấu cách, tab, enter vẫn chưa sửa được
+    3. Chưa biết sử dụng name
+    4. Tham khảo phần hiển thị, bài của Hưng và trên mạng
+    5. Đặt tên file khó hiểu, đổi lại tên file. -> lần trước đã comment rồi
+-->

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+     table
+     {/* dòng 10: thừa 1 dấu cách trước chữ border-collapse cuối dòng có dấu cách thừa */
+         border-collapse: collapse;     
+     }
+     table,tr,td,th /* Sau các dấu , thêm dấu cách */
+     {
+         border: 1px solid black;
+         width: 400px;
+         height: 35px;
+     }
+    form
+    {/* dấu cách, tab lộn xộn dòng 20 */
+        border: 1px solid black;
+       width: 450px ;
+       height: 510px;
+    }/* dấu cách, tab lộn xộn dòng 24, 25, 26 */
+  h1 {
+      background:green ;
+  }
+  .conten{/* thêm dấu cách trước dấu {, indent lộn xộn */
+    margin-left: 25px;
+  }
+    </style>
+</head>
+<body>
+    <form action=""><!-- ghi đầy đủ attribute cần thiết cho form, tham khảo bài Duyên -->
+            <h1>Đăng kí thành viên</h1><!-- tab lộn xộn -->
+        <div class="conten">
+            <table>
+                <tr>
+                    <th>Nội dung</th>
+                    <th>Gia trị</th>
+                </tr>
+                <tr>
+                    <td>Họ tên:</td><!-- tất cả các input chưa có name -->
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>email:</td>
+                    <td><input type="email"></td>
+                </tr>
+                <tr>
+                    <td>Mật khẩu:</td>
+                    <td><input type="password"></td>
+                </tr>
+                <tr>
+                    <td>Avatar</td>
+                    <td><input type="file"></td>
+                </tr>
+                <tr>
+                    <td>Sô điện thoại:</td>
+                    <td><input type="tel" ></td>
+                </tr>
+                <tr>
+                    <td>Tuổi:</td>
+                    <td>
+                        <select name="tuoi" id="tuoi"><!-- không đặt name là tiếng việt -->
+                            <option value="tuoi1">Tuổi 1</option>
+                            <option value="tuoi2">Tuổi 2</option>
+                            <option value="tuoi3">Tuổi 3</option>
+                            <option value="tuoi4">Tuổi 4</option>
+                            <option value="tuoi5">Tuổi 5</option>
+                            <option value="tuoi6">Tuổi 6</option>
+                            <option value="tuoi7">Tuổi 7</option><!-- enter lộn xộn -->
+
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Giơi Tính:</td><!-- không đặt name là tiếng việt -->
+                    <td><input type="radio" name="gioitinh" value="nam" checked>Nam <br>
+                        <input type="radio" name="gioitinh" vlaue= "nữ">Nữ
+                    </td><!-- enter lộn xộn -->
+
+                </tr>
+                <tr>
+                    <td>Sở thích:</td><!-- tham khảo nhận xét phần này của Hùng và Duyên -->
+                    <td><input type="checkbox" name="dabong" value="đá bóng "> Đá bóng <br>
+                        <input type="checkbox" name="caulong"value="cầu lông"> Cầu lông <br>
+                        <input type="checkbox" name="duathuyen" value="đua thuyền"> Đàu thuyền
+                    </td>
+                </tr>
+                <tr>
+                    <td>Ghi chú:</td>
+                    <td><textarea name="" id="" cols="20" rows="3" >Buổi đầu học HTMl</textarea></td>
+                </tr>
+            </table><!-- dấu cách thừa cuối dòng 95, đặt name theo quy tắc đặt tên biến, không dùng tiếng việt -->
+            <input type="submit" name="dangki" id="dangki" value="Đăng ký"> 
+        </div><!-- enter lộn xộn, dòng 97 có dấu cách thừa-->
+       
+    </form>
+</body>
+</html>
+
+<!--
+    Góp ý:
+    1. Viết rất lộn xộn
+    2. Chưa đặt name cho các input, textarea, ...
+    3. name ko được dùng tiếng việt
+    4. chưa dùng css
+    5. Git push lên thì sửa vào file cũ, không giữ lại các file không liên quan
+-->

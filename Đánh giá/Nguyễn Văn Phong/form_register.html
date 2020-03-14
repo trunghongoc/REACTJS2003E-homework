@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title><!-- hãy tách css thành 1 file riêng -->
+    <style>
+        td {
+            height: 40px;
+            font-weight: bold;
+            padding-left: 7px;
+            font-size: 16px;
+        }/* thừa enter, dấu cách vô nghĩa dòng 15 */
+        
+        tr th {
+            font-size: 20px;
+            font-weight: 500px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- không viết inline css, hãy tách ra thành 1 file css riêng, sau dấu : và ; hãy thêm dấu cách-->
+    <h1 style="background: green;width:370px;">Đăng ký thành viên</h1>
+    <form action=""><!-- form thiếu các attribute cần thiết, tham khảo bài của Duyên -->
+        <table border="1" style="border-collapse: collapse;"><!-- không viết inline css, hãy tách ra thành 1 file css riêng -->
+            <tr align="center">
+                <th>Nội dung</th>
+                <th>Giá trị</th>
+            </tr>
+            <tr>
+                <td>Họ tên:</td><!-- name theo quy tắc đặt tên biến, và không dùng tiếng việt-->
+                <td><input type="text" name="full name" id="" placeholder="Họ và Tên"></td>
+            </tr>
+            <tr>
+                <td>Email:</td><!-- name theo quy tắc đặt tên biến, và không dùng tiếng việt-->
+                <td><input type="email" name="email" id="" placeholder="Nhập Email"></td>
+            </tr>
+            <tr>
+                <td>Mật khẩu:</td><!-- name theo quy tắc đặt tên biến, và không dùng tiếng việt-->
+                <td><input type="password" name="password" id="" placeholder="Nhập Password"></td>
+            </tr>
+            <tr>
+                <td>Avatar:</td><!-- name theo quy tắc đặt tên biến, và không dùng tiếng việt-->
+                <td><input type="file" name="file" id="" multiple="multiple"></td>
+            </tr>
+            <tr>
+                <td>Số điện thoại:</td>
+                <td><!-- name theo quy tắc đặt tên biến, và không dùng tiếng việt-->
+                    <input type="number" name="number" id="" placeholder="Nhập số điện thoại">
+                </td>
+            </tr>
+            <tr>
+                <td>Tuổi:</td>
+                <td><!-- name theo quy tắc đặt tên biến, và không dùng tiếng việt, không dùng inline css -->
+                    <select name="tuổi" id="" size="1" style="border-radius: 5px;">
+                        <option value="1">1 tuổi</option>
+                        <option value="2">2 tuổi</option>
+                        <option value="3"selected>3 tuổi</option>
+                        <option value="4">4 tuổi</option>
+                        <option value="5">5 tuổi</option>
+                </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Giới tính:</td>
+                <td>
+                    <input type="radio" name="confidence" id="" checked>Nam <br>
+                    <input type="radio" name="confidence" id="" checked>Nữ
+                </td>
+            </tr>
+            <tr>
+                <td>Sở thích:</td>
+                <td>
+                    <input type="checkbox" name="hobby" id="">Đá bóng <br>
+                    <input type="checkbox" name="hobby" id="">Cầu lông <br>
+                    <input type="checkbox" name="hobby" id="" checked>Đua thuyền <br>
+                </td>
+            </tr>
+            <tr>
+                <td>Ghi chú:</td>
+                <td>
+                    <textarea name="messenger" id="" cols="20" rows="2" placeholder="Hello"></textarea>
+                </td>
+            </tr>
+        </table><!-- không dùng inline css, hãy tách thành 1 file riêng -->
+        <input type="submit" style="height:40px;font-size:17px" value="Đăng ký">
+    </form>
+</body>
+
+</html>
+
+<!--
+    Góp ý:
+    1. Chưa sử dụng css, không khác gì bài hôm trước
+    2. chưa biết name trong input là gì, đặt name như thế nào
+    3. còn các dấu cách và enter vô nghĩa
+    4. Các file không liên quan vẫn có trong project như test1.1.html, test1.2.html
+    5. Trong commit mới hãy xóa những thứ không liên quan, và không đi viết lại từ đầu 2 file form_register.html, và tag_table.html
+       mà hãy sưả nội dung file test1.1, test1.2, sau đó đổi tên 2 file test1.1 test1.2 rồi push lên là được
+-->

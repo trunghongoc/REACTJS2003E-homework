@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title><!-- tách css ra thành 1 file -->
+    <style>
+     table
+     {/* thừa dấu cách trước các dòng 10 11 15 16 17, thừa dấu cách vô nghĩa cuối dòng 10 11 */
+         border-collapse: collapse; 
+         background-color: aliceblue;    
+     }
+     table,tr,td,th
+     {
+         border: 1px solid black;
+         width: 400px;
+         height: 35px;
+     }
+    form
+    {
+        font-family: 'Times New Roman', Times, serif;
+        border-radius: 20px;
+        margin: auto;
+        background-color: thistle;
+        border: 1px solid black;
+        width: 450px ;
+        height: 595px;/* enter và có dấu cách vô nghĩa dòng 28 */
+       
+    }
+  h1 {/* indent lộn xộn từ dòng 30 - 73 */
+      background:turquoise ;
+      color:yellow;
+      text-align: center;
+  }
+  .content{
+    margin-left: 25px;
+  }
+  #title{
+      text-align: center;/* enter và có dấu cách vô nghĩa dòng 40 */
+   
+  }
+ #data{
+     padding-left: 15px;
+ }
+  .submit{
+      text-align: center;
+      margin-top: 10px ;
+  }
+  .submit input{
+      width: 100px;
+      height: 30px;
+      background-color: blue;
+      color: chartreuse;
+      border-radius: 10px;/* enter và có dấu cách vô nghĩa dòng 55 */
+      
+  }
+  .submit input:hover{
+      background-color: chartreuse;
+      color: darkblue;
+      border-bottom: 2px solid red;
+  }
+.linkfb{/* enter vô nghĩa dòng 63 */
+
+   padding:10px 0px  0px 20px;
+}
+.a {/* dấu cách vô nghĩa cuối dòng 67, đặt tên class hãy có ý nghĩa */
+    margin-top:15px;    
+}
+.a a:hover{
+    color: rgb(119, 81, 81);
+    text-decoration: none;
+}
+    </style>
+</head>
+<body>
+    <form action="" class="form"><!-- form ghi thêm action, method, ..., tham khảo phần này của Duyên -->
+        <div class="linkfb">
+            <div style="float: left;"><!-- thừa dấu cách cuối dòng 79, img link ảnh không tồn tại -->
+                <img src="img/facebook.png" alt="ảnh facebook"> 
+            </div>
+            <div class="a"><!-- đặt tên class ko hiểu gì hết -->
+                <a href="https://www.facebook.com/phungthedai1998"> Người làm Form </a><!-- thừa dấu cách cuối dòng 83 -->
+            </div>        
+        </div>
+            <h1>Đăng kí thành viên</h1>
+        <div class="content">
+            <table>
+                <tr ><!-- <tr > sửa thành <tr> -->
+                    <th id="title">Nội dung</th>
+                    <th id="data">Giá trị</th>
+                </tr>
+                <tr>
+                    <td id="title">Họ tên:</td><!-- chưa đặt name cho các ô input -->
+                    <td id="data"><input type="text"></td>
+                </tr>
+                <tr>
+                    <td id="title">Email:</td>
+                    <td id="data"><input type="email"></td>
+                </tr>
+                <tr>
+                    <td id="title">Mật khẩu:</td>
+                    <td id="data"><input type="password"></td>
+                </tr>
+                <tr>
+                    <td id="title">Avatar</td>
+                    <td id="data"><input type="file" multiple></td>
+                </tr>
+                <tr>
+                    <td id="title">Sô điện thoại:</td>
+                    <td id="data"><input type="number" ></td>
+                </tr>
+                <tr>
+                    <td id="title">Tuổi:</td>
+                    <td id="data"><!-- enter vô nghĩa, dấu cách vô nghĩa -->
+                      
+                        <select name="tuoi" id="tuoi" ><!-- không đặt name là tiếng việt -->
+                            <option value="tuoi1">Tuổi 1</option>
+                            <option value="tuoi2">Tuổi 2</option>
+                            <option value="tuoi3" >Tuổi 3</option>
+                            <option value="tuoi4" >Tuổi 4</option>
+                            <option value="tuoi5">Tuổi 5</option>
+                            <option value="tuoi6">Tuổi 6</option>
+                            <option value="tuoi7">Tuổi 7</option><!-- enter vô nghĩa dòng 124 -->
+
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="title">Giơi Tính:</td><!-- Giới tính -->
+                    <td id="data"><input type="radio" name="gioitinh" value="nam" checked>Nam <br><!-- không đặt name là tiếng việt, enter input xuống dòng, 1 dòng chỉ nên có 1 thẻ -->
+                        <input type="radio" name="gioitinh" vlaue= "nữ" >Nữ
+                    </td><!-- enter vô nghĩa dòng 133 -->
+
+                </tr>
+                <tr>
+                    <td id="title">Sở thích:</td>!-- không đặt name là tiếng việt, enter input xuống dòng, 1 dòng chỉ nên có 1 thẻ -->
+                    <td id="data"><input type="checkbox" name="sothich" value="đá bóng "> Đá bóng <br>
+                        <input type="checkbox" name="sothich"value="cầu lông"> Cầu lông <br>
+                        <input type="checkbox" name="sothich" value="đua thuyền"> Đua thuyền
+                    </td>
+                </tr>
+                <tr>
+                    <td id="title">Ghi chú:</td>
+                    <td id="data"><textarea name="" id="" cols="20" rows="3" >Buổi đầu học HTMl</textarea></td>
+                </tr>
+            </table>
+
+            <div class="submit"><!-- dấu cách vô nghĩa cuối dòng 150 -->
+                <input type="submit" name="dangki" id="dangki" value="Đăng ký" > 
+            </div><!-- enter vô nghĩa, dấu cách vô nghĩa -->
+            
+        </div><!-- enter vô nghĩa, dấu cách vô nghĩa -->
+       
+    </form>
+</body>
+</html>
+
+<!--
+    Góp ý:
+    1. Chưa sửa comment buổi trước
+    2. indent cực kì lộn xộn
+    3. Có dành thời gian CSS lại form, có thể tham khảo bài của Hưng
+-->

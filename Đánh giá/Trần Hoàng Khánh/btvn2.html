@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title><!-- tách css thành 1 file riêng -->
+    <style>
+        table, tr, td {
+            border: 2px solid black;
+            border-collapse: collapse;
+            }/* tab thừa */
+    </style>
+</head>
+<body><!-- không viết inline css, tách thành 1 file css riêng -->
+    <table style=" width:300px ; height:300px ">
+        <tr>
+            <td colspan="2"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td colspan="2" rowspan="2"></td><!-- enter, cách vô nghĩa dòng 23 24 32 33 38 39 48 49 57 58 67-->
+            
+            
+        </tr>
+        <tr>
+            <td></td>
+            <td rowspan="4"colspan="2"></td>
+            <td ></td>
+            <td></td>
+            <td></td>
+            
+            
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="5"></td>
+            
+            
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            
+           
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td rowspan="2" colspan="2"></td>
+            <td></td>
+            <td></td>
+            
+            
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+           
+        </tr><!-- thừa enter vô nghĩa dòng 69-->
+
+    </table>
+</body>
+</html>
+
+<!--
+    Góp ý:
+    1. Chưa sửa comment buổi trước
+    2. indent lộn xộn, dấu cách, tab, enter lộn xộn
+-->

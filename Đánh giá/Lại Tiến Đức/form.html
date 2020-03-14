@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="formstyle.css"><!-- thừa dấu enter dòng số 9 -->
+
+</head>
+
+<body>
+    <div>
+        <h1>Đăng kí thành viên</h1>
+        <form action="" class="" method="POST" e><!-- form thiếu các attribute cần thiết, tham khảo bài của Duyên, xóa chữ e đi-->
+            <table>
+                <tr>
+                    <th>Nội Dung</th>
+                    <th>Giá trị</th>
+                </tr>
+                <tr>
+                    <td>Họ tên:</td>
+                    <td><input type="text" name="hoTen"></td><!-- name theo quy tắc đặt tên biến, không dùng tiếng việt -->
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="email" name="email"></td>
+                </tr>
+                <tr>
+                    <td>Mật khẩu:</td>
+                    <td><input type="password" name="password"></td>
+                </tr>
+                <tr>
+                    <td>Avatar:</td>
+                    <td><input type="file" name="avatar" multiple></td>
+                </tr>
+                <tr>
+                    <td>Tuổi:</td>
+                    <td>
+                        <select name="age">
+                            <option value="1">1</option>
+                            <option value="2" selected>2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Số điện thoại</td>
+                    <td><input type="number"  name="phone"></td><!-- type="number"  name="phone" có 2 dấu cách ở giữa-->
+                </tr>
+                <tr>
+                    <td>Giới tính:</td>
+                    <td>
+                        <input type="radio" name="gender"><label>Nam</label><br>
+                        <input type="radio" name="gender"><label>Nữ</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Sở thích:</td>
+                    <td><!-- name=sport chưa đúng nội dung lắm-->
+                        <input type="checkbox" name="sport"><label>Đá bóng</label><br>
+                        <input type="checkbox" name="sport"><label>Cầu lông</label><br>
+                        <input type="checkbox" name="sport"><label>Đua thuyền</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Ghi chú:</td><!-- chưa đặt name cho textarea, lúc ghi có dấu lúc ghi ko có dấu -->
+                    <td><textarea>Buoi hoc dau tien ve css</textarea></td>
+                </tr>
+            </table>
+        </form><!-- phải đặt button ở trong form -->
+        <button type="submit">Đăng kí</button>
+    </div>
+</body>
+
+</html>
+
+<!--
+    Góp ý:
+    1. Có dành thời gian CSS nhưng không nhiều
+    2. Hãy thử tham khảo các form trên mạng
+    3. Chú ý về name
+    4. Nhớ đọc comment trong file css
+    5. Tham khảo hiển thị phần form, bài của Hưng
+-->

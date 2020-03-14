@@ -1,0 +1,37 @@
+div{/* để ý, thêm dấu cách trước tất cả { */
+    width: 450px;
+    text-align: center;
+    border: 1px solid black;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+h1{/* thừa dấu cách cuối dòng 9 */
+    background-color: #17985D; 
+    color: rgb(255, 255, 255);
+}
+table{
+    margin: 0 auto;
+    text-align: left;
+}
+th{
+    text-align: center;
+}
+table, td, tr, th{
+    border:  1px solid black;
+    border-collapse: collapse;
+}
+table{
+    width: 370px;
+}
+td{
+    padding: 5px 10px;
+}
+button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 80px;
+    background-color: #17985D;
+    height: 30px;
+    border: none;
+    color: white;
+}/* Cuối file nên thêm 1 dòng trống */

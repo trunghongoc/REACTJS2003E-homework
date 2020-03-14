@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        td {
+            padding-left: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <form><!-- cần ghi các attribute cần thiết cho form-->
+        <table border="1" style="width: 700px; height: 400px; border-spacing: 0px;"><!-- không viết inline CSS (viết css ngay trong thẻ HTML), hãy chuyển thành 1 file CSS riêng biệt-->
+            <tr><!-- dòng 19, không viết inline CSS (viết css ngay trong thẻ HTML), hãy chuyển thành 1 file CSS riêng biệt-->
+                <th colspan="2" style="background-color: lightcoral; color: whitesmoke;text-align: center;">ĐĂNG KÝ THÔNG TIN</th><!-- ĐĂNG KÝ THÔNG TIN, hãy dùng css text-transform: uppercase; -->
+            </tr>
+            <tr>
+                <td>Họ tên:</td>
+                <td><input type="text" name="" id=""></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" name="" id=""></td>
+            </tr>
+            <tr>
+                <td>Mật khẩu:</td>
+                <td><input type="password" name="" id=""></td>
+            </tr>
+            <tr>
+                <td>Avatar:</td>
+                <td><input type="file" name="" id=""></td>
+            </tr>
+            <tr>
+                <td>Số điện thoại:</td>
+                <td><input type="number" name="" id=""></td>
+            </tr>
+            <tr>
+                <td>Ngày sinh:</td>
+                <td>
+                    <select name="" id="">
+                        <option value="">Ngày 1</option>
+                        <option value="">Ngày 2</option>
+                        <option value="">Ngày 3</option>
+                        <option value="" selected>Ngày 4</option>
+                        <option value="">Ngày 5</option>
+                        <option value="">Ngày 6</option>
+                    </select>
+                    <select name="" id="">
+                        <option value="">Tháng 1</option>
+                        <option value="" selected>Tháng 2</option>
+                        <option value="">Tháng 3</option>
+                        <option value="">Tháng 4</option>
+                    </select>
+                    <select name="" id="">
+                        <option value="" selected>1998</option>
+                        <option value="">1999</option>
+                        <option value="">2000</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Giới tính:</td>
+                <td>
+                    <input type="radio" name="gender" id="">Nam<br>
+                    <input type="radio" name="gender" id="">Nữ
+                </td>
+            </tr>
+            <tr>
+                <td>Sở thích</td>
+                <td><!-- Cần điền name, và điền name giống nhau -->
+                    <input type="checkbox" name="" id="">Đá bóng<br>
+                    <input type="checkbox" name="" id="">Cầu lông<br>
+                    <input type="checkbox" name="" id="">Đua thuyền<br>
+                </td>
+            </tr>
+            <tr>
+                <td>Ghi chú</td>
+                <td>
+                    <textarea name="" id="" cols="30" rows="2">Buổi học đầu tiên về html</textarea>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <input type="submit" value="Đăng ký">
+    </form>
+</body>
+
+</html>
+
+<!--
+    Góp ý:
+    1. không còn dấu cách thừa vô nghĩa cuối dòng
+    2. nên đặt name cho tất cả input, textarea, ... không được để trống
+    3. form phải ghi các thông tin càn thiết: action, method, ...
+    4. Gần như chưa dùng CSS
+    5. tab đã nhìn gọn hơn
+    6. Tham khảo css của Hưng
+-->
