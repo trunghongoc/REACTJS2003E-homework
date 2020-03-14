@@ -14,7 +14,7 @@ git add *
 
 
 ## Cấu trúc thư mục
-- Mỗi thư mục đều có định dạng: (Buổi thứ n) + (thứ mấy trong tuần) + (ngày) + (tháng) + (năm)
+- Mỗi thư mục đều có định dạng: (Buổi thứ n) + (thứ mấy trong tuần) + (ngày) + (tháng) + (năm) + (mô tả khác)
 
 -- Vd: 03_5_05-03-2020 : buổi thứ 3 trong lộ trình, thứ 5 ngày 05 tháng 03 năm 2020
 
