@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PET Form</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="" class="form" enctype="multipart/form-data">
+            <!-- left  -->
+            <div class="form-left">
+                <div class="form-head">
+                    <div class="form-icon">
+                        <img src="./icon-dog-paw.png" alt="" class="form-icon-img">
+                    </div>
+                    <h2 class="heading-2">pupassure</h2>
+                </div>
+                <div class="form-body">
+                    <img src="pet.png" alt="Dog friends" class="form-img">
+                </div>
+            </div>
+            <!-- right  -->
+            <div class="form-right">
+                <div class="form-wrapper">
+                    <h1 class="heading-2">Yay, puppeis! Ensure your pup gets the best care!</h1>
+                        <div class="form-group">
+                            <!-- name  -->
+                            <div class="form-group-control">
+                                <div class="form-label">Name</div>
+                                <input class="form-input-text" type="text" name="name" placeholder="Pet's name">
+                            </div>
+                            <!-- photo  -->
+                            <div class="form-group-control">
+                                    <input type="file" id="avatar" name="avatar">
+                                    <label for="avatar" class="avatar">
+                                        <div class="avatar-icon">
+                                            <img src="Camera-512.png" alt="Photo" class="avatar-icon-img">
+                                        </div>
+                                        <span class="avatar-label">Upload a photo</span>
+                                    </label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-group-control">
+                                <div class="form-label">Breed</div>
+                                <input class="form-input-text" type="text" name="breed" placeholder="Pet's breed">
+                            </div>
+                            <div class="form-group-control">
+                                <div class="form-label">Birthday</div>
+                                <input class="form-input-text" type="date" name="date">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            
+                            <div class="form-group-control">
+                                <div class="form-label">Gender</div>
+                                <div class="form-group-radio">
+                                <input type="radio" id="Female" name="gender" value="Female">
+                                <label for="Female" class="gender-radio">Female</label>
+                                <input type="radio" id="Male" name="gender" value="Male">
+                                <label for="Male" class="gender-radio">Male</label>
+                                </div>
+                            </div>
+                            <div class="form-group-control">
+                                <div class="form-label">Spayed or Neutered</div>
+                                <div class="form-group-radio">
+                                    <input type="radio" id="Spayed" name="Spay" value="Spayed">
+                                    <label for="Spayed">Spayed</label>
+                                    <input type="radio" id="Neutered" name="Spay" value="Neutered">
+                                    <label for="Neutered">Neutered</label>
+                                </div>
+                            </div>
+                        </div> 
+                    <div class="form-group-control">
+                        <div class="form-label">Weight</div>
+                        <div class="form-group-checkbox">
+                            <input type="checkbox" id="0-25" name="weight" value="0-25 lbs">
+                            <label for="0-25">0-25 lbs</label>
+                            <input type="checkbox" id="25-50" name="weight" value="25-50 lbs">
+                            <label for="25-50">25-50 lbs</label>
+                            <input type="checkbox" id="50-100" name="weight" value="50-100 lbs">
+                            <label for="50-100">50-100 lbs</label>
+                            <input type="checkbox" id="100+" name="weight" value="100+ lbs">
+                            <label for="100+">100+ lbs</label>
+                        </div>
+                    </div>
+                </div> <!-- end form wrapper  -->
+        
+                <!-- button  -->
+                <div class="form-group-btn">
+                    <button class="btn">
+                        back
+                    </button>
+                    <button class="btn bg-color-1 bruzz">
+                        next
+                    </button>
+                </div>
+            </div><!-- end right  -->
+        </form>
+    </div>
+</body>
+
+</html>
