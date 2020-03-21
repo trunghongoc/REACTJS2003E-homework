@@ -1,0 +1,197 @@
+#main{
+    width: 800px;
+    height: 650px;
+    border: 1px solid red;
+}
+/* CSS MAIN */
+#main-left{
+    width: 300px;
+    height: 650px;
+    background-color: #7f7182;
+    float: left;
+}
+
+#main-right{
+    width: 500px;
+    height: 650px;
+    background-color:#f8c7c2;
+    float: right;
+}
+
+#main-left{
+    width: 300px;
+    height: 650px;
+    background-color: #7f7182;
+    float: left;
+    position: relative;
+}
+
+.circle {
+    background: #f8c7c2;
+    border: 1px;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    margin: 35px 50px;
+    position: relative;
+}
+
+#fontawes{
+    position: absolute;
+    top: 8px;
+    left: 10px;
+}
+
+.circle span{
+    position: absolute;
+    top: 5px;
+    left: 55px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#pet img{
+    width: 58%;
+    height: 50%;
+    margin-top: 371px;
+    margin-left: 45px;
+}
+/* CSS RIGHT */
+/* CSS main-right-head */
+#main-right-head{
+    margin: 35px 20px 20px 20px;
+    font-size: 25px;
+    font-weight: bold;
+    height: 100px;
+    margin-bottom: 20px;
+}
+/* CSS main-right-cont */
+#main-right-cont{
+    margin: 0 20px;
+    height: 400px;
+    margin-bottom: 20px;
+}
+#name{
+    height: 25px;
+}
+
+#gender ul{
+    list-style: none;
+}
+
+#male ul li{
+    display: inline;
+    float: left;
+    margin-right: 10px;
+    height: 25px;
+    line-height: 25px;
+    margin-top: 3px;
+}
+
+#male{
+    width: 180px;
+    height: 30px;
+    line-height: 40px;
+    background-color: #ffffff;
+}
+
+#male ul li:nth-child(1){
+    background-color: #f8c7c2;
+}
+
+#male ul li:hover{
+    background-color: #f8c7c2;
+}
+
+#right-content-cam{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 20px;
+    background-color: #ffff;
+    position: relative;
+}
+
+#right-content-cam span{
+    position: absolute;
+    top: 8px;
+    left: 36px;
+}
+#right-content-cam i{
+    position: absolute;
+    top: 7px;
+    left: 7px;
+}
+
+#spayed ul{
+    list-style: none;
+}
+
+#payed ul li{
+    display: inline;
+    float: left;
+    margin-right: 10px;
+    height: 25px;
+    line-height: 25px;
+    margin-top: 3px;
+}
+
+#payed{
+    width: 185px;
+    height: 30px;
+    line-height: 40px;
+    background-color: #ffffff;
+}
+
+#payed ul li:nth-child(1){
+    background-color: #f8c7c2;
+}
+
+#payed ul li:hover{
+    background-color: #f8c7c2;
+}
+
+#weight{
+    width: 460px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #ffffff;
+}
+
+#weight ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#weight ul li{
+    display: inline;
+    margin-left: 16px;
+}
+
+#weight ul li:nth-child(1){
+    display: inline;
+    margin-left: 12px;
+    background-color: #f8c7c2;
+}
+
+#weight ul li:hover{
+    background-color: #f8c7c2;
+}
+
+/* CSS main-right-foot */
+#main-right-foot{
+    height: 75px;
+    background-color: #ffffff;
+}
+
+.btft1{
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.btft2{
+    margin-left: 300px;
+    margin-top: 20px;
+    margin-right: 20px;
+}

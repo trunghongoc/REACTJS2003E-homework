@@ -1,0 +1,58 @@
+#main{
+    width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* CSS HEADER */
+#header{
+}
+
+#header-left{
+    width: 800px;
+    height: 400px;
+    float: left;
+    margin-right: 50px;
+    background-color:#cccccc;
+}
+
+#header-right{
+    width: 400px;
+    height: 400px;
+    float: left;
+}
+
+/* CSS CONTENT */
+#content{
+    height: 800px;
+}
+
+#con-left{
+    width: 350px;
+    height: 150px;
+    background-color: #cccccc;
+    margin-right: 100px;
+    float: left;
+    margin-top: 50px;
+}
+
+.art{
+    padding-top: 150px;
+}
+
+#con-mid{
+    width: 350px;
+    height: 150px;
+    background-color: #cccccc;
+    margin-right: 100px;
+    margin-top: 50px;
+    float: left;
+}
+
+#con-right{
+    width: 350px;
+    height: 150px;
+    background-color: #cccccc;
+    float: right;
+    margin-top: 50px;
+}
