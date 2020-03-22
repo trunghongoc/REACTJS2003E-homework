@@ -40,7 +40,7 @@
     float: left;
 }
 
-span.test1{
+span.test1{ /* không đặt theo số, theo số đếm, class thừa thì xóa đi */
     height: 155px;
     overflow: hidden;
     text-overflow: ellipsis;

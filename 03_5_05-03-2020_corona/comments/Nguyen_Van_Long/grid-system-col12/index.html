@@ -7,7 +7,7 @@
     <title>grid-system-col-12</title>
     <link rel="stylesheet" href="gridcol12.css">
 </head>
-<body>
+<body><!-- không viết inline css, đưa toàn bộ css vào file css -->
     <table border="1px" style="border-collapse: collapse ; background-color: #ef5350; border: 1px beige; width: 500px;height: 500px;">
 
         <tr style=" text-align:center">
@@ -79,8 +79,20 @@
 
         <tr>
             <td colspan="12"><span>12/12</span></td>
-        </tr>
+        </tr><!-- dấu enter thừa dòng 83 -->
         
     </table>
 </body>
 </html>
+
+<!--
+    Comments:
+    1. Không chia giao diện bằng table
+    2. Hãy chia giao diện bằng div + float hoặc div + flex
+    3. Tạo folder con trong folder 'grid-system-col-12', đặt tên là 'flex-version' và 'float-version', để làm lại bài tập này với flex và float
+    4. Tham khảo phần float bài của Dang_Thi_Duyen (Duyên), phần flex bài của Nguyen_Viet_Hung (Hưng)
+    5. Chú ý các dấu cách và enter thừa
+    6. Sửa tương tự cho bài grid 16
+    7. Sửa lại tên folder cho đúng yêu cầu
+    8. Fix hết comments và push lên lại
+-->
