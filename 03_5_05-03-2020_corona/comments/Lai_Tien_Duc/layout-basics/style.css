@@ -1,22 +1,22 @@
 
-.container{
+.container{ /* thêm dấu cách */
     width: 83%;
     margin: 0 auto;
     font-family: 'Roboto', sans-serif;
 }
-.first{
+.first{ /* không đặt tên bằng số, số đếm, hãy đặt 1 cái gì đó rõ nghĩa, vd: .hot-new */
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-gap: 20px;
 }
-.img-800{
+.img-800{ /* không đặt .img-800, hãy đặt tên rõ nghĩa hơn, vd: .hot-new img {} */
     width: 800px;
     height: 400px;
     background-color: rgb(211, 211, 211);
     text-align: center;
     position: relative;
 }
-.textSize{
+.textSize{ /* không dùng chữ in hoa, mỗi từ cách nhau bằng dấu - */
     font-size: 90px;
     color: rgb(167, 167, 167);
     margin-top: 135px;
@@ -60,7 +60,7 @@
     font-size: 12px;
     color: rgb(167, 167, 167);
     position: absolute;
-    right: 10px;
+    right: 10px;/* thừa dấu cách cuối dòng 64 */
     bottom: 0; 
 }
 .text{

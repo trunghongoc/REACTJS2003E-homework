@@ -1,4 +1,4 @@
-*{
+*{ /* thêm dấu cách trước dấu {, đã comment trước đây nhưng chưa sửa */
     margin: 0;
     padding: 0;
 }
@@ -70,5 +70,5 @@
 }
 .item12{
     grid-column: 1/13;
-}
+}/* Dòng 74 và 75 vô nghĩa, cuối file chỉ nên thừa 1 dòng trống */
 
