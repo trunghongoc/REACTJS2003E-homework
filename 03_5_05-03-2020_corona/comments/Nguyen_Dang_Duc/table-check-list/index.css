@@ -1,0 +1,41 @@
+* {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+table {
+    border-collapse: collapse;
+    margin-left: 20px;
+    width: 544px;
+    height: 200px;
+    background-color: #33495d;
+    border-radius: 8px;
+    text-align: center;
+    border:1px solid #cccccc;
+}
+.item {
+    color:black;
+}
+thead.table__header {
+    color: #d9da55;
+}
+
+th.table__headding {
+    padding: 20px 20px;
+    background-color: #00ccff;
+    color:white;
+}
+tbody {
+    background-color: white;
+}
+td.table__col {
+    padding: 0px 20px;
+    
+}
+.icon {
+    font-size: 14px;
+}
+.icon-true {
+    color:black;
+}
+.icon-false {
+    color:red;
+}

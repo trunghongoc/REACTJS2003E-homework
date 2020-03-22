@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="modal">
+        <div class="modal__overlay">
+
+        </div>
+        <div class="modal__body">
+            <div class="authen-form">
+                <div class="authen-formm__banner authen-form--part-left">
+                    <div class="authen-form__title">
+                        <span>PUPASSURE</span>
+                    </div>
+                    <img src="img/pet.png" alt="" class="authen-form__img">
+                </div>
+                <div class="authen-form--part-right">
+                    <div class="authen-form__container">
+                        <h3 class="authen-form__heading">
+                            Yay,puppies!Ensure your pup gets the best care!
+                        </h3>
+                        <form action="" method="post" class="authen-form__form" enctype="multipart/form-data">
+                            <div class="authen-form__group">
+                                <label for="nameOfPet" class="authen-form__label">Name</label>
+                                <input type="text" id="nameOfPet" name="name" class="authen-form__input" placeholder="Pet's name">
+                            </div>
+                            <div class="authen-form__group authen-form__group--file">
+                                <label class="authen-form__label"><span class="authen-form__icon-wrap"><i class="fa fa-camera"></i></span> Upload a photo</label>
+                                <input type="file" id="photo" name="photo" class="authen-form__input">
+                            </div>
+                            <div class="authen-form__group">
+                                <label for="preedOfPet" class="authen-form__label">Breed</label>
+                                <input type="text" id="preedOfPet" name="preed" class="authen-form__input" placeholder="Pet's breed">
+                            </div>
+                            <div class="authen-form__group">
+                                <label for="birthdayOfPet" class="authen-form__label">Birthday</label>
+                                <input type="text" id="birthdayOfPet" name="birthday" class="authen-form__input" placeholder="Pet's birthday">
+                            </div>
+                            <div class="authen-form__group authen-form__group--radio-box">
+                                <span>Gender</span>
+                                <div class="authen-form__input-group">
+                                    <div class="authen-form__input-wrap">
+                                        <input type="radio" id="female" name="gender" class="authen-form__input" value="female" checked>
+                                        <label class="checked" for="female">Female</label>
+                                    </div>
+                                    <div class="authen-form__input-wrap">
+                                        <input type="radio" id="male" name="gender" class="authen-form__input" value="male">
+                                        <label for="male">Male</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="authen-form__group authen-form__group--radio-box">
+                                <span>Spayed or Newtered</span>
+                                <div class="authen-form__input-group">
+                                    <div class="authen-form__input-wrap">
+                                        <input type="radio" id="spayed" name="status" class="authen-form__input" value="spayed" checked>
+                                        <label class="checked" for="spayed">Spayed</label>
+                                    </div>
+                                    <div class="authen-form__input-wrap">
+                                        <input type="radio" id="neutered" name="status" class="authen-form__input" value="neutered">
+                                        <label for="neutered">Neutered</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="authen-form__group authen-form__group--radio-box full-width">
+                                <span>Weight</span>
+                                <div class="authen-form__input-group">
+                                    <div class="authen-form__input-wrap">
+                                        <input type="radio" id="0-25" name="weight" class="authen-form__input" value="0-25" checked>
+                                        <label class="checked" for="0-25">0-25 lbs</label>
+                                    </div>
+                                    <div class="authen-form__input-wrap">
+                                        <input type="radio" id="25-50" name="weight" class="authen-form__input" value="25-50">
+                                        <label for="25-50">25-50 lbs</label>
+                                    </div>    
+                                    <div class="authen-form__input-wrap">   
+                                        <input type="radio" id="50-100" name="weight" class="authen-form__input" value="50-100">
+                                        <label for="50-100">50-100 lbs</label>
+                                    </div>
+                                    <div class="authen-form__input-wrap">    
+                                        <input type="radio" id="100+" name="weight" class="authen-form__input" value="100+">
+                                        <label for="100+">100+ lbs</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="authen-form__controls">
+                            <button class="authen-form__controls-back btn">Back</button>
+                            <button class="authen-form__controls-next btn">Next</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </body>
+    </html>
