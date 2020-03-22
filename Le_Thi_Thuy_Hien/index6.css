@@ -1,0 +1,16 @@
+table {
+    width: 612px;
+    height: 541px;
+    background: rgb(245, 68, 68);
+    margin: 0px 350px;
+}
+
+table,
+th,
+td {
+    border-right: 1px solid white;
+    border-top: 2px solid white;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: right;
+}
