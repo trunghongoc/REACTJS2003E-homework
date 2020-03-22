@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #d8aa96;
+        }
+        #img{
+            background-color: #807182;
+            float: left;
+            width: 300px;
+            height: 550px;
+            margin-left: 300px;
+            margin-top: 50px;
+            text-align: center;
+        }
+        #model-01, #model-02{
+            width: 40px;
+            height: 40px;
+            background-color: white;
+            -moz-border-radius: 20px;
+            -webkit-border-radius: 20px;
+            --border-radius: 20px;
+            border-radius: 20px;
+            position: relative;
+        }
+        .fa-camera{
+            position: absolute;
+            padding-top: 5px;
+            padding-left: 8px;
+        }
+        .fa-paw{
+            position: absolute;
+            padding-top: 5px;
+            margin-left: -10px;
+            color: #807182;
+        }
+        #model-01{
+            margin-top: 40px;
+            margin-left: 40px;
+            float: left;
+            background-color: #f7b1ab;
+        }
+        h1{
+            float: left;
+            margin-top: 40px;
+            margin-left: 10px;
+        }
+        img{
+            padding-top: 250px;
+        }
+        #content{
+            background-color: #fac7c2;
+            float: left;
+            width: 550px;
+            height: 550px;
+            margin-top: 50px;
+            position: relative;
+        }
+        h2{
+            font-size: 40px;
+            margin-left: 15px;
+        }
+        .row-01, .row-02{
+            clear: both;
+            padding-top: 10px;
+        }
+        .item{
+            float: left;
+            width: 200px;
+            padding-left: 50px;
+        }
+        label{
+            color: black;
+            font-size: 20px;
+        }
+        #model-02{
+            margin-top: 20px;
+            margin-left: 20px;
+            float: left;
+        }
+        .item p{
+            float: left;
+            margin-top: 30px;
+            padding-left: 10px;
+        }
+        input{
+            background-color: azure;
+            width: 200px;
+            border-radius: 5px;
+            height: 30px;
+            border: none;
+            text-align: center;
+            margin-top: 5px;
+        }
+        #name, #breed, #birthday{
+            text-align: left;
+            padding-left: 10px;
+        }
+        .row-02 #gender, #spaorneu, #weight{
+            background-color: azure;
+            width: 200px;
+            border-radius: 5px;
+            height: 30px;
+            border: none;
+            text-align: center;
+            margin-top: 5px;
+            clear: both;
+        }
+        #weight{
+            width: 450px;
+        }
+        .row-02 #gender #female,#spayed, #weight-01{
+            height: 21px;
+            width: 90px;
+            background-color: #f7b1ab;
+            float: left;
+            border-radius: 3px;
+            margin-top: 3px;
+            margin-left: 5px;
+        }
+        .row-02 #gender #male,#neutered, #weight-02, #weight-03, #weight-04{
+            float: left;
+            margin-top: 3px;
+            padding-left: 30px;
+        }
+        #weight-02, #weight-03, #weight-04{
+            width: 80px;
+        }
+        .row-03{
+            position: absolute;
+            width: 550px;
+            height: 50px;
+            background-color: #ffffff; 
+            bottom: 0;
+            clear: both;
+        }
+        .row-03 #back button{
+            float: left;
+            border-radius: 30px;
+            height: 35px;
+            width: 120px;
+            margin-left: 50px;
+            margin-top: 5px;
+            border: 1px solid #dfdfdf;
+        } 
+        .row-03 #next button{
+            float: left;
+            border-radius: 30px;
+            height: 35px;
+            width: 120px;
+            margin-left: 150px;
+            margin-top: 5px;
+            background-color: #807182;
+            color: white;
+            border: 1px solid #dfdfdf;
+        }
+    </style>
+</head>
+<body>
+    <div id="img">
+        <div id="model-01">
+            <i class='fas fa-paw' style='font-size:24px'></i>
+        </div>
+        <h1>PUPASSURE</h1>
+        <img src="pet.png" alt="" width="300px" height="200px">
+    </div>
+    <div id="content">
+        <h2>Yay, puppies! Ensure your pup gets the best care!</h2>
+        <form action="" method="post">
+            <div class="row-01">
+                <div class="item">
+                    <label for="">Name</label>
+                    <input type="text" name="name" id="name" value="Pet's name">
+                </div>
+                <div class="item">
+                    <div id="model-02">
+                        <i class='fas fa-camera' style='font-size:24px'></i>
+                    </div>
+                    <p>Upload a photo</p>
+                </div>
+            </div>
+            <div class="row-02">
+                <div class="item">
+                    <label for="">Breed</label>
+                    <input type="text" name="breed" id="breed" value="Pet's breed">
+                </div>
+                <div class="item">
+                    <label for="">Birthday</label>
+                    <input type="date" name="birthday" id="birthday" value="MM/DD/YYYY">
+                </div>
+            </div>  
+            <div class="row-02">
+                <div class="item">
+                    <label for="">Gender</label>
+                    <div id="gender">
+                        <div id="female">Female</div>
+                        <div id="male">Male</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <label for="">Spayed or Neutered</label>
+                    <div id="spaorneu">
+                        <div id="spayed">Spayed</div>
+                        <div id="neutered">Neutered</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row-02">
+                <div class="item">
+                    <label for="">Weight</label>
+                    <div id="weight">
+                        <div id="weight-01">0-25 lbs</div>
+                        <div id="weight-02">25-50 lbs</div>
+                        <div id="weight-03">50-100 lbs</div>
+                        <div id="weight-04">100+ lbs</div>
+                    </div>
+                </div>
+            </div>    
+            <div class="row-03">
+                <div id="back">
+                    <button type="submit">Back</button>
+                </div>
+                <div id="next">
+                    <button type="submit">Next</button>
+                </div>
+            </div>     
+        </form>
+    </div>
+</body>
+</html>

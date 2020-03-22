@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    <style>
+        table{
+            margin-left: 50px;
+        }
+        table, tr, td, th{
+            border: 1px solid #dddddd;
+            border-collapse: collapse;
+            color: #111111;
+            font-weight: bold;
+        }
+        table tr td{
+            width: 110px;
+            height: 30px;
+            text-align: center;
+        }
+        table tr th{
+            width: 110px;
+            height: 50px;
+            text-align: center;
+            background-color: #0cf;
+            color: #eaf8ff;
+        }
+        .fa-check{
+            font-size: 15px;
+            color: #010101;
+        }
+        .fa-remove{
+            font-size: 15px;
+            color: #fd0202;
+        }
+        .set-with-1{
+            width: 70px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th></th>
+            <th class="set-with-1">Basic</th>
+            <th>Premium</th>
+            <th class="set-with-1">Deluxe</th>
+            <th>Business</th>
+        </tr>
+        <tr>
+            <td>Feature 1</td>
+            <td class="set-with-1"><i class="fa fa-check"></i></td>
+            <td><i class="fa fa-check"></i></td>
+            <td class="set-with-1"><i class="fa fa-check"></i></td>
+            <td><i class="fa fa-check"></i></td>
+        </tr>
+        <tr>
+            <td>Feature 2</td>
+            <td class="set-with-1"><i class="fa fa-remove"></i></td>
+            <td><i class="fa fa-check"></i></td>
+            <td class="set-with-1"><i class="fa fa-check"></i></td>
+            <td><i class="fa fa-check"></i></td>
+        </tr>
+        <tr>
+            <td>Feature 3</td>
+            <td class="set-with-1"><i class="fa fa-remove"></i></td>
+            <td><i class="fa fa-remove"></i></td>
+            <td class="set-with-1"><i class="fa fa-check"></i></td>
+            <td><i class="fa fa-check"></i></td>
+        </tr>
+        <tr>
+            <td>Feature 4</td>
+            <td class="set-with-1"><i class="fa fa-remove"></i></td>
+            <td><i class="fa fa-remove"></i></td>
+            <td class="set-with-1"><i class="fa fa-remove"></i></td>
+            <td><i class="fa fa-check"></i></td>
+        </tr>
+    </table>
+</body>
+</html>
