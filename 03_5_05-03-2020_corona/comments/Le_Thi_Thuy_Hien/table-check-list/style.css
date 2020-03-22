@@ -1,0 +1,18 @@
+#main {
+    width: 500px;
+    height: 150px;
+    background: white;
+    margin: 20px 250px;
+}
+
+table,
+td {
+    border: 1px solid rgb(228, 225, 225);
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#main-top {
+    background: rgb(42, 199, 238);
+    color: white;
+}

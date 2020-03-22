@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="pets.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pets</title>
+</head>
+<body>
+    <div id="main">
+        <div id="main-left">
+            <div class="circle">
+                <span>PUPASSURE</span>
+                <i id="fontawes" class="fa fa-paw" aria-hidden="true" style="color:#7f7182;border: radius 1px;"></i>
+            </div>
+            <div id="pet">
+                <img src="imgs/pet.png" alt="">
+            </div>
+        </div>
+        <div id="main-right">
+            <div id="main-right-head">
+                <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                    Deserunt neque itaque sit.
+                </span>
+            </div>
+            <div id="main-right-cont">
+                <table  style="height: 400px;width:460px;" id="tablepet">
+                    <tr>
+                        <td>
+                            <label for="">Name:</label>
+                            <br>
+                            <input type="text" id="name" placeholder="pet's name">
+                        </td>
+                        <td>
+                            <div id="right-content-cam">
+                                <i class="fa fa-camera-retro" aria-hidden="true"></i>
+                                <span>Upload</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Breed:</label>
+                            <br>
+                            <input type="text" id="name" placeholder="pet's name">
+                        </td>
+                        
+                            <td>
+                                <label for="birth">Birthday:</label> <br>
+                                <input type="date"  id="birth"  style="width:180px; height: 26px;" name="birth">
+                            </td>
+                       
+                    </tr>
+                    <tr>
+                        <td id="gender">
+                            <label for="gender">Gender:</label>
+                            <br>
+                            <div id="male">
+                                <ul>
+                                    <li>FeMale</li>
+                                    <li>Male</li>
+                                </ul>
+                            </div>
+                        </td>
+                        <td id="spayed">
+                            <label for="spayed">Spayed:</label>
+                            <br>
+                            <div id="payed">
+                                <ul>
+                                    <li>Payed</li>
+                                    <li>Nute</li>
+                                </ul>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <label>Weight</label>: <br>
+                            <div id="weight">
+                                <ul>
+                                    <li>0-25lbs</li>
+                                    <li>0-25lbs</li>
+                                    <li>25-50lbs</li>
+                                    <li>25-50lbs</li>
+                                    <li>50-75lbs</li>
+                                    <li>75-100lbs</li>
+                                </ul>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="main-right-foot">
+                <input class="btft1" type="button" style="width:80px;height:30px; border-radius:15px;background-color:#ffffff;" value="Back">
+                <input class="btft2" type="button" style="width:80px;height:30px; border-radius:15px;background-color:#7f7182; border: none" value="Next">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<!--
+    Comments:
+    1. Bỏ hết dấu cách, enter thừa
+    2. hạn chế dùng id, đặt tên id, class, ... phải có ý nghĩa
+    3. đổi tên file css, tên folder
+    4. không viết inline css (vd dòng 96 97), viết toàn bộ css vào file css
+    5. Dấu chân chưa xoay nghiêng
+    6. Dòng có dấu chân và PUPASSURE chưa nằm chính giữa dòng
+    7. Hình chú chó chưa nằm chính giữa dòng
+    8. Không click được vào 'Upload a photo', click vào phải duyệt được file lên
+    9. gender, phần Female (nút màu cam), css chưa giống
+    10. gender, chưa click chọn được gender.
+    11. Lỗi phần gender đều xuất hiện trên 'Spayed or Neutered' và 'Weight'
+    12. nút back và next không cân đối, text phải màu trắng
+    13. Tham khảo bài của Nguyen_Viet_Hung (Hưng)
+    14. Css các ô input chưa giống
+    15. chia giao diện không nên dùng thẻ table -> dùng thẻ div
+    16. Sửa hết comments và push lên lại
+-->

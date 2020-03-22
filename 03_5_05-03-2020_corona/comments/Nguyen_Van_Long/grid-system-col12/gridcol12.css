@@ -1,0 +1,10 @@
+table tr td span{ /* thêm dấu cách trước dấu { */
+    color: aliceblue;
+    float: right;
+    margin-right: 12px;
+}
+/*
+    đặt tên file không viết liền, mỗi từ cách nhau bằng dấu - hoặc _, và không cần đặt giống tên bài tập, vì
+    folder bên ngoài đã nói lên ý nghĩa bài tập rồi
+    đổi tên file thành 1 cái gì đó chung chung như: app.css, index.css, ...
+*/

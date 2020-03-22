@@ -1,0 +1,26 @@
+table{
+    border: 1px solid #cccccc;
+    width: 600px;
+    height: 200px;
+    margin-left: 400px;
+    border-collapse: collapse;
+}
+
+th{
+    background-color: #00ccff;
+    color: white;
+    border: 1px solid #cccccc;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+td{
+    border: 1px solid #cccccc;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.fa-times{
+    color: #ff0000;
+}

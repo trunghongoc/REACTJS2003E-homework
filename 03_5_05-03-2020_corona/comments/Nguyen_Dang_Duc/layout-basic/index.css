@@ -1,0 +1,56 @@
+* {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.gird {
+    margin:0px auto;
+    width: 940px;
+    max-width: 100%;
+}
+.featured {
+    margin-bottom: 20px;
+}
+.article { /* css trống, hãy xóa đi */
+   
+}
+.block-category-large {
+    width: 100%;
+    display: flex;
+}
+.block-category-medium {
+    width: 300px;
+}
+.thumb-large {
+    width: 620px;
+    height: 400px;
+}
+.thumb-medium {
+    
+    height: 150px;
+}
+.article-list {
+    display: flex;
+    justify-content: space-between;
+}
+.article__img-thumb {
+    background-color: #dddddd;
+}
+.block-category-large .article-content {
+    flex:1;
+    margin-left:20px;
+}
+.article-description {
+    margin-bottom: 10px;
+}
+a.article__link {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+p.article-author {
+    color: #808080;
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: 500;
+}

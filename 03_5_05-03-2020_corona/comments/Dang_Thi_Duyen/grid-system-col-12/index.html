@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title><!-- tách css ra file riêng, sau đó import vào, đã comment tương tự trước đây rồi nhưng không sửa -->
+    <style>
+        .row-01{ /* đặt row là được, không cần 01, sau này xử lý sẽ khó khăn hơn */
+            clear: both; /* chưa biết cách dùng float, hãy thử làm điều sau: thêm background cho .row-01, refresh xem .row-01 có màu ko? */
+        }
+        .con-01{ /* tương tự như comment row-01, tên class con-01 đọc không hiểu ý nghĩa là gì, phải chăng là col-1 ? */
+            float: left;
+            width: 8%; /* chia theo % như đang làm là không ổn, khiến các dòng đang có kích thước (width) khác nhau */
+            height: 90px;
+            background-color: #ef5350;
+            border-radius: 10px;
+            border: 1px solid white;
+        }
+        .con-02{ /* thêm 1 dấu cách trước dấu { , đã comment tương tự trước đây rồi nhưng không sửa */
+            float: left;
+            width: 16%;
+            height: 90px;
+            background-color: #ef5350;
+            border-radius: 10px;
+            border: 2px solid white;
+        }
+        .con-03{
+            float: left;
+            width: 24%;
+            height: 90px;
+            background-color: #ef5350;
+            border-radius: 10px;
+            border: 2.5px solid white;
+        }
+        .con-04{
+            float: left;
+            width: 32%;
+            height: 90px;
+            background-color: #ef5350;
+            border-radius: 10px;
+            border: 2.5px solid white;
+        }
+        .con-06{
+            float: left;
+            width: 48%;
+            height: 90px;
+            background-color: #ef5350;
+            border-radius: 10px;
+            border: 3px solid white;
+        }
+        #con-05{ /* đứng trên quan điểm bài tập về grid system, con-05 có thể dùng nhiều lần ở các vị trí khác, vì vậy hãy đặt nó là class */
+            float: left;
+            width: 40%;
+            height: 90px;
+            background-color: #ef5350;
+            border-radius: 10px;
+            border: 3px solid white;
+        }
+        #con-07{
+            float: left;
+            width: 56%;
+            height: 90px;
+            background-color: #ef5350;
+            border-radius: 10px;
+            border: 3px solid white;
+        }
+        #con-08{
+            float: left;
+            width: 64%;
+            height: 90px;
+            background-color: #ef5350;
+            border-radius: 10px;
+            border: 3px solid white;
+        }
+        #con-09{
+            float: left;
+            width: 72%;
+            height: 90px;
+            background-color: #ef5350;
+            border-radius: 10px;
+            border: 3px solid white;
+        }
+        #con-10{
+            float: left;
+            width: 80%;
+            height: 90px;
+            background-color: #ef5350;
+            border-radius: 10px;
+            border: 3px solid white;
+        }
+        #con-11{
+            float: left;
+            width: 88%;
+            height: 90px;
+            background-color: #ef5350;
+            border-radius: 10px;
+            border: 3px solid white;
+        }
+        #con-12{
+            float: left;
+            width: 96%;
+            height: 90px;
+            background-color: #ef5350;
+            border-radius: 10px;
+            border: 3px solid white;
+        }
+    </style>
+</head>
+<body>
+    <div class="row-01">
+        <div class="con-01"><!-- nội dung quá ngắn thì không tách thành 2 dòng -->
+        </div>
+        <div class="con-01">
+        </div>
+        <div class="con-01">
+        </div>
+        <div class="con-01">
+        </div>
+        <div class="con-01">
+        </div>
+        <div class="con-01">
+        </div>
+        <div class="con-01">
+        </div>
+        <div class="con-01">
+        </div>
+        <div class="con-01">
+        </div>
+        <div class="con-01">
+        </div>
+        <div class="con-01">
+        </div>
+        <div class="con-01">
+        </div>
+    </div>
+    <div class="row-01">
+        <div class="con-02">
+        </div>
+        <div class="con-02">
+        </div>
+        <div class="con-02">
+        </div>
+        <div class="con-02">
+        </div>
+        <div class="con-02">
+        </div>
+        <div class="con-02">
+        </div>
+    </div>
+    <div class="row-01">
+        <div class="con-03">
+        </div>
+        <div class="con-03">
+        </div>
+        <div class="con-03">
+        </div>
+        <div class="con-03">
+        </div>
+    </div>
+    <div class="row-01">
+        <div class="con-04">
+        </div>
+        <div class="con-04">
+        </div>
+        <div class="con-04">
+        </div>
+    </div>
+    <div class="row-01">
+        <div class="con-06">
+        </div>
+        <div class="con-06">
+        </div>
+    </div>
+    <div class="row-01">
+        <div id="con-05">
+        </div>
+        <div id="con-07">
+        </div>
+    </div>
+    <div class="row-01">
+        <div class="con-04">
+        </div>
+        <div id="con-08">
+        </div>
+    </div>
+    <div class="row-01">
+        <div class="con-03">
+        </div>
+        <div id="con-09">
+        </div>
+    </div>
+    <div class="row-01">
+        <div class="con-02">
+        </div>
+        <div id="con-10">
+        </div>
+    </div>
+    <div class="row-01">
+        <div class="con-01">
+        </div>
+        <div id="con-11">
+        </div>
+    </div>
+    <div class="row-01">
+        <div id="con-12">
+        </div>
+    </div>
+</body>
+</html>
+
+<!--
+    Comments:
+    1. Chưa điền nội dung text vào các div, vd: 1/12, 3/12
+    2. Đọc về thuộc tính 'clear' trong CSS và áp dụng vào bài này, bắt buộc khi dùng float phải dùng clear
+    3. Tạo 1 folder con trong folder 'grid-system-col-12', đặt tên là 'flex-version', để làm lại bài tập này với flex
+    4. Sửa hết comments bên trên và push lên lại
+-->

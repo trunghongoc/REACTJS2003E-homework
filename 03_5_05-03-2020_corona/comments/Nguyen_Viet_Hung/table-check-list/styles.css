@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+.color-white {
+    color: #fff;
+}
+.container {
+    padding: 50px;
+    text-align: center;
+}
+.table ,.t-row,.t-col,.t-head{
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+}
+.table .t-row {}
+.table .t-head {
+    padding: 15px 20px;
+    background: #00CCFF;
+    color: #fff;
+}
+.table .t-col {
+    padding: 5px 20px;
+}

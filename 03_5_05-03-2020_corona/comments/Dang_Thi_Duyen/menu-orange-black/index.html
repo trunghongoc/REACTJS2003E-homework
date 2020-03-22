@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #bfbfbf;
+            text-align: center;
+        }
+        h1,p{
+            padding-top: 10px;
+            color: #ffffff;
+        }
+        span{
+            color: #292be5;
+            text-decoration: underline;
+        }
+        .topnav{/* các từ trong 1 class viết cách nhau bằng dấu - */
+            margin-left: 100px;
+            width: 1000px;
+            overflow: hidden;
+            background-color: #ff7f50;
+        }
+        .topnav a{
+            float: left;
+            display: block;
+            color: #ffffff;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .topnav a:hover{
+            background-color: #444444;
+            color: #ffffff;
+            font-weight: bold
+        }
+        #gomyblog{
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="container"><!-- các lệnh con phải tab vào 1 tab-->
+    <p>Visit<span>My Blog</span></p>
+    <h1>Responsive Menu</h1>
+    <div class="topnav">
+        <a href="#">Home</a>
+        <a href="#">Product</a>
+        <a href="#">Services</a>
+        <a href="#">Team</a>
+        <a href="#">Porfollo</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+        <a id="gomyblog" href="#">Go my Blog</a>
+    </div>
+    </div>
+</body>
+</html>
+
+<!--
+    Comments:
+    1. Đọc lại comments css của các bài khác
+    2. Di chuột vào từng mục trên menu đang bị giật giật
+    3. Home chưa có nền đen
+    4. Đọc kỹ về float và clear
+    5. Sửa comments và push lên lại
+-->

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,tr,td{
+            padding: 10px;
+            margin-top: 50px;
+            margin-left: 100px;
+        }
+        body{
+            background-color: rgba(201, 139, 144, 0.979);
+        }
+        .in{
+            width: 50px;
+        }
+        .gray{
+            background-color: gray;
+        }
+        .pink{
+            background-color: pink;
+        }
+        .white{
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td class="gray">PUPASSURE</td>
+            <td colspan="2" class="pink">
+                <span class="in">Yay,puppies!Ensure your pup gets the best care</span>
+            </td>
+        </tr>
+        <tr>
+            <td class="gray"></td>
+            <td class="pink">
+                Name<br>
+                <input type="text" id="name" name="Pet's name" value="Pet's name">
+            </td>
+            <td class="pink"><button type="menu"><img src="anh.png" alt="" width="20px"></button>Upload a photo</td>
+        </tr>
+        <tr>
+            <td class="gray"></td>
+            <td class="pink">
+                Breed<br>
+                <input type="text" id="" name="" value="Pet's breed">
+            </td>
+            <td class="pink">
+                Birthday<br>
+                <input type="date" id="" name="" value="MM/DD/YYYY">
+            </td>
+        </tr>
+        <tr class="pink">
+            <td rowspan="3" class="gray">
+                <img src="pet.png" alt="" width="80px">
+            </td>
+            <td>
+                Gender<br>
+                <select name="" id="">
+                    <option value="Female">Female</option>
+                    <option value="Male">Male</option>
+                </select>
+            </td>
+            <td>
+                Spayed or Neutered <br>
+                <select name="" id="">
+                    <option value="Spayed">Spayed</option>
+                    <option value="Neutered">Neutered</option>
+                </select>
+            </td>
+        </tr>
+        <tr class="pink">
+            <td colspan="2">
+                Weight <br>
+                <select name="" id="">
+                    <option value="0-25">0-25 lbs</option>
+                    <option value="25-50">25-50 lbs</option>
+                    <option value="50-100">50-100 lbs</option>
+                    <option value="100+">100+ lbs</option>
+                </select>
+            </td>
+        </tr>
+        <tr class="white">
+            <td>
+                <button type="button" value="Back" name="Back">Back</button>
+            </td>
+            <td>
+                <button type="button" value="Next" name="Next" style="background-color: gray;">Next</button>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

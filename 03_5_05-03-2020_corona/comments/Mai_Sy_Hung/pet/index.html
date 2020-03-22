@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body{
+            background-color: whitesmoke;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        div > div.content{
+            margin-top: 40px;
+            font-weight: 600;
+            font-size: 25px;
+            text-align: center;
+        }
+        form div{
+            margin-top: 10px;
+            
+        }
+        input{
+            padding: 5px;
+            height: 30px;
+            font-size: 15px;
+        }
+        div.between{
+            display: flex;
+            justify-content: space-between;
+        }
+        #weight span{
+            margin: 0px 6px;
+        }
+        .button{
+            padding: 5px 10px;
+            background-color: tomato;
+        }
+        div.between a{
+            padding: 15px 40px;
+            text-decoration: none;
+            border-radius:25px;
+            transition: 0.3s;
+        }
+        a#back:hover{
+            background-color: gray !important;
+            color: white;
+        }
+        a#next:hover{
+            background-color: white !important;
+            color: gray !important;
+        }
+    </style>
+    <div class="banner"
+    style="margin: 50px auto; width: 1000px;display: flex;">
+    <div class="left"
+    style="background-color: gray;
+    width: auto;">
+        <div class="content">
+        <div><img src="./leg.png" alt=""
+            style="width: 20px; padding: 7px ;background-color:pink; border-radius: 50px;transform: rotate(320deg) scale(1.5);margin-bottom: -10px; margin-right: 10px;">
+        <span> PUPASSURE</span></div>
+        <img src="./pet.png" alt=""
+        style="width:300px;padding: 300px 50px 0px 50px;
+        margin-bottom: -4px;"
+        >
+        </div>
+    </div>
+    <div class="right"
+    style="background-color: pink;
+    width: 100%;padding: 0px 50px;">
+    <div>
+        <div class="content">
+            <span style="font-size: 30px;text-align: center;"> Yay, puppies! Ensure your pup gets the best care!</span>
+        </div>
+<form action="">
+<div class="between">
+<label for=""><p>Name</p><input type="text" placeholder="Pet's Name"></label>
+<label for="" style="padding-top: 60px;"> <input type="file"> </label>
+</div>
+<div class="between">
+    <label for=""><p>Breed</p><input type="text" placeholder="Pet's Breed"></label>
+    <label for=""><p>Birthday</p><input type="date" placeholder="MM/DD/YYYY"></label>
+</div>
+<div class="between"> 
+    <div>
+        <p>Gender</p>
+        <div style="background-color: white; width: 185px;height: 50px; padding-left: 10px;">
+            <span class="button"><input type="radio" name="gender" >Male</span>
+            <span class="button"><input type="radio" name="gender">Female</span>
+        </div>
+    </div>
+    <div>
+        <p>Spayed or Neutered</p>
+        <div style="background-color: white; width: 215px;height: 50px; padding-left: 10px;">
+            <span class="button"><input type="radio" name="ox" >Spayed</span>
+            <span class="button"><input type="radio" name="ox">Neutered</span>
+        </div>
+    </div>
+</div>
+<div>
+    <p>Weight</p>
+    <label for="" style=" width:500px;display: block; background-color: white;height: 50px;" id="weight">
+    <span class="button"><input type="radio" name="w"> 0-25 lbs</span>
+    <span class="button"><input type="radio" name="w"> 25-50 lbs</span>
+   <span class="button"><input type="radio" name="w"> 50-100 lbs</span>
+    <span class="button"><input type="radio" name="w"> 100+ lbs</span>
+    </label>
+</div>
+</form></div>
+<div class="between" style=" margin-top: 20px;width: 100%; padding: 20px 0px;">
+    <a href="" id="back" style="background-color: white;">BACK</a>
+    <a href="" id="next" style="background-color: gray;color:white">NEXT</a>
+</div>
+</div>
+</body>
+</html>

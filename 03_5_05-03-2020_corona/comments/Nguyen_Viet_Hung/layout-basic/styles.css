@@ -1,0 +1,85 @@
+/* ========== RESET ========== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* ============ LAYOUT =========== */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 8px 0;
+}
+.d-flex {
+    display: flex;
+    flex-wrap:wrap;
+}
+.d-flex .col-auto {
+    flex: 1;
+}
+.d-flex .col-2of3 {
+    flex: 0 0 66.6666%;
+}
+.d-flex .col-1of3 {
+    flex: 0 0 33.3333%;
+}
+
+/* =========== COMPONENT ============ */
+
+/* ----- Banner ------  */
+.banner {
+    display: block;
+    width: auto;
+    height: 400px;
+    background-color: #CCCCCC;
+    position: relative;
+    margin-right: 15px;
+}
+
+.banner-text {
+    position: absolute;
+    font-size: 50px;
+    color: #969696;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* ----- Card ------  */
+
+.card {
+    max-width: auto;
+    background: #fff;
+}
+.card-img {
+    position: relative;
+    width: auto;
+    height: 150px;
+    display: block;
+    background-color: #CCCCCC;
+}
+.card-img .text {
+    color: #969696;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.card-title {
+    margin: 15px  0;
+}
+.card-content {
+    margin-bottom: 10px;
+}
+.card .author {
+    opacity: 0.7;
+}
+
+.block-list .col:not(:last-child) .card {
+    margin-right: 15px;
+}
