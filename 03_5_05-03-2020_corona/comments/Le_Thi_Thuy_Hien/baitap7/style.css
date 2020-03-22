@@ -1,0 +1,26 @@
+.row-col {
+    margin: 0px 210px;
+    background: gray;
+    height: 3000px;
+}
+
+p {
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th,
+td {
+    height: 30px;
+    width: 50px;
+    background: black;
+    border-right: 10px solid gray;
+    border-top: 10px solid gray;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+}
