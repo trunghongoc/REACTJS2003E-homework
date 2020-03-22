@@ -145,7 +145,7 @@ input[type="file"] {
     text-align: center;
     z-index: 1;
 }
-.authen-form__group--radio-box input:focus + label {
+.authen-form__group--radio-box input:focus + label { /* không dùng focus, vì không chính xác, hãy dùng checked, tham khảo bài của Nguyen_Viet_Hung (Hưng) */
     background-color: #f7b1ab;
 }
 .authen-form__controls {

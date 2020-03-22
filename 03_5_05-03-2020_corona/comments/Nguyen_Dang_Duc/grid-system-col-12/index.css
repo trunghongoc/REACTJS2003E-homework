@@ -16,8 +16,8 @@
     color:white;
     border-radius: 4px;
 }
-.col-1,.col-2,.col-3,.col-4,.col-5,.col-6 {
-    flex:1;
+.col-1,.col-2,.col-3,.col-4,.col-5,.col-6 { /* thêm dấu cách sau dấu phẩy, mỗi 1 query hãy viết trên 1 dòng*/
+    flex:1;/* thêm dấu cách sau dấu hai chấm */
 }
 .col-5 {
     width: calc(100% - ((100% * 5) / 12));
