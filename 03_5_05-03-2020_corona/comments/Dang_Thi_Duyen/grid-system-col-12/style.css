@@ -1,0 +1,78 @@
+.row {
+    clear: both;
+}
+
+.col-01,
+.col-02,
+.col-03,
+.col-04,
+.col-05,
+.col-06,
+.col-07,
+.col-08,
+.col-09,
+.col-10,
+.col-11,
+.col-12 {
+    float: left;
+    height: 90px;
+    background-color: #ef5350;
+    border-radius: 10px;
+    border: 1px solid white;
+    position: relative;
+}
+
+span{
+    position: absolute;
+    right: 40px;
+    top: 30px;
+    color: aliceblue;
+} 
+
+.col-01 {
+    width: 117px;
+}
+
+.col-02 {
+    width: 236px;
+}
+
+.col-03 {
+    width: 355px;
+}
+
+.col-04 {
+    width: 474px;
+}
+
+.col-05 {
+    width: 593px;
+}
+
+.col-06 {
+    width: 710px;
+}
+
+.col-07 {
+    width: 827px;
+}
+
+.col-08 {
+    width: 944px;
+}
+
+.col-09 {
+    width: 1062px;
+}
+
+.col-10 {
+    width: 1179px;
+}
+
+.col-11 {
+    width: 1297px;
+}
+
+.col-12 {
+    width: 1415px;
+}
