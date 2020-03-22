@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Document</title><!-- đọc comments của bài grid-system-col-12 về css-->
     <style>
         body{
             background-color: #ccc;
         }
-        h2, .row-01, .row-02{
+        h2, .row-01, .row-02{ /* chỉ nên đặt là .row */
             clear: both;
         }
+        /* Dòng quá dài hãy enter xuống dòng, mỗi dòng chỉ viết 1 query selector */
         .col-01, .col-02, .col-03, .col-04, .col-05, .col-06, .col-07, .col-08, .col-09, .col-10, .col-11, .col-12, .col-13, .col-14, .col-15, .col-16 {
             background-color: #333333;
             float: left;
@@ -18,9 +19,25 @@
             border: 1px solid #ccc;
             height: 72px;
         }
-        #item-02 .col-01{
+        #item-02 .col-01{/* item-02 dùng nhiều chỗ khác nhau, do vậy chuyển thành class, không dùng id */
             float: right;
         }
+        /* xử lý css rất cồng kềnh, css giống nhau 100% ở các query nhưng lại viết đi viết lại, tham khảo các cách viết sau: */
+        /**
+        .item-2 .col-2,
+        .item-2 .col-3,
+        .item-2 .col-4
+        .... {
+            float: right;
+        }
+        **/
+
+        /* Hoặc đơn giản chỉ cần thêm 1 class '.float-right', dưới html thì add vào: <div class="col-2 float-right"> */
+        /**
+        .float-right {
+            float: right;
+        }
+        **/
         #item-02 .col-02{
             float: right;
         }
@@ -71,7 +88,7 @@
             float: right;
         }
         #item-03 .col-01{
-            width: 33%;
+            width: 33%; /* chia bằng % chưa đảm bảo 1 dòng là 100% */
         }
         #item-03 .col-02{
             width: 66%;
@@ -172,7 +189,7 @@
     <h2>16 Column Grid</h2>
     <div id="item-01">
         <div class="row-01">
-            <div class="col-01"></div>
+            <div class="col-01"></div><!-- chưa điền nội dung text vào div -->
             <div class="col-01"></div>
             <div class="col-01"></div>
             <div class="col-01"></div>
@@ -374,3 +391,10 @@
     </div>
 </body>
 </html>
+
+<!--
+    Comments:
+    1. Tiếp tục đọc lại float như comment của bài grid 12
+    2. Tiếp tục đọc lại về flex, như comment bài grid 12
+    3. Sửa hết comment và push lên lại
+-->
