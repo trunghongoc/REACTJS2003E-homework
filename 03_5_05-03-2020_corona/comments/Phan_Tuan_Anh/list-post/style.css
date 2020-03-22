@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #383b55;
+}
+.wrap{
+    width: 300px;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    margin-top: 101px;
+}
+.header{
+    width: 300px;
+    height: 60px;
+    background-color: #385e97;
+}
+.header .fas{
+    color: white;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.content{
+    width: 300px;
+    height: 390px;
+    background-color: #31558a;
+}
+.article{
+    height: 60px;
+}
+.pic{
+    width: 60px;
+    float: left;
+    margin: 0px 15px;
+    background-color: #204273;
+    width: 50px;
+    height: 50px;
+}
+.news{
+    background-color: #204273;
+    height: 100%;
+    overflow: hidden;
+    width: 200px;
+    height: 50px;
+}

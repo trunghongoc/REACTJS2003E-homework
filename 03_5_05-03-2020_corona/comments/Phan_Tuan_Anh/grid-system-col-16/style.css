@@ -1,0 +1,25 @@
+table {
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    border-spacing: 10px;
+    color: white;
+}
+
+h2{
+    margin-left: 320px;
+}
+
+td {
+    padding: 5px 10px;
+    background-color: #333333;
+    border-radius: 4px;
+}
+
+.list td {
+    background-color: white;
+}
+
+.detail {
+    background-color: white;
+}
