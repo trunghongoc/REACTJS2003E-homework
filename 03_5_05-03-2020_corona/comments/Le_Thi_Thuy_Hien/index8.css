@@ -1,0 +1,60 @@
+    .list-post {
+        margin: 10px 300px;
+        height: 600px;
+        width: 800px;
+        background: rgb(96, 82, 109);
+    }
+    
+    .main {
+        width: 400px;
+        height: 450px;
+        margin-left: 200px;
+        padding: 100px 0px;
+    }
+    
+    #header {
+        width: 400px;
+        height: 50px;
+        background: rgb(35, 123, 196);
+    }
+    
+    #content {
+        width: 400px;
+        height: 450px;
+    }
+    
+    .contentner {
+        width: 400px;
+        height: 110px;
+        background: rgb(46, 143, 199);
+    }
+    
+    .left {
+        width: 80px;
+        height: 80px;
+        background: gray;
+        float: left;
+        margin: 15px 10px;
+    }
+    
+    .right {
+        width: 250px;
+        height: 80px;
+        float: left;
+        margin: 15px 10px;
+    }
+    
+    .right-top {
+        width: 250px;
+        height: 10px;
+        border-radius: 5px;
+        background: gray;
+        margin-bottom: 20px;
+    }
+    
+    .right-bottom {
+        width: 125px;
+        height: 10px;
+        background: gray;
+        border-radius: 5px;
+    }
