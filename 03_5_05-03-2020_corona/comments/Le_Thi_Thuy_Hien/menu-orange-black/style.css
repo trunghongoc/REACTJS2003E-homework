@@ -1,0 +1,67 @@
+#wrapper {
+    height: 400px;
+    width: 800px;
+    background: rgb(158, 156, 156);
+    margin: 10px 100px;
+}
+
+p,
+#row-top {
+    text-align: center;
+    color: white;
+}
+
+#row-top {
+    font-size: 8px;
+    padding-top: 30px;
+}
+
+p {
+    color: beige;
+    font-size: 20px;
+}
+
+.menu-nav {
+    height: 20px;
+    width: 600px;
+    background: orangered;
+    margin-left: 100px;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+}
+
+#menu-nav-left {
+    width: 70px;
+    height: 17px;
+    background: black;
+    float: left;
+    padding-top: 3px;
+}
+
+.menu-wrap {
+    height: 20px;
+    background: orangered;
+    width: 430px;
+    float: left;
+}
+
+.menu-wrap a {
+    float: left;
+    color: white;
+    padding: 3px 15px;
+    text-decoration: none;
+}
+
+.menu-wrap a:hover {
+    background-color: black;
+    line-height: 14px;
+}
+
+#menu-nav-right {
+    height: 17px;
+    background: orangered;
+    width: 100px;
+    float: right;
+    padding-top: 3px;
+}
