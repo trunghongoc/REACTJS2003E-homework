@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item {
+  background-color: #ef5350;
+  font-size: 15px;
+  padding: 20px;
+  text-align: right;
+  margin-top: 6px;
+  margin-right: 3px;
+  margin-left: 3px;
+}
+
+.item-1 {
+  width: 6.05%;
+}
+
+.item-2 {
+  width: 14.5%;
+}
+
+.item-3 {
+  width: 22.95%;
+}
+
+.item-4 {
+  width: 32.4%;
+}
+
+.item-6 {
+  width: 49.3%;
+}
+
+.item-5 {
+  width: 40.85%;
+}
+
+.item-7 {
+  width: 57.75%;
+}
+
+.item-8 {
+  width: 66.2%;
+}
+
+.item-9 {
+  width: 74.65%;
+}
+
+.item-10 {
+  width: 83.1%;
+}
+
+.item-11 {
+  width: 91.55%;
+}
+
+.item-12 {
+  width: 100%;
+}
