@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+}
+:root {
+    --col-space:14px;
+    --col-1-width:calc((100% - 15 * var(--col-space)) / 16);
+    --col-1-half:calc((100% - var(--col-space)) / 2);
+    --col-1-3rd-width:calc((100% - 2 * var(--col-space)) / 3);
+    --col-1-4th-width:calc((100% - 3 * var(--col-space)) / 4);
+    --col-1-5th-width:calc((100% - 4 * var(--col-space)) / 5)
+}
+.row.flex-end {
+    justify-content: flex-end;
+}
+.wrap {
+    background-color: #cccccc;
+}
+.heading-2 {
+    padding: 32px 0px;
+    margin:0px;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+.col {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin:0px 0px 14px 0px;
+    border-radius: 4px;
+
+}
+.col-1 {
+    flex: 0 0 var(--col-1-width);
+}
+.col-2 {
+    flex: 0 0 calc(var(--col-1-width) * 2 + var(--col-space));
+}
+.col-3 {
+    flex: 0 0 calc(var(--col-1-width) * 3 + var(--col-space) * 2);
+}
+.col-4 {
+    flex: 0 0 calc(var(--col-1-width) * 4 + var(--col-space) * 3);
+}
+.col-5 {
+    flex: 0 0 calc(var(--col-1-width) * 5 + var(--col-space) * 4);
+}
+.col-6 {
+    flex: 0 0 calc(var(--col-1-width) * 6 + var(--col-space) * 5);
+}
+.col-7 {
+    flex: 0 0 calc(var(--col-1-width) * 7 + var(--col-space) * 6);
+}
+.col-8 {
+    flex: 0 0 calc(var(--col-1-width) * 8 + var(--col-space) * 7);
+}
+.col-9 {
+    flex: 0 0 calc(var(--col-1-width) * 9 + var(--col-space) * 8);
+}
+.col-10 {
+    flex: 0 0 calc(var(--col-1-width) * 10 + var(--col-space) * 9);
+}
+.col-11 {
+    flex: 0 0 calc(var(--col-1-width) * 11 + var(--col-space) * 10);
+}
+.col-12 {
+    flex: 0 0 calc(var(--col-1-width) * 12 + var(--col-space) * 11);
+}
+.col-13 {
+    flex: 0 0 calc(var(--col-1-width) * 13 + var(--col-space) * 12);
+}
+.col-14 {
+    flex: 0 0 calc(var(--col-1-width) * 14 + var(--col-space) * 13);
+}
+.col-15 {
+    flex: 0 0 calc(var(--col-1-width) * 15 + var(--col-space) * 14);
+}
+
+.col-16 {
+    flex: 0 0 calc(var(--col-1-width) * 16 + var(--col-space) * 15);
+}
+/* ==========================CSS 2 COLUMN GIRD=================== */
+.col-1-half {
+    flex: 0 0 var(--col-1-half);
+}
+/* ==========================CSS 3 COLUMN GIRD=================== */
+
+.col-1-3 {
+    flex: 0 0 var(--col-1-3rd-width);
+}
+.col-2-3 {
+    flex: 0 0 calc(var(--col-1-3rd-width) * 2 + var(--col-space));
+}
+/* ==========================CSS 4 COLUMN GIRD=================== */
+.col-1-4 {
+    flex: 0 0 var(--col-1-4th-width);
+}
+.col-2-4 {
+    flex:0 0 calc(var(--col-1-4th-width) * 2 + var(--col-space));
+}
+.col-3-4 {
+    flex:0 0 calc(var(--col-1-4th-width) * 3 + var(--col-space) * 2);
+}
+/* ==========================CSS 5 COLUMN GIRD=================== */
+.col-1-5 {
+    flex:0 0 var(--col-1-5th-width);
+}
+.col-2-5 {
+    flex:0 0 calc(var(--col-1-5th-width) * 2 + var(--col-space));
+}
+.col-3-5 {
+    flex:0 0 calc(var(--col-1-5th-width) * 3 + var(--col-space) * 2);
+}
+.col-4-5 {
+    flex:0 0 calc(var(--col-1-5th-width) * 4 + var(--col-space) * 3);
+}

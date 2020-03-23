@@ -9,15 +9,25 @@
 .featured {
     margin-bottom: 20px;
 }
-.article { /* css trống, hãy xóa đi */
-   
-}
 .block-category-large {
     width: 100%;
     display: flex;
 }
+.banner-text {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #c0c0c0;
+    font-size: 40px;
+    font-weight: 500;
+}
 .block-category-medium {
     width: 300px;
+}
+.banner-text.banner-text--small {
+    font-size: 20px;
 }
 .thumb-large {
     width: 620px;
@@ -45,12 +55,10 @@ a.article__link {
     text-decoration: none;
     color: black;
     font-size: 16px;
-    font-weight: 500;
 }
 
 p.article-author {
     color: #808080;
     font-size: 14px;
     margin-top: 10px;
-    font-weight: 500;
 }

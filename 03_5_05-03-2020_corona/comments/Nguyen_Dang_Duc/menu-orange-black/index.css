@@ -9,7 +9,6 @@
     text-align: center;
     padding-top:40px;
 }
-
 .blog-link-wrap span {
     font-weight: 700;
     color: #e5e5e5;
@@ -47,6 +46,9 @@ div.navbar {
     text-decoration: none;
     padding: 16px 20px;
     color: #ffffff;
+}
+.active {
+    background-color: #444444;
 }
 .navbar__item a:hover {
     background-color: #444444;

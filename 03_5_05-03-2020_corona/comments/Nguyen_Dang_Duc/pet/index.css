@@ -3,7 +3,7 @@
 }
 .modal {
     position: fixed;
-    top:0px;
+    top: 0px;
     left: 0px;
     width: 100vw;
     height: 100vh;
@@ -11,7 +11,7 @@
 }
 .authen-form--part-right {
     background-color: #fac7c2;
-    flex:1;
+    flex: 1;
     color:#312726;
     display: flex;
     flex-wrap: wrap;
@@ -28,13 +28,11 @@
     bottom: 0px;
     background-color: #d8aa96;
 }
-
 .modal__body {
     position: relative;
     margin: auto;
     z-index: 1;
 }
-
 .authen-formm__banner.authen-form--part-left {
     width: 300px;
     background-color: #807182;
@@ -43,23 +41,33 @@
     justify-content: center;
     align-content: space-between;
 }
-
-img.authen-form__img {
-    width: 70%;
-}
-
 .authen-form {
     display: flex;
     width: 800px;
     height: 500px;
 }
-
 .authen-form__title {
     width: 100%;
     text-align: center;
     margin-top: 36px;
+    display: flex;
+    justify-content: center;
 }
-
+.authen-form__icon-wrap {  
+    border-radius: 20px;    
+    position: relative;
+    top: -6px;   
+    margin-right: 10px;  
+    object-fit: contain;   
+    height: 40px;  
+    background: #fac7c2;
+}
+.authen__form__title-icon {
+    width: 40px;
+}
+img.authen-form__img {
+    width: 70%;
+}
 .authen-form__title span {
     font-size: 26px;
     font-weight: 600;
@@ -69,48 +77,48 @@ h3.authen-form__heading {
 }
 form.authen-form__form {
     display: flex;
-    /* height: 400px; */
     flex-wrap: wrap;
     justify-content: space-between;
-}
-.authen-form__icon-wrap {
-    display: inline-block;
-    width: 34px;
-    text-align: center;
-    line-height: 34px;
-    background-color: white;
-    border-radius: 15px;
-    margin-right: 6px;
 }
 .authen-form__group {
     width: 180px;
     margin-top:12px;
 }
 .authen-form__group--file {
-    position: relative;
+    display: flex;
+    align-items: center;
+}
+.authen-form__group--file label {
+    display: flex;
+    align-items: center;
+}
+.authen-form__group--file label span {
+    margin-top: 10px;
+}
+span.authen-form__icon-wrap {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 20px;
+    margin-right: 5px;
 }
 .authen-form__group--radio-box.full-width {
     width: 100%;
 }
-.authen-form__group--radio-box.full-width .authen-form__input-group {    width: 100%;
+.authen-form__group--radio-box.full-width .authen-form__input-group {
+    width: 100%;
     display: flex;
     justify-content: space-between;
 }
-input[type="file"] {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    opacity: 0;
-    width: 160px;
-    height: 36px;
+.authen-form__group input[type="file"], 
+.authen-form__group input[type="radio"] {
+    display: none;
 }
-.authen-form__group--radio-box {
-
-}
-.authen-form__group--radio-box input {
-    opacity: 0;
-}
-.authen-form__input[type="text"] {
+.authen-form__input[type="text"], 
+.authen-form__input[type="date"] {
     width: 100%;
     height: 36px;
     border: 1px solid #e5e5e5;
@@ -118,34 +126,33 @@ input[type="file"] {
     border-radius: 4px;
     font-size: 12px;
     font-weight: 600;
-    /* color: red; */
    margin-top: 6px;
     text-indent: 10px;
+}
+.authen-form__input[type="date"] {
+    font-size: 16px;
+    font-weight: normal;
+    color: #707070;
 }
 .authen-form__input-group {
     background-color: white;
     border-radius: 4px;
     height: 36px;
-    margin-top:6px;
-}
-.authen-form__input-wrap {
-    width: 86px;
-    height: 32px;
-    float: left;
+    margin-top: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .authen-form__group--radio-box label {
     width: 86px;
     height: 30px;
     display: inline-block;
-    position: relative;
     line-height: 30px;
-    top: -17px;
-    left: 4px;
     user-select: none;
     text-align: center;
     z-index: 1;
 }
-.authen-form__group--radio-box input:focus + label { /* không dùng focus, vì không chính xác, hãy dùng checked, tham khảo bài của Nguyen_Viet_Hung (Hưng) */
+input[type="radio"]:checked + label {
     background-color: #f7b1ab;
 }
 .authen-form__controls {
@@ -155,10 +162,8 @@ input[type="file"] {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding:0 32px;
-
+    padding: 0 32px;
 }
-
 .btn {
     width: 96px;
     border-radius: 22px;
