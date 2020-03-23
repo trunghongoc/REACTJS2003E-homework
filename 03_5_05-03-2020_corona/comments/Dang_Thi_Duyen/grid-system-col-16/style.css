@@ -30,13 +30,8 @@ h2,
     border: 1px solid #ccc;
     height: 72px;
     text-align: center;
-}
-
-span {
-    position: absolute;
+    line-height: 72px;
     color: white;
-    padding-top: 24px;
-
 }
 
 .item-02 .col-01,
