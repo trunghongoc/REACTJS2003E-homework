@@ -1,22 +1,25 @@
-body{
-    font-family: 'Roboto', sans-serif;
+body {
+  font-family: "Roboto", sans-serif;
 }
-p{
-    
-    font-size: 30px;
-    color: #33495D;
+
+p {
+  font-size: 30px;
+  color: #33495d;
 }
-table{
-    background-color: #33495D;
-    border-radius: 10px;
-    color: rgb(194, 194, 194);
+
+table {
+  background-color: #33495d;
+  border-radius: 10px;
+  color: rgb(194, 194, 194);
 }
-th{
-    color: #DCDD54;
-    text-align: left;
-    padding: 15px 40px;
+
+th {
+  color: #dcdd54;
+  text-align: left;
+  padding: 15px 40px;
 }
-td{
-    padding: 15px 40px;
-    font-size: 15px;
+
+td {
+  padding: 15px 40px;
+  font-size: 15px;
 }
