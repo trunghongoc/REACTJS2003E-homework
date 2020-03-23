@@ -1,0 +1,159 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: #d8aa96;
+}
+.row {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+.pupassure {
+    width: 300px;
+    height: 468px;
+    background-color: #807182;
+}
+.dog {
+    text-align: center;
+    margin-top: 40px;
+}
+.foot-dog {
+    display: inline-block;
+    background-color: #f7b1ab;
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+}
+.fa-paw {
+    margin-top:8px;
+    font-size: 25px;
+    color: #807182;
+}
+.dog label {
+    font-size: 22px;
+    font-weight: 700;
+    margin-left: 10px;
+    color: #2e282f;
+}
+.avatar {
+    text-align: center;
+    margin-top: 208px
+}
+.avatar img {
+    width: 175px;
+    color: #5a504e;
+}
+.past-registration {
+    background-color: #fac7c2;
+    height: 400px;
+    width: 500px;
+}
+h2{
+    padding-top: 30px;
+    margin-left: 20px;
+    font-size: 25px;
+}
+input {
+    width: 180px;
+    height: 35px;
+    margin: 5px 0px;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+}
+
+.introduce-pets {
+    display: flex;
+    justify-content: center;
+    height: 230;
+    margin-top: -15px;
+}
+.past-name, .past-photo {
+    margin: 30px 20px 15px 20px;
+    width: 200px;
+}
+.radio{
+    background-color: #ffffff;
+    display: inline-block;
+    width: 180px;
+    padding: 3px 0px;
+    border-radius: 3px;
+    text-align: center;
+    margin: 7px 0px;
+}
+.bnt{
+    display: inline-block;
+    width: 73px;
+    padding: 5px 0px;
+    margin: 0px 7px;
+    background-color: #ffffff;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
+}
+.radio input:checked + label {
+    background-color: #f7b1ab;
+    border: 1px solid #e4a39d;
+}
+.hide {
+    display: none;
+}
+.camera {
+    background-color: #ffffff;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    margin: 11px 11px 11px 0px;
+    padding-top: 12px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.weight {
+    margin-left: 30px;
+    margin-top: -15px;
+}
+.radio-lbs{
+    display: flex;
+    justify-content: center;
+    width: 420px;
+    height: 35px;
+    background-color: #ffffff;
+    font-size: 14px;
+    margin: 7px 0px;
+}
+.radio-lbs .bnt {
+    margin: 3px 15px;
+    padding: 5px 0px;
+    width: 75px;
+}
+.radio-lbs input:checked + label {
+    background-color: #f7b1ab;
+    border: 1px solid #e4a39d;
+}
+.submit-input {
+    width: 500px;
+    height: 70px;
+    background-color: #ffffff;
+    margin-top: 37px;
+}
+.submit {
+    background-color: #ffffff;
+    border:2px solid #e7e7e7;
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    margin-top: 15px;
+    transition: all 1.5s;
+}
+.submit-left {
+    margin-right: 220px;
+    margin-left: 30px;
+}
+.submit:hover {
+    background-color: #807182;
+    color: #ffffff;
+}

@@ -1,0 +1,70 @@
+/* Start css banner */
+.banner{
+    width: 400px;
+    height: 140px;
+    background-color: #cccccc;
+    text-align: center;
+    margin-left: 300px;
+    float: left;
+    margin-right: 20px;
+    padding-top: 60px;
+}
+.banner span{
+    color: gray;
+    font-size: 50px;
+}
+.info{
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.info p.note{
+    color: #cccccc;
+    font-size: 12px;
+}
+/* End banner */
+
+/* Start css class pic */
+.pic .list{
+    float: left;
+    width: 192px;
+    height: 55px;
+    background-color: #cccccc;
+    color: gray;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 20px;
+}
+.pic .one{
+    margin-left: 300px;
+}
+.pic .two{
+    margin-left: 15px;
+}
+.pic .three{
+    margin-left: 15px;
+}
+/* End pic */
+
+/* Start css class news */
+.news .article{
+    float: left;
+    width: 192px;
+    height: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.news .article p.note{
+    color: #cccccc;
+    font-size: 12px;
+}
+.news .one{
+    margin-left: 300px;
+}
+.news .two{
+    margin-left: 15px;
+}
+.news .three{
+    margin-left: 15px;
+}
+/* End news */

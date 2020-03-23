@@ -1,0 +1,192 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    background-color: #ccc;
+    width: 1300px;
+    margin-left: 25px;
+}
+h5 {
+    font-size: 20px;
+    font-weight: 900;
+    padding:20px 0px;
+}
+div{
+    border-radius: 5px;
+    background-color: #333333;
+    width: 62.5px;
+    height: 30px;
+    margin: 10px;
+    text-align: center;
+    color: #b5b5b5;
+    font-size: 14px;
+    padding-top: 8px;
+}
+/* ------------------------------------------ */
+/* ------------16 Column Grid----------- */
+.flex-container {
+    display: flex;
+    align-items: center;
+}
+.left {
+    margin-left: 0px;
+}
+.right {
+    margin-right: 0px;
+}
+.col-2 {
+    flex-grow: 1;
+}
+.col-3 {
+    flex-grow: 2;
+}
+.col-4 {
+    flex-grow: 3;
+}
+.col-5 {
+    flex-grow: 4;
+}
+.col-6 {
+    flex-grow: 5;
+}
+.col-7 {
+    flex-grow: 6;
+}
+.col-9 {
+    flex-grow: 8;
+}
+.col-8 {
+    flex-grow: 7;
+}
+.col-10 {
+    flex-grow: 9;
+}
+.col-11 {
+    flex-grow: 10;
+}
+.col-12 {
+    flex-grow: 11;
+}
+.col-13 {
+    flex-grow: 12
+}
+.col-14 {
+    flex-grow: 13;
+}
+.col-15 {
+    flex-grow: 14;
+}
+.active {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding-bottom: 50px;
+}
+.active > div {
+    margin-right: 0px;
+}
+.col-right-2 {
+    width: 145px;
+}
+.col-right-3 {
+    width: 227.5px;
+}
+.col-right-4 {
+    width: 310px;
+}
+.col-right-5 {
+    width: 392.5px;
+}
+.col-right-6 {
+    width: 475px;
+}
+.col-right-7 {
+    width: 557.5px;
+}
+.col-right-8 {
+    width: 640px;
+}
+.col-right-9 {
+    width: 722.5px;
+}
+.col-right-10 {
+    width: 805px;
+}
+.col-right-11 {
+    width: 887.5px;
+}
+.col-right-12 {
+    width: 970px;
+}
+.col-right-13 {
+    width: 1052.5px;
+}
+.col-right-14 {
+    width: 1135px;
+}
+.col-right-15 {
+    width: 1217.5px;
+}
+/* ------------------------------------- */
+
+.grid-2, .grid-3 {
+    height: 200px;
+}
+.col {
+	display:block;
+    float: right;
+}
+/* ------------------------------------- */
+/* -----------2 Column Grid----------- */
+.span_1_of_2 {
+	width: 49.2%;
+}
+/* ------------------------------------------ */
+/* -----------3 Column Grid------------- */
+.span_2_of_3 {
+    width: 66.13%;
+}
+.span_1_of_3 {
+	width: 32.26%;
+}
+.grid-left {
+    margin-left: 20px;
+}
+/* ------------------------------------------ */
+/* -----------4 Column Grid------------- */
+.grid-4 {
+    height: 250px;
+}
+.span_3_of_4 {
+	width: 74.6%;
+}
+.span_2_of_4 {
+	width: 49.2%;
+}
+.span_1_of_4 {
+	width: 23.8%;
+}
+.span_4_of_5 {
+    width: 79.68%;
+}
+/* ------------------------------------------ */
+/* -----------5 Column Grid------------- */
+.grid-5 {
+    height: 430px;
+}
+.span_3_of_5 {
+    width: 59.36%;
+}
+.span_2_of_5 {
+    width: 39.04%;
+}
+.span_1_of_5 {
+    width: 18.72%;
+}
+.grid-5-left {
+    margin-left: 50%;
+}
