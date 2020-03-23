@@ -1,0 +1,131 @@
+body {
+    background-color: #ccc;
+}
+
+h2,
+.row-flex,
+.row-flex-02 {
+    display: flex;
+    max-lines: 100%;
+}
+
+.col-auto,
+.col-01,
+.col-02,
+.col-03,
+.col-04,
+.col-05,
+.col-06,
+.col-07,
+.col-08,
+.col-09,
+.col-10,
+.col-11,
+.col-12,
+.col-13,
+.col-14,
+.col-15 {
+    background-color: #333333;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    height: 72px;
+    text-align: center;
+    line-height: 72px;
+    color: white;
+}
+
+.col-auto {
+    flex: 1 1 auto;
+}
+
+.row-flex-02 {
+    flex-direction: row-reverse;
+}
+
+.item-03 .col-01 {
+    width: 33%;
+}
+
+.item-04 .col-01 {
+    width: 33%;
+}
+
+.item-04 .col-02 {
+    width: 66.5%;
+}
+
+.item-06 .col-01 {
+    width: 19.5%;
+}
+
+.item-06 .col-02 {
+    width: 39.5%;
+}
+
+.item-06 .col-03 {
+    width: 60%;
+}
+
+.item-06 .col-04 {
+    width: 80%;
+}
+
+.col-01 {
+    width: 6.1%;
+}
+
+.col-02 {
+    width: 13%;
+}
+
+.col-03 {
+    width: 19%;
+}
+
+.col-04 {
+    width: 24.5%;
+}
+
+.col-05 {
+    width: 31%;
+}
+
+.col-06 {
+    width: 37%;
+}
+
+.col-07 {
+    width: 43%;
+}
+
+.col-08 {
+    width: 49.8%;
+}
+
+.col-09 {
+    width: 56.5%;
+}
+
+.col-10 {
+    width: 62.5%;
+}
+
+.col-11 {
+    width: 68.5%;
+}
+
+.col-12 {
+    width: 75%;
+}
+
+.col-13 {
+    width: 80.5%;
+}
+
+.col-14 {
+    width: 86.5%;
+}
+
+.col-15 {
+    width: 93.5%;
+}

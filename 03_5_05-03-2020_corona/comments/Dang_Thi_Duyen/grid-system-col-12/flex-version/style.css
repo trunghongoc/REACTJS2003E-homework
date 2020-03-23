@@ -1,0 +1,48 @@
+.row-flex {
+    display: flex;
+    max-width: 100%;
+}
+
+.col-auto,
+.col-01,
+.col-02,
+.col-03,
+.col-04,
+.col-05 {
+    height: 90px;
+    background-color: #ef5350;
+    border-radius: 10px;
+    border: 1px solid white;
+    position: relative;
+}
+
+span {
+    position: absolute;
+    right: 40px;
+    top: 30px;
+    color: aliceblue;
+}
+
+.col-auto {
+    flex: 1 1 auto;
+}
+
+.col-01 {
+    width: 117px;
+}
+
+.col-02 {
+    width: 236px;
+}
+
+.col-03 {
+    width: 355px;
+}
+
+.col-04 {
+    width: 474px;
+}
+
+.col-05 {
+    width: 593px;
+}
