@@ -1,0 +1,9 @@
+table {
+    text-align: right;
+    width: 500px;
+    height: 400px;
+}
+table tr td {
+    background-color: rgb(241, 89, 89);
+    border-radius: 2px;
+}

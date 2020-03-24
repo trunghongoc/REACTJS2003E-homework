@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <title>Pet</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="content">
+        <div class="content_left">
+            <div class="dog">
+                <div class="foot-dog">
+                    <i class="fas fa-paw"></i>
+                </div>
+                <label for="">PUPASSURE</label>
+            </div>
+            <div class="avatar">
+                <img src="./pet.png" alt="">
+            </div>
+        </div>
+        <div class="content_right">
+            <form action="#" method="POST" enctype="multipart/form-data">
+               <div class="form_top"> 
+                    <h2>Yay,pupassure! Ensure your pup gets the best care!</h2>
+                    <div class="form_left">
+                        <div>
+                            <label for="#">Name</label><br>
+                            <input type="text" name="firstname" id="" placeholder="Pet's name">
+                        </div>
+                        <div>
+                            <label for="#">Breed</label><br>
+                            <input type="text" name="breed" id="" placeholder="Pet's breed">
+                        </div>
+                        <div>
+                            <label for="">Gender</label><br>
+                            <div class="form_radio">
+                                <input class="input" type="radio" name="gender" id="female" value="female" checked>
+                                <label class="lbl" for="female">Female</label>
+                                <input class="input" type="radio" name="gender" id="male" value="male">
+                                <label class="lbl" for="male">Male</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form_right">
+                        <div class="camera">
+                            <input class="input" type="file" name="photo" id="photo" value="">
+                            <label for="photo" class="photo">
+                                <div class="img_camera">
+                                    <i class="fas fa-camera-retro img_photo"></i>
+                                </div>
+                                <span>Upload a photo</span>
+                            </label>
+                        </div>
+                        <div class="birthday" >
+                            <label for="">Birthday</label> <br>
+                            <input type="date" name="birthday">
+                        </div>
+                        <div>
+                            <label for="#">Spayed or Neutered</label><br>
+                            <div class="form_radio">
+                                <input class="input" type="radio" name="spayedorneutered" id="spayed" value="spayed" checked>
+                                <label class="lbl" for="spayed">Spayed</label>
+                                <input class="input" type="radio" name="spayedorneutered" id="neutered" value="neutered">
+                                <label class="lbl" for="neutered">Neutered</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form_weight">
+                    <label for="#">Wright</label>
+                        <div class="form_radio_wright">
+                            <input class="input" type="radio" name="weight" id="size1" value="0-25" checked>
+                            <label class="lbl" for="size1">0-25 lbs</label>
+                            <input class="input" type="radio" name="weight" id="size2">
+                            <label class="lbl" for="size2">20-25 lbs</label>
+                            <input class="input" type="radio" name="weight" id="size3">
+                            <label class="lbl" for="size3">50-100 lbs</label>
+                            <input class="input" type="radio" name="weight" id="size4">
+                            <label class="lbl" for="size4">100+ lbs</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="submit">
+                    <input class="sb_back" type="submit" name="back" value="Back">
+                    <input class="sb_next" type="submit" name="next" value="next">
+                </div>
+            </form>
+          </div>
+        </div>
+    </div>
+</body>
+</html>
