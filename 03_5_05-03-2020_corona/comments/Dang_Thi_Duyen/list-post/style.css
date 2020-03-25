@@ -1,39 +1,46 @@
-
-body{
+body {
     background-color: #383b55;
 }
-#container{
+
+#container {
     padding-left: 400px;
     height: 550px;
     width: 300px;
 }
-#header{
+
+#header {
     background-color: #385e97;
     height: 50px;
     width: 300px;
 }
-.menu{
+
+.menu {
     padding-top: 5px;
 }
-hr{ 
+
+hr {
     margin-left: 25px;
     width: 25px;
     height: 2px;
-    background-color:rgb(255, 255, 255);
-    
+    background-color: rgb(255, 255, 255);
 }
-#body{
+
+#body {
     background-color: #31558a;
     height: 500px;
     width: 300px;
     position: relative;
 }
-#item-01, #item-02, #item-03{
+
+#item-01,
+#item-02,
+#item-03 {
     position: absolute;
     height: 100px;
     position: relative;
 }
-.content-01{
+
+.content-01 {
     position: absolute;
     width: 50px;
     height: 50px;
@@ -41,7 +48,8 @@ hr{
     margin-top: 20px;
     background-color: #204273;
 }
-.content-02{
+
+.content-02 {
     position: absolute;
     width: 150px;
     height: 10px;
@@ -49,7 +57,8 @@ hr{
     margin-top: 20px;
     background-color: #204273;
 }
-.content-03{
+
+.content-03 {
     position: absolute;
     width: 150px;
     height: 10px;
@@ -57,7 +66,8 @@ hr{
     margin-top: 35px;
     background-color: #204273;
 }
-.content-04{
+
+.content-04 {
     position: absolute;
     width: 90px;
     height: 10px;
