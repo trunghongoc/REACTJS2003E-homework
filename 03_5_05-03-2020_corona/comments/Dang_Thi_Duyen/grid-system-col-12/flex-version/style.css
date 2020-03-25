@@ -46,3 +46,13 @@ span {
 .col-05 {
     width: 593px;
 }
+
+/*
+Viết css chưa hợp lý
+flex để chia giao diện tự động, theo không gian mà nó có thể chiếm được
+Việc đặt pixcel là vô lý, đã tự động rồi còn bị ép buộc là 117px 236px ...
+Ở màn hình nhỏ thì cái dòng có 12 cái .col-01 chiếm hết chiều rộng màn hình, thế ở 1 màn hình to hơn, vì bị ép
+chiều rộng là 117px 1 cột, thì dòng đấy ko chiếm hết màn hình à?
+
+---> viết làm sao để không phải đặt theo px, đặt theo px thì chia div rồi set theo % không phải khỏe hơn ư?
+*/
