@@ -28,6 +28,7 @@ body {
     display: flex;
     flex-flow: column wrap;
     justify-content: space-between;
+    align-items: center;
     background-color: #807182;
     padding: 30px 35px 0 35px;
 }
@@ -43,6 +44,7 @@ body {
     width: 150px;
     height: auto;
     object-fit: cover;
+    margin: 0;
 }
 
 .form-right {}
@@ -82,7 +84,7 @@ body {
 .form-input-text[type="date"] {
     text-transform: uppercase;
     color: #807182;
-    padding: 8px 5px
+    padding: 8px 5px;
 }
 
 
@@ -114,31 +116,11 @@ body {
 }
 
 /* =============== CSS CHECKBOX ============= */
-.form-group-checkbox {
+.form-group-radio.w-100{
     background-color: #fff;
     width: 100%;
-    padding: 5px 0;
-    border-radius: 5px;
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
 }
-.form-group-checkbox input[type="checkbox"]{
-    display: none;
-}
-.form-group-checkbox input[type="checkbox"] + label{
-    display: inline-block;
-    background-color: none;
-    flex: 1;
-    border-radius: 3px;
-    padding: 3px;
-    margin: 0 5px;
-    cursor: pointer;
-    transition: background-color .3s ease;
-}
-.form-group-checkbox input[type="checkbox"]:checked + label{
-    background-color: #F7B1AB;
-}
+
 
 /* =============== CSS BUTTON ============= */
 
@@ -164,6 +146,7 @@ body {
 
 .btn.bg-color-1 {
     background-color: #807182;
+    color: #fff;
 }
 
 /* ===================== CSS ICON ================== */
@@ -211,13 +194,18 @@ input[type="file"] {
     background-color: #fff;
     padding: 10px;
     border-radius: 50%;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 .avatar-icon .avatar-icon-img {
     display: block;
     width: 20px;
     height: 20px;
 }
+.avatar .avatar-label {
+    padding: 5px 7px;
+    border: 1px solid transparent;
+    transition: all .3s ease;
+}
 .avatar .avatar-label:hover {
-    text-decoration: underline;
+    border: 1px solid #807182;
 }
