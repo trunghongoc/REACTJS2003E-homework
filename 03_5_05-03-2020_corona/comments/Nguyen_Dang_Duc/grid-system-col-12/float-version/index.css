@@ -58,3 +58,11 @@
     border-radius: 4px;
     padding-right: 10px;
 }
+/* sắp xếp thứ tự col-1 đến col-12 hợp lý */
+/* tham khảo cách chia theo calc
+.col-1 {
+    width: calc((1/12) * 100%);
+}
+.col-2 {
+    width: calc((2/12) * 100%);
+} */
