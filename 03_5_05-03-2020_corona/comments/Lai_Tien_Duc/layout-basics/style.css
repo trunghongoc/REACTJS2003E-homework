@@ -6,14 +6,12 @@
 }
 
 .big-new {
-  /* không đặt tên bằng số, số đếm, hãy đặt 1 cái gì đó rõ nghĩa, vd: .hot-new */
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-gap: 20px;
 }
 
 .big-new-img {
-  /* không đặt .img-800, hãy đặt tên rõ nghĩa hơn, vd: .hot-new img {} */
   width: 800px;
   height: 400px;
   background-color: rgb(211, 211, 211);
@@ -22,7 +20,6 @@
 }
 
 .text-size {
-  /* không dùng chữ in hoa, mỗi từ cách nhau bằng dấu - */
   font-size: 90px;
   color: rgb(167, 167, 167);
   margin-top: 135px;
@@ -69,7 +66,7 @@
   margin-top: 55px;
 }
 
-.second-frame p:nth-child(2) {
+.second-frame p:nth-child(2) { /* không đặt tên chứa số, số đếm. Khung số 2 ??? */
   font-size: 12px;
   color: rgb(167, 167, 167);
   position: absolute;

@@ -6,7 +6,7 @@ html {
 *:before,
 *:after {
   box-sizing: inherit;
-}
+}/* cái này thừa, vì mặc định cái nào cũng là inherit cả */
 
 .row::before,
 .row::after {
@@ -87,3 +87,6 @@ html {
   border: 2px solid white;
   text-align: right;
 }
+/* chia dùng calc tốt nhưng thứ tự ghi item-1/col-1 đến item-11 quá lộn xộn, cần sắp xếp lại thứ tự */
+/* tại sao lại có cả item cả col ??? người đọc code css thì sẽ không hiểu gì */
+/* item 12 đâu sao không ghi */
