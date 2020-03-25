@@ -1,0 +1,112 @@
+/* ============= RESET =========== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    background-color: #CCCCCC;
+}
+/* ============= COMMON =========== */
+.text-center {
+    text-align: center;
+}
+
+.heading-2 {
+    margin-bottom: 25px;
+}
+
+/* ============= LAYOUT =========== */
+
+/* ======= CONTAINER ==== */
+.container{
+    width: 100%;
+    margin: 0 0 70px 0;
+}
+
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+.grid-left {
+    justify-content: flex-end;
+}
+
+
+/* ====== ITEM ===== */
+.block {
+    background-color: #333333;
+    padding: 10px;
+    color: #fff;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+.d-flex .col-auto{
+    flex : 1;
+}
+
+.d-flex .col-1{
+    flex : 0 0 6.25%;
+}
+.d-flex .col-2{
+    flex : 0 0 12.5%;
+}
+.d-flex .col-3{
+    flex : 0 0 18.75%;
+}
+.d-flex .col-4{
+    flex : 0 0 25%;
+}
+.d-flex .col-5{
+    flex : 0 0 31.25%;
+}
+.d-flex .col-6{
+    flex : 0 0 37.5%;
+}
+.d-flex .col-7{
+    flex : 0 0 43.75%;
+}
+
+/* ======= Column Grid ======= */
+
+/* ========= 1 of 2 ======== */
+.flex-1-2 {
+    flex: 0 0 50%;
+}
+/* ========= 1 of 3 ======== */
+.flex-1-3 {
+    flex: 0 0 33.3333%;
+}
+
+.flex-2-3 {
+    flex: 0 0 66.6666%;
+}
+/* ========= 1 of 4 ======== */
+.flex-1-4 {
+    flex: 0 0 25%;
+}
+.flex-2-4 {
+    flex: 0 0 50%;
+}
+.flex-3-4 {
+    flex: 0 0 75%;
+}
+
+/* ========= 1 of 5 ======== */
+.flex-1-5 {
+    flex:  0 0 20%;
+}
+.flex-2-5 {
+    flex:  0 0 40%;
+}
+.flex-3-5 {
+    flex:  0 0 60%;
+}
+.flex-4-5 {
+    flex:  0 0 80%;
+}
+/* đặt tên class khó hiểu flex 4 of 5 ??? */
