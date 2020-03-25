@@ -55,3 +55,10 @@ body{
 .table_5_td_show{
     background-color:  rgb(70, 62, 62)
 }
+
+/*
+    đặt tên ko dùng số
+    tên là các chữ cái in thường và dấu (- hoặc _)
+    đã comments quá nhiều lần về việc ko có dấu cách trước dấu {
+    đặt tên phải mô tả được chức năng và phải dễ hiểu + ngắn gọn
+*/
