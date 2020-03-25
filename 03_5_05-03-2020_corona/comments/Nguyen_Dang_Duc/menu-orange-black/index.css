@@ -34,7 +34,7 @@ ul.navbar__list {
 }
 li.navbar__item {
     list-style: none;
-    display: inline-block;
+    float: left;
 }
 div.navbar {
     display: flex;

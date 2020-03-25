@@ -5,14 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
     <title>Document</title>
 </head>
 <body>
     <div class="modal">
-        <div class="modal__overlay"><!-- dòng này là gì mà enter xuống, nội dung bên trong lại ko có gì cả -->
-
-        </div>
+        <div class="modal__overlay"></div>
         <div class="modal__body">
             <div class="authen-form">
                 <div class="authen-formm__banner authen-form--part-left">
@@ -26,9 +23,7 @@
                 </div>
                 <div class="authen-form--part-right">
                     <div class="authen-form__container">
-                        <h3 class="authen-form__heading">
-                            Yay,puppies!Ensure your pup gets the best care!
-                        </h3>
+                        <h3 class="authen-form__heading">Yay,puppies!Ensure your pup gets the best care!</h3>
                         <form action="" method="post" class="authen-form__form" enctype="multipart/form-data">
                             <div class="authen-form__group">
                                 <label for="nameOfPet" class="authen-form__label">Name</label>
@@ -49,41 +44,39 @@
                             <div class="authen-form__group authen-form__group--radio-box">
                                 <span>Gender</span>
                                 <div class="authen-form__input-group">
-                                        <input type="radio" id="female" name="gender" class="authen-form__input" value="female" checked>
-                                        <label class="checked" for="female">Female</label>
-                                        <input type="radio" id="male" name="gender" class="authen-form__input" value="male">
-                                        <label for="male">Male</label>
+                                    <input type="radio" id="female" name="gender" class="authen-form__input" value="female" checked>
+                                    <label class="checked" for="female">Female</label>
+                                    <input type="radio" id="male" name="gender" class="authen-form__input" value="male">
+                                    <label for="male">Male</label>
                                 </div>
                             </div>
                             <div class="authen-form__group authen-form__group--radio-box">
                                 <span>Spayed or Newtered</span>
                                 <div class="authen-form__input-group">
-                                        <input type="radio" id="spayed" name="status" class="authen-form__input" value="spayed" checked>
-                                        <label class="checked" for="spayed">Spayed</label>
-                                        <input type="radio" id="neutered" name="status" class="authen-form__input" value="neutered">
-                                        <label for="neutered">Neutered</label>
+                                    <input type="radio" id="spayed" name="status" class="authen-form__input" value="spayed" checked>
+                                    <label class="checked" for="spayed">Spayed</label>
+                                    <input type="radio" id="neutered" name="status" class="authen-form__input" value="neutered">
+                                    <label for="neutered">Neutered</label>
                                 </div>
                             </div>
                             <div class="authen-form__group authen-form__group--radio-box full-width">
                                 <span>Weight</span>
                                 <div class="authen-form__input-group">
-                                        <input type="radio" id="0-25" name="weight" class="authen-form__input" value="0-25" checked>
-                                        <label class="checked" for="0-25">0-25 lbs</label>
-                                        <input type="radio" id="25-50" name="weight" class="authen-form__input" value="25-50">
-                                        <label for="25-50">25-50 lbs</label>    
-
-                                        <input type="radio" id="50-100" name="weight" class="authen-form__input" value="50-100">
-                                        <label for="50-100">50-100 lbs</label>
-
-                                        <input type="radio" id="100+" name="weight" class="authen-form__input" value="100+">
-                                        <label for="100+">100+ lbs</label>
+                                    <input type="radio" id="from-weight-0-25" name="weight" class="authen-form__input" value="form-weight-0-25" checked>
+                                    <label class="checked" for="from-weight-0-25">0-25 lbs</label>
+                                    <input type="radio" id="from-weight-25-50" name="weight" class="authen-form__input" value="form-weight-25-50">
+                                    <label for="from-weight-25-50">25-50 lbs</label>    
+                                    <input type="radio" id="from-weight-50-100" name="weight" class="authen-form__input" value="form-weight-50-100">
+                                    <label for="from-weight-50-100">50-100 lbs</label>
+                                    <input type="radio" id="from-weight-100+" name="weight" class="authen-form__input" value="form-weight-100+">
+                                    <label for="from-weight-100+">100+ lbs</label>
                                 </div>
                             </div>
                         </form>
                     </div>
                     <div class="authen-form__controls">
-                            <button class="authen-form__controls-back btn">Back</button>
-                            <button class="authen-form__controls-next btn">Next</button>
+                        <button class="authen-form__controls-back btn">Back</button>
+                        <button class="authen-form__controls-next btn">Next</button>
                     </div>
                 </div>
             </div>
