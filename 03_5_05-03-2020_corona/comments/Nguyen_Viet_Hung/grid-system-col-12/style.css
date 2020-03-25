@@ -26,11 +26,11 @@ body {
 }
 
 .block{
-    text-align: center;
+    text-align: right;
     background-color: #EE5350;
     color: #fff;
     border-radius: 5px;
-    padding: 15px;
+    padding: 40px;
     margin: 1px;
 }
 
