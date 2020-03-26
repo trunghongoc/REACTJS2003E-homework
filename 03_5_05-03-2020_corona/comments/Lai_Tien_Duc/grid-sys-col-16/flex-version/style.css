@@ -33,11 +33,6 @@ h2 {
   justify-content: space-between;
 }
 
-.item-1 {
-  width: 6%;
-  border-right: 2px solid #cccccc;
-}
-
 .col-1 {
   width: calc(100% / 16);
 }
