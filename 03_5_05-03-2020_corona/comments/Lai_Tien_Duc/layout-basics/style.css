@@ -1,5 +1,4 @@
 .container {
-  /* thêm dấu cách */
   width: 83%;
   margin: 0 auto;
   font-family: "Roboto", sans-serif;
@@ -45,14 +44,14 @@
   font-size: 18px;
 }
 
-.second {
+.sub-new {
   margin-top: 20px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
 }
 
-.second-frame {
+.sub-new-frame {
   width: 390px;
   height: 150px;
   background-color: rgb(211, 211, 211);
@@ -60,18 +59,18 @@
   position: relative;
 }
 
-.second-frame p:nth-child(1) {
+.sub-new-frame p:nth-child(1) {
   font-size: 30px;
   color: rgb(167, 167, 167);
   margin-top: 55px;
 }
 
-.second-frame p:nth-child(2) { /* không đặt tên chứa số, số đếm. Khung số 2 ??? */
+.sub-new-frame p:nth-child(2) {
+  /* không đặt tên chứa số, số đếm. Khung số 2 ??? ---- done */
   font-size: 12px;
   color: rgb(167, 167, 167);
   position: absolute;
   right: 10px;
-  /* thừa dấu cách cuối dòng 64 */
   bottom: 0;
 }
 
