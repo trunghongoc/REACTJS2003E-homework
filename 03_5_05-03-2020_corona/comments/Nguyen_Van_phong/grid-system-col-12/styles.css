@@ -1,0 +1,28 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+table{
+    width: 100%;
+    border-collapse:collapse;
+}
+tr{
+    border:4px solid #ffffff;
+}
+td{
+    border-left: 0.5px solid #ffffff;
+    background-color:#EF5350;
+    border-collapse:collapse;
+    width:100px;
+    height:100px;
+    padding-right:30px;
+    color:#ffffff;
+}
+.grid_col_12 td{
+    padding-right:40px;
+}
+
+/* comments quá nhiều về quy tắc đặt tên, đọc hết comment của các bạn khác để biết quy tắc đặt tên là gì */
+/* css viết vô tổ chức */
+/* không có dấu cách trước { */
