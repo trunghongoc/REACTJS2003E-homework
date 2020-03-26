@@ -6,7 +6,7 @@ html {
 *:before,
 *:after {
   box-sizing: inherit;
-}/* cái này thừa, vì mặc định cái nào cũng là inherit cả */
+}
 
 .row::before,
 .row::after {
@@ -15,71 +15,7 @@ html {
   clear: both;
 }
 
-.col-12 {
-  width: calc(100% / 12);
-}
-
-.col-6 {
-  width: calc(100% / 6);
-}
-
-.col-4 {
-  width: calc(100% / 4);
-}
-
-.col-3 {
-  width: calc(100% / 3);
-}
-
-.col-2 {
-  width: calc(100% / 2);
-}
-
-.col-1 {
-  width: calc(100%);
-}
-
-.item-5 {
-  width: calc(100% / 12 * 5);
-}
-
-.item-7 {
-  width: calc(100% / 12 * 7);
-}
-
-.item-4 {
-  width: calc(100% / 12 * 4);
-}
-
-.item-8 {
-  width: calc(100% / 12 * 8);
-}
-
-.item-3 {
-  width: calc(100% / 12 * 3);
-}
-
-.item-9 {
-  width: calc(100% / 12 * 9);
-}
-
-.item-2 {
-  width: calc(100% / 12 * 2);
-}
-
-.item-10 {
-  width: calc(100% / 12 * 10);
-}
-
-.item-1 {
-  width: calc(100% / 12);
-}
-
-.item-11 {
-  width: calc(100% / 12 * 11);
-}
-
-.column {
+.item {
   float: left;
   background-color: #ef5350;
   padding: 20px;
@@ -87,6 +23,79 @@ html {
   border: 2px solid white;
   text-align: right;
 }
+
+.item-eq-1 {
+  width: calc(100%);
+}
+
+.item-eq-2 {
+  width: calc(100% / 2);
+}
+
+.item-eq-3 {
+  width: calc(100% / 3);
+}
+
+.item-eq-4 {
+  width: calc(100% / 4);
+}
+
+.item-eq-6 {
+  width: calc(100% / 6);
+}
+
+.item-eq-12 {
+  width: calc(100% / 12);
+}
+
+.item-1 {
+  width: calc(100% / 12);
+}
+
+.item-2 {
+  width: calc(100% / 12 * 2);
+}
+
+.item-3 {
+  width: calc(100% / 12 * 3);
+}
+
+.item-4 {
+  width: calc(100% / 12 * 4);
+}
+
+.item-5 {
+  width: calc(100% / 12 * 5);
+}
+
+.item-6 {
+  width: calc(100% / 12 * 6);
+}
+
+.item-7 {
+  width: calc(100% / 12 * 7);
+}
+
+.item-8 {
+  width: calc(100% / 12 * 8);
+}
+
+.item-9 {
+  width: calc(100% / 12 * 9);
+}
+
+.item-10 {
+  width: calc(100% / 12 * 10);
+}
+
+.item-11 {
+  width: calc(100% / 12 * 11);
+}
+
+.item-12 {
+  width: calc(100%);
+}
+
 /* chia dùng calc tốt nhưng thứ tự ghi item-1/col-1 đến item-11 quá lộn xộn, cần sắp xếp lại thứ tự */
 /* tại sao lại có cả item cả col ??? người đọc code css thì sẽ không hiểu gì */
 /* item 12 đâu sao không ghi */

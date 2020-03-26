@@ -13,58 +13,58 @@
   font-size: 15px;
   padding: 20px;
   text-align: right;
-  margin-top: 6px;
-  margin-right: 3px;
-  margin-left: 3px;
+  border: 2px solid white;
+  box-sizing: border-box;
 }
 
 .item-1 {
-  width: 6.05%;
+  width: calc(100% / 12);
 }
 
 .item-2 {
-  width: 14.5%;
+  width: calc(100% / 12 * 2);
 }
 
 .item-3 {
-  width: 22.95%;
+  width: calc(100% / 12 * 3);
 }
 
 .item-4 {
-  width: 32.4%;
-}
-
-.item-6 {
-  width: 49.3%;
+  width: calc(100% / 12 * 4);
 }
 
 .item-5 {
-  width: 40.85%;
+  width: calc(100% / 12 * 5);
+}
+
+.item-6 {
+  width: calc(100% / 12 * 6);
 }
 
 .item-7 {
-  width: 57.75%;
+  width: calc(100% / 12 * 7);
 }
 
 .item-8 {
-  width: 66.2%;
+  width: calc(100% / 12 * 8);
 }
 
 .item-9 {
-  width: 74.65%;
+  width: calc(100% / 12 * 9);
 }
 
 .item-10 {
-  width: 83.1%;
+  width: calc(100% / 12 * 10);
 }
 
 .item-11 {
-  width: 91.55%;
+  width: calc(100% / 12 * 11);
 }
 
 .item-12 {
-  width: 100%;
+  width: calc(100% / 12 * 12);
 }
+
 /*
   dùng flex mà chia theo % thì khác gì dùng div mà cũng chia % không?
 */
