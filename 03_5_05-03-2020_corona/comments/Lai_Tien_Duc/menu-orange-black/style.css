@@ -27,8 +27,9 @@ body {
   padding: 15px 25px;
 }
 
-.left-menu-item:hover {
+.left-menu-item:hover,.right-menu:hover {
   background-color: rgb(27, 27, 27);
+  cursor: pointer;
 }
 
 .left-menu-item i {
