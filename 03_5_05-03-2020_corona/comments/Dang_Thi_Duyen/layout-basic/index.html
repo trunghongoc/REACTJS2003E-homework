@@ -1,128 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
-    <style>
-        #content-01 {
-            margin-left: 200px;
-        }
-        .row-02 {
-            clear: both;
-            padding-top: 30px;
-        }
-        #row-01 {
-            position: relative;
-            padding-top: 20px;
-        }
-        #img-01 {
-            background-color: #cccccc;
-            width: 620px;
-            height: 400px;
-            float: left;
-            margin-left: 20px;
-        }
-        #img-01>p { /* thêm dấu cách trước và sau dấu > */
-            margin-top: 150px;
-            text-align: center;
-            font-size: 100px;
-            color: #9a9a9a;
-        }
-        #img-01>span {
-            float: right;
-            font-size: 12px;
-            color: #9a9a9a;
-        }
-        #content-01-01 { /* đặt tên dễ hiểu hơn */
-            position: absolute;
-            margin-left: 670px;
-            float: left;
-            width: 290px;
-        }
-        span {
-            color: #9a9a9a;
-            font-size: 12px;
-        }
-        .img-02 { /* đặt tên là img thôi, sau đó query theo dạng: .banner img {}, .hot-new img {} */
-            background-color: #cccccc;
-            width: 300px;
-            height: 150px;
-            float: left;
-            margin-left: 20px;
-        }
-        .img-02>p {
-            margin-top: 50px;
-            text-align: center;
-            font-size: 30px;
-            color: #9a9a9a;
-        }
-        .img-02>span {
-            float: right;
-            font-size: 10px;
-            color: #9a9a9a;
-        }
-        .content-03 {
-            float: left;
-            margin-left: 20px;
-            width: 300px;
-        }
-    </style>
 </head>
+
 <body>
-    <div id="content-01">
+    <div id="item">
         <div id="row-01">
-            <div id="img-01">
+            <div id="banner">
                 <p>800 x 400</p>
                 <span>Powered by HTML.COM</span>
             </div>
-            <div id="content-01-01">
+            <div id="content">
                 <h2>Titre de I'article</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quos culpa assumenda eaque,
                     incidunt optio quia architecto fuga quas quibusdam praesentium possimus consectur dolores facere
                     expedita. Debitis consequatur qui unde</p>
                 <span>Par jean-Michel Auteur</span>
             </div>
+            <div class="clear"></div>
         </div>
         <div class="row-02">
-            <div class="img-02">
+            <div class="img">
                 <p>300 x 150</p>
                 <span>Powered by HTML.COM</span>
             </div>
-            <div class="img-02">
+            <div class="img">
                 <p>300 x 150</p>
                 <span>Powered by HTML.COM</span>
             </div>
-            <div class="img-02">
+            <div class="img">
                 <p>300 x 150</p>
                 <span>Powered by HTML.COM</span>
             </div>
+            <div class="clear"></div>
         </div>
         <div class="row-02">
-            <div class="content-03">
+            <div class="content-01"><!-- ??? content-01 ??? đặt tên ko được đặt có số, tên class đọc ko hiểu nội dung là gì -->
                 <h2>Titre de I'article</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quos culpa assumenda eaque,
                     incidunt optio quia architecto fuga quas quibusdam praesentium possimus consectur dolores facere
                     expedita. Debitis consequatur qui unde</p>
                 <span>Par jean-Michel Auteur</span>
             </div>
-            <div class="content-03">
+            <div class="content-01">
                 <h2>Titre de I'article</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quos culpa assumenda eaque,
                     incidunt optio quia architecto fuga quas quibusdam praesentium possimus consectur dolores facere
                     expedita. Debitis consequatur qui unde</p>
                 <span>Par jean-Michel Auteur</span>
             </div>
-            <div class="content-03">
+            <div class="content-01">
                 <h2>Titre de I'article</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quos culpa assumenda eaque,
                     incidunt optio quia architecto fuga quas quibusdam praesentium possimus consectur dolores facere
                     expedita. Debitis consequatur qui unde</p>
                 <span>Par jean-Michel Auteur</span>
             </div>
+            <div class="clear"></div>
         </div>
     </div>
 </body>
+
 </html>
 
 <!--

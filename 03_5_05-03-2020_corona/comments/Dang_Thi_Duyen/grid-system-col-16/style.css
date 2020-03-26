@@ -3,8 +3,10 @@ body {
 }
 
 h2,
-.row-01,
-.row-02 {
+.row::after,
+.row-01:after {
+    content: "";
+    display: block;
     clear: both;
 }
 

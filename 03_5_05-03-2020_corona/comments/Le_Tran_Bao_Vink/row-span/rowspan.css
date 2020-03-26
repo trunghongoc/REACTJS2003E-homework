@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+}
+.r-table{
+
+}
+.d-table{
+text-align: right;
+color: white;
+background-color:#EF5350 ;
+padding:30px 40px;
+margin: 10px;
+font-weight: bold;
+border: 1px solid #EF5350 ;
+border-radius: 5px;
+}

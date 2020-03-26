@@ -129,3 +129,9 @@ h2,
 .col-15 {
     width: 93.5%;
 }
+/*
+    chia cột theo % thì dùng flex làm gì nữa???
+    xem kỹ lại các ví dụ về flex trên w3school
+    cách chia cột: tạo 16 class, col-1 đến col-16, và ko nên đặt col-01 col-02 (không nên đặt có số 0 đứng đầu)
+    nếu viết có số 0 đứng đầu sau này viết scss cực kì khó
+*/

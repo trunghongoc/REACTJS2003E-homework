@@ -33,11 +33,6 @@ h2 {
   justify-content: space-between;
 }
 
-.item-1 {
-  width: 6%;
-  border-right: 2px solid #cccccc;
-}
-
 .col-1 {
   width: calc(100% / 16);
 }
@@ -133,3 +128,4 @@ h2 {
 .col-grid-5-4 {
   width: calc(100% / 5 * 4);
 }
+/* đọc comments bài grid 12 */

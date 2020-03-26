@@ -1,0 +1,58 @@
+.div_1{
+    display: flex;
+}
+.div_1_img{
+    width: 800px;
+    height: 400px;
+    background-color: darkgray;
+}
+.div_1_content{
+    margin-left: 25px;
+    padding-top: 10px;
+    width: 315px;
+    height: 400px;
+    font-size: 22px;
+}
+.author{
+    color: darkgray;
+}
+.size_img{
+    color: rgb(107, 104, 104);
+    font-size: 95px;
+    text-align: center;
+}
+.note_img{
+    padding-right: 10px;
+    padding-top: 66px;
+    color: rgb(107, 104, 104);
+    text-align: right;
+}
+.div_2_left {
+    width: 350px;
+}
+.div_2_center ,.div_2_right {
+    width: 350px;
+    margin-left: 50px;
+}
+.div_2{
+    margin-top: 10px;
+    display: flex;
+}
+.div_2_left_img , .div_2_center_img , .div_2_right_img {
+    background-color: darkgrey;
+    width: 350px;
+    height: 150px;
+}
+.div_2_size_img{
+    padding-top: 38px;
+    color: rgb(107, 104, 104);
+    font-size: 40px;
+    text-align: center;
+}
+.div_2_note_img{
+    padding-right: 10px;
+    color: rgb(107, 104, 104);
+    text-align: right;
+}
+
+/* css vô tổ chức */

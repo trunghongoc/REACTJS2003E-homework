@@ -57,7 +57,9 @@ a {
 .menu-link:hover {
     background-color: #444444;
 }
-
+.menu-link.active  {
+    background-color: #444444;
+}
 .menu-link.arrow::after {
     font-family: "FontAwesome";
     content: "\f103";

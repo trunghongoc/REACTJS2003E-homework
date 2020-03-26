@@ -1,0 +1,34 @@
+body{
+    background-color: darkgray;
+}
+.content{
+    width: 1300px;
+    margin: auto;
+}
+.title{
+    text-align: center;
+    color: white;
+}
+.menu{
+    width: 1300px;
+    height: 38px;
+    background-color: rgb(238, 110, 63);
+}
+ul li {
+    float: left;
+    padding: 10px 30px 10px 30px;
+    list-style-type: none;
+    background-color: rgb(238, 110, 63);
+    color: white;
+}
+.li_right{
+    float: right;
+}
+.li_home{
+    margin-left: -40px;
+    background-color: rgb(48, 49, 49);
+}
+ul li:hover{
+    background-color: rgb(48, 49, 49);
+}
+/* css vô tổ chức */

@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 53px;
+    padding-top: 42px;
+}
+
+.main-table{
+    display: inline-block;
+    background-color:#33495D ;
+    border: 1px solid #33495D ;
+    border-radius: 10px;
+}
+
+.header-table{
+    color: #33495D;
+    font-size:30px ;
+    margin-bottom:45px ;
+}
+.main-table .table-item{
+    padding: 20px;
+    color: white;
+}
+.main-table .header-item {
+    color: #DDDD54;
+    font-weight: bold;
+}

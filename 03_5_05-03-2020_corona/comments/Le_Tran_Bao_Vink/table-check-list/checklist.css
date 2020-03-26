@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+table{
+    margin: 50px auto 0 auto;
+}
+table,tr,td{
+    border-collapse: collapse;
+    border: 1px solid #DADADA;
+}
+.checklist-table .header-item{
+    background-color:#00CCFF;
+}
+.checklist-table .table-item{
+    text-align: center;
+    margin: 15px 58px;
+    padding: 10px 55px;
+}

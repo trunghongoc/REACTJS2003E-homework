@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(214, 205, 205);
+}
+.table_1 , .table_1_2 , .table_2 ,.table_3 ,.table_4 , .table_5{
+    text-align: center;
+    border-spacing: 10px;
+}
+.table_1 tr td {
+    background-color: rgb(70, 62, 62);
+    border-radius: 3px;
+    width: 52px;
+    height: 30px;
+    color: white;
+}
+.table_1_2 tr td{
+    border-radius: 3px;
+    width: 52px;
+    height: 30px;
+    color: white;
+}
+.td_show{
+    background-color:  rgb(70, 62, 62);
+}
+.table_2_td_show{
+    border-radius: 3px;
+    width: 505px;
+    height: 30px;
+    color: white;
+    background-color:  rgb(70, 62, 62);
+}
+.table_3 tr td {
+    width: 335px;
+    height: 30px;
+    border-radius: 3px;
+    color: white;
+}
+.table_3_td_show{
+    background-color:  rgb(70, 62, 62);
+}
+.table_4_td_show{
+    background-color:  rgb(70, 62, 62)
+}
+.table_4 tr td {
+    width: 250px;
+    height: 30px;
+    border-radius: 3px;
+    color: white;
+}
+.table_5 tr td{
+    width: 200px;
+    height: 30px;
+    border-radius: 3px;
+    color: white;
+}
+.table_5_td_show{
+    background-color:  rgb(70, 62, 62)
+}
+
+/*
+    đặt tên ko dùng số
+    tên là các chữ cái in thường và dấu (- hoặc _)
+    đã comments quá nhiều lần về việc ko có dấu cách trước dấu {
+    đặt tên phải mô tả được chức năng và phải dễ hiểu + ngắn gọn
+*/
