@@ -1,0 +1,56 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color:#ef5350;
+}
+.flex-container {
+    margin: auto;
+    width: 960px;
+    display: flex;
+    color: #ffffff;
+    background-color: #ffffff;
+}
+.flex-container div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-basis: 80px;
+    height: 70px;
+    margin-bottom: 2px;
+    background-color: #ef5350;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+}
+.flex-container div p {
+    margin-right: 20px;
+}
+.grow-3-12 {
+    flex-grow: 2;
+}
+.grow-4-12 {
+    flex-grow: 3;
+}
+.grow-5-12 {
+    flex-grow: 4;
+}
+.grow-7-12 {
+    flex-grow: 6;
+}
+.grow-8-12 {
+    flex-grow: 7;
+}
+.grow-9-12 {
+    flex-grow: 8;
+}
+.grow-10-12 {
+    flex-grow: 9;
+}
+.grow-11-12 {
+    flex-grow: 10;
+}
+.grow-12-12, .grow-6-12, .grow-2-12 {
+    flex-grow: 1;
+}

@@ -1,89 +1,83 @@
-
-/* *{
-	padding: 0px;
-	margin: 0px;
-	box-sizing: border-box;
-}  */
-body{
+body {
 	font-family: Arial, Helvetica, sans-serif;
 }
-.col{
+.col {
 	display: block;
-	float:left;
+	float: left;
 	margin-left: 0;
 }
-.span_3_of_3{
+.span-3-of-3 {
 	width: 100%;
 }
-.span_2_of_3{
+.span-2-of-3 {
 	width: 66.13%;
 }
-.span_1_of_3{
+.span-1-of-3 {
 	width: 32.26%;
 }
-.span_one{
-	width:800px;
+.span-one {
+	width: 800px;
 	height: 400px;
 	background-color: #CCCCCC;
 }
-.span_one p{
+.span-one p {
 	font-size: 120px;
 	margin: 12% 0% 0% 17%;
 	color: #969696;
 }
-.span_one span{
+.span-one span {
 	color: #969696;
 	font-size: 10px;
 	float: right;
 	margin-top: 140px;
 	margin-right: 15px;
 }
-.span_two{
-	width:390px;
+.span-two {
+	width: 390px;
 	height: 400px;
 }
-.span_two h1{
+.span-two h1 {
 	margin-left: 20px;
 }
-.span_two p{
+.span-two p {
 	font-size: 20px;
 	font-weight: bolder;
 	margin-top: 15px;
 	margin-left: 20px;
 	margin-bottom: 20px;
 }
-.span_two span{
+.span-two span {
 	color:#969696 ;
 	margin-left: 20px;
 }
-.span_next{
-	width:390px;
+.span-next {
+	width: 390px;
 	height: 150px;
 	background-color: #CCCCCC;
 	margin: 20px 20px 20px 0px;
 }
-.span_next p{
+.span-next p {
 	font-size: 40px;
 	margin: 13% 0% 0% 30%;
 	color: #969696;
 }
-.span_next span{
+.span-next span {
 	color: #969696;
 	font-size: 12px;
 	float: right;
 	margin-top: 30px;
 	margin-right: 15px;
 }
-.span_end{
-	width:390px;
+.span-end{
+	width: 390px;
 	margin: 0px 20px 20px 0px;
 }
-.span_end p{
+.span-end p{
 	font-size: 20px;
 	font-weight: bolder;
 	margin-top: 15px;
 	margin-bottom: 20px;
 }
-.span_end span{
+.span-end span{
 	color:#969696 ;
 }
