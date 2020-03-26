@@ -1,0 +1,192 @@
+/* font-family: 'Quicksand', sans-serif; */
+/* ======= RESET ====== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-image: linear-gradient(to right, #d8aa99 0%, #ff9999 93%);
+
+
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+.block {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 850px;
+    margin: 0 auto;
+    display: flex;
+    align-items: stretch;
+}
+.block-1 {
+    background-color: #807182;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 25px 0 25px;
+}
+.block-1 .header-content {
+    display: flex;
+    text-align: center;
+}
+.block-1 .header-content .header-img {
+    background-color:#D8AA96;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    padding: 10px;
+}
+.block-1 .header-content .header-title {
+    font-size: 40px;
+    font-weight: bold;
+}
+.block-1 .img-dog {
+    display: block;
+    width: 250px;
+    height: auto;
+}
+
+
+/* ==============block2=============== */
+.block2 .block-2-content{
+    padding: 50px;
+}
+.form {
+    /* background-color:#D8AA96 ; */
+}
+.block-content {
+    padding: 30px 50px;
+    background-color:#FAC7C2;
+}
+.block-content .form-row {
+    display: flex;
+    justify-content: space-between;
+    margin:07px 0;
+}
+
+.block-content .form .form-item-right .myfile-icon{
+    background-color:white;
+    padding: 5px;
+    border-radius: 50%;
+}
+.block-content .form .form-item-right {}
+/* ================radio======================= */
+.block-2 .flex-radio{
+display: flex;
+}
+.form-rowradio {
+    display: flex;
+    justify-content: space-between;
+}
+.radio-controlleft{
+    display: inline-block;
+}
+.radio-controlleft .radio-dot {
+    display: none;
+}
+.radio-controlleft input[type="radio"] +label {
+    flex: 1;
+}
+.radio-controlleft input[type="radio"]:checked + label {
+    background-color: #FD9B99;
+    border-radius: 3px;
+}
+
+.checkbox-items input[type="radio"] +label {
+    flex: 1;
+}
+.checkbox-items input[type="radio"]:checked + label {
+    background-color: #FD9B99;
+    border-radius: 3px;
+}
+.form-input-text {
+padding: 5px 10px;
+border: none;
+border-radius: 3px;
+width: 160px;
+}
+
+.form-input-text input[type="date"] {
+    padding: 3px 10px;
+}
+
+/* ============radio right================ */
+.radio-controlright{
+    display: inline-block;
+}
+.radio-dot {
+    display: none;
+}
+.radio-controlright input[type="radio"] +label {
+    flex: 1;
+}
+.radio-controlright input[type="radio"]:checked + label {
+    background-color: #FD9B99;
+}
+
+.file {
+    display: none;
+}
+.radio-items{
+    background-color: white;
+    width: 160px;
+    border-radius: 3px;
+    padding: 5px;
+    display: flex;
+    text-align: center;
+
+
+}
+.checkbox-items{
+    width: 100%;
+    background-color: white;
+    padding: 5px;
+    border-radius: 3px;
+    display: flex;
+}
+
+.radio-items,
+.checkbox-items .radio {
+    text-align: center;
+    flex: 1;
+    ;
+}
+/* =============buttonn======================== */
+.block-bottom{
+    background-color:white;
+    padding: 22px;
+}
+.block-bottom .button {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+.button-1{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 50px;
+}
+.button-1:hover{
+    background-color:#524949;
+    color: white;
+    transition: all 0.3s ease;
+
+}
+
+/* ===== COLOR ======*/
+/* background : #D8AA96 */
+
+/* form : #807182,#FAC7C2 , input : #F7B1AB*/
+/* button :#807182 */
+
+/* ===== COMMON ==== */
+

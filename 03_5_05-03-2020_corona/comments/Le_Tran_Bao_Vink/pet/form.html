@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap&subset=vietnamese" rel="stylesheet">
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="container">
+        <div class="block">
+            <div class="block-1">
+                <div class="header-content">
+                    <img src="https://image.flaticon.com/icons/svg/1076/1076877.svg" alt="dogfoot" class="header-img">
+                    <span class="header-title">PUPASSURE</span>
+                </div>
+                <img src="my-dog.png" alt="my dog" class="img-dog">
+            </div>
+            <div class="block-2">
+                <div class="block-content">
+                    <form action="" class="form">
+                        <h1 class="form-heading">
+                            Yay,puppies!Ensure your pup gets the best care!
+                        </h1>
+                        <div class="form-row space-bt">
+                            <div class="form-item-left">
+                                <div class="label">Name</div>
+                                <input type="text" placeholder="Pet's name" class="form-input-text">
+                            </div>
+                            <div class="form-item-right">
+                                <input type="file" id="myfile" name="myfile" class="file" >
+                                <label for="myfile">
+                                    <ion-icon name="camera" class="myfile-icon"></ion-icon>Upload your photo
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-row space-bt">
+                            <div class="form-item-left">
+                                <div class="label">Breed</div>
+                                <input type="text" placeholder="Pet's breed" name="Breed" class="form-input-text">
+                            </div>
+                            <div class="form-item-right">
+                                <div class="label">Birthday</div>
+                                <input type="date" placeholder="date" name="Birthday" class="form-input-text">
+                            </div>
+                        </div>
+                        <div class="form-rowradio ">
+                           <div class="radio-left">
+                            <div class="radio-controlleft">
+                                <div class="label">Gender</div>
+                             <div class="radio-items">
+                                <input class="radio-dot" type="radio" name="gender" id="female" value="gender"  checked>
+                                <label class="radio" for="female">Female</label>
+                                <input class="radio-dot" type="radio" name="gender" id="male" value="gender">
+                                <label class="radio" for="male">Male</label>
+                             </div>
+                            </div>
+                           </div>
+                           <div class="radio-right">
+                            <div class="radio-controlleft">
+                                <div class="label">Spayed or Neutered</div>
+                             <div class="radio-items">
+                                <input class="radio-dot" type="radio" name="SpayedorNeutered" id="Spayed" value="S or N"  checked >
+                                <label class="radio" for="Spayed">Spayed</label>
+                                <input class="radio-dot" type="radio" name="SpayedorNeutered" id="Neutered" value="S or N" >
+                                <label class="radio" for="Neutered">Neutered</label>
+                             </div>
+                            </div>
+                           </div>
+                        </div>
+                        <!-- ===============weight======================== -->
+                        <div class="formradio ">
+                            <div class="label">Weight</div>
+                            <div class="checkbox-items ">
+                             <input class="radio-dot" type="radio" name="weight" id="0-25lbs" value="0-25lbs"  checked>
+                             <label class="radio" for="0-25lbs">0-25lbs</label>
+                             <input class="radio-dot" type="radio" name="weight" id="25-50lbs" value="25-50lbs" >
+                             <label class="radio" for="25-50lbs">25-50lbs</label>
+                             <input class="radio-dot" type="radio" name="weight" id="50-100lbs" value="50-100lbs" >
+                             <label class="radio" for="50-100lbs">50-100lbs</label>
+                             <input class="radio-dot" type="radio" name="weight" id="100+lbs" value="100+lbs" >
+                             <label class="radio" for="100+lbs">100+lbs</label>
+                            </div>
+                            </div>
+                        </form>
+                </div>
+                <div class="block-bottom">
+                    <div class="button">
+                        <button class="button-1">Back</button>
+                        <button class="button-1">Next</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+</body>
+</html>
+
