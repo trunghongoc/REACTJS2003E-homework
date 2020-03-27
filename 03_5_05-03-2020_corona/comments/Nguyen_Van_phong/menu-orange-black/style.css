@@ -2,20 +2,22 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    color: #ffffff;
 }
 body {
-    background-color: #BFBFBF;
+    background-color: #bfbfbf;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
 }
-nav {
+.navbar div {
     text-align: center;
+    margin-top: 20px;
 }
 .navbar-brand {
     font-size: 12px;
     color:#E5E5E5;
     font-weight: bolder;
-    margin:4 0px 0px 20px 0px;
+    margin: 20px 0px;
 }
 .navbar-brand a {
     color:#1000EE;
@@ -23,32 +25,34 @@ nav {
 .text {
     font-weight: 500;
     font-size: 25px;
-    letter-spacing: 1px;
     color:#FFF8DC;
     margin-bottom: 25px;
 }
-#my-nav ul{
-    width: 100%;
-    margin-left: 8%;
+.menu{
+    width: 80%;
+    height: 58px;
+    margin: auto;
+    background-color: #FF7F50;
 }
-#my-nav ul li {
+.menu ul li {
     float: left;
     list-style: none;
     padding: 20px 30px;
     background-color: #FF7F50;
-    transition: all 3s;
+    transition: all 1.5s;
 }
-#my-nav ul li a {
+.menu ul li a {
     text-decoration: none;
-    color: #ffffff;
 }
-.active a {
-    padding-left: 30px;
-}
-#my-nav ul li:hover {
+.menu .a-home {
     background-color: #444444;
+}
+.menu .a-right {
+    float: right;
 }
 .fas {
     font-size: 12px;
 }
-
+.menu ul li:hover {
+    background-color: #444444;
+}
