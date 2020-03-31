@@ -4,21 +4,21 @@ body {
 
 h2,
 .row::after,
-.row-01:after {
+.row-1:after {
     content: "";
     display: block;
     clear: both;
 }
 
-.col-01,
-.col-02,
-.col-03,
-.col-04,
-.col-05,
-.col-06,
-.col-07,
-.col-08,
-.col-09,
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
 .col-10,
 .col-11,
 .col-12,
@@ -36,126 +36,126 @@ h2,
     color: white;
 }
 
-.item-02 .col-01,
-.item-02 .col-02,
-.item-02 .col-03,
-.item-02 .col-04,
-.item-02 .col-05,
-.item-02 .col-06,
-.item-02 .col-07,
-.item-02 .col-08,
-.item-02 .col-09,
-.item-02 .col-10,
-.item-02 .col-11,
-.item-02 .col-12,
-.item-02 .col-13,
-.item-02 .col-14,
-.item-02 .col-15,
-.item-02 .col-16 {
+.item-2 .col-1,
+.item-2 .col-2,
+.item-2 .col-3,
+.item-2 .col-4,
+.item-2 .col-5,
+.item-2 .col-6,
+.item-2 .col-7,
+.item-2 .col-8,
+.item-2 .col-9,
+.item-2 .col-10,
+.item-2 .col-11,
+.item-2 .col-12,
+.item-2 .col-13,
+.item-2 .col-14,
+.item-2 .col-15,
+.item-2 .col-16 {
     float: right;
 }
 
-.item-03 .col-08 {
+.item-3 .col-8 {
     float: right;
 }
 
-.item-03 .col-01 {
+.item-3 .col-1 {
     width: 33%;
 }
 
-.item-03 .col-02 {
+.item-3 .col-2 {
     width: 66%;
 }
 
-.item-04 .col-01 {
+.item-4 .col-1 {
     width: 33%;
 }
 
-.item-04 .col-02 {
+.item-4 .col-2 {
     width: 66.5%;
 }
 
-.item-04 .row-02 .col-01 {
+.item-4 .row-2 .col-1 {
     float: right;
 }
 
-.item-04 .row-02 .col-02 {
+.item-4 .row-2 .col-2 {
     float: right;
 }
 
-.item-05 .row-02 .col-04 {
+.item-5 .row-2 .col-4 {
     float: right;
 }
 
-.item-05 .row-02 .col-12 {
+.item-5 .row-2 .col-12 {
     float: right;
 }
 
-.item-06 .col-01 {
+.item-6 .col-1 {
     width: 19.5%;
 }
 
-.item-06 .col-02 {
+.item-6 .col-2 {
     width: 39.5%;
 }
 
-.item-06 .col-03 {
+.item-6 .col-3 {
     width: 60%;
 }
 
-.item-06 .col-04 {
+.item-6 .col-4 {
     width: 80%;
 }
 
-.item-06 .row-02 .col-01 {
+.item-6 .row-2 .col-1 {
     float: right;
 }
 
-.item-06 .row-02 .col-02 {
+.item-6 .row-2 .col-2 {
     float: right;
 }
 
-.item-06 .row-02 .col-03 {
+.item-6 .row-2 .col-3 {
     float: right;
 }
 
-.item-06 .row-02 .col-04 {
+.item-6 .row-2 .col-4 {
     float: right;
 }
 
-.col-01 {
+.col-1 {
     width: 6.1%;
 }
 
-.col-02 {
+.col-2 {
     width: 13%;
 }
 
-.col-03 {
+.col-3 {
     width: 19%;
 }
 
-.col-04 {
+.col-4 {
     width: 24.5%;
 }
 
-.col-05 {
+.col-5 {
     width: 31%;
 }
 
-.col-06 {
+.col-6 {
     width: 37%;
 }
 
-.col-07 {
+.col-7 {
     width: 43%;
 }
 
-.col-08 {
+.col-8 {
     width: 49.8%;
 }
 
-.col-09 {
+.col-9 {
     width: 56.5%;
 }
 

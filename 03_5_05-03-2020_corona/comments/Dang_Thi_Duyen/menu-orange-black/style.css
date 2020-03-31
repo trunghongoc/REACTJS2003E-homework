@@ -1,0 +1,46 @@
+body {
+    background-color: #bfbfbf;
+    text-align: center;
+}
+
+h1,
+p {
+    padding-top: 10px;
+    color: #ffffff;
+}
+
+span {
+    color: #292be5;
+    text-decoration: underline;
+}
+
+.top-nav {
+    margin-left: 100px;
+    width: 1000px;
+    overflow: hidden;
+    background-color: #ff7f50;
+}
+
+.top-nav a {
+    float: left;
+    display: block;
+    color: #ffffff;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.top-nav a:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.top-nav a:hover {
+    background-color: #444444;
+    color: #ffffff;
+    font-weight: bold
+}
+
+#go-my-blog {
+    float: right;
+}

@@ -4,11 +4,11 @@
 }
 
 .col-auto,
-.col-01,
-.col-02,
-.col-03,
-.col-04,
-.col-05 {
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5 {
     height: 90px;
     background-color: #ef5350;
     border-radius: 10px;
@@ -27,32 +27,22 @@ span {
     flex: 1 1 auto;
 }
 
-.col-01 {
-    width: 117px;
+.col-1 {
+    flex: 0 0 8%;
 }
 
-.col-02 {
-    width: 236px;
+.col-2 {
+    flex: 0 0 17%;
 }
 
-.col-03 {
-    width: 355px;
+.col-3 {
+    flex: 0 0 25%;
 }
 
-.col-04 {
-    width: 474px;
+.col-4 {
+    flex: 0 0 34%;
 }
 
-.col-05 {
-    width: 593px;
+.col-5 {
+    flex: 0 0 42%;
 }
-
-/*
-Viết css chưa hợp lý
-flex để chia giao diện tự động, theo không gian mà nó có thể chiếm được
-Việc đặt pixcel là vô lý, đã tự động rồi còn bị ép buộc là 117px 236px ...
-Ở màn hình nhỏ thì cái dòng có 12 cái .col-01 chiếm hết chiều rộng màn hình, thế ở 1 màn hình to hơn, vì bị ép
-chiều rộng là 117px 1 cột, thì dòng đấy ko chiếm hết màn hình à?
-
----> viết làm sao để không phải đặt theo px, đặt theo px thì chia div rồi set theo % không phải khỏe hơn ư?
-*/

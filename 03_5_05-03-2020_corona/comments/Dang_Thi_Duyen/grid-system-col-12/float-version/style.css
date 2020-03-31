@@ -4,15 +4,15 @@
     clear: both;
 }
 
-.col-01,
-.col-02,
-.col-03,
-.col-04,
-.col-05,
-.col-06,
-.col-07,
-.col-08,
-.col-09,
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
 .col-10,
 .col-11,
 .col-12 {
@@ -21,49 +21,49 @@
     background-color: #ef5350;
     border-radius: 10px;
     border: 1px solid white;
+    line-height: 90px;
     position: relative;
 }
 
 span{
     position: absolute;
-    right: 40px;
-    top: 30px;
+    right: 35px;
     color: aliceblue;
 } 
 
-.col-01 {
+.col-1 {
     width: 117px;
 }
 
-.col-02 {
+.col-2 {
     width: 236px;
 }
 
-.col-03 {
+.col-3 {
     width: 355px;
 }
 
-.col-04 {
+.col-4 {
     width: 474px;
 }
 
-.col-05 {
+.col-5 {
     width: 593px;
 }
 
-.col-06 {
+.col-6 {
     width: 710px;
 }
 
-.col-07 {
+.col-7 {
     width: 827px;
 }
 
-.col-08 {
+.col-8 {
     width: 944px;
 }
 
-.col-09 {
+.col-9 {
     width: 1062px;
 }
 

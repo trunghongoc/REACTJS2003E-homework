@@ -1,0 +1,233 @@
+body {
+    background-color: #d8aa96;
+}
+
+#img {
+    background-color: #807182;
+    float: left;
+    width: 300px;
+    height: 600px;
+    margin-left: 300px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#model-01,
+#model-02 {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    --border-radius: 20px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.fa-camera {
+    position: absolute;
+    padding-top: 7px;
+    padding-left: 8px;
+}
+
+.fa-paw {
+    position: absolute;
+    padding-top: 10px;
+    margin-left: -10px;
+    color: #807182;
+}
+
+#model-01 {
+    margin-top: 40px;
+    margin-left: 35px;
+    float: left;
+    background-color: #f7b1ab;
+}
+
+#model-02 {
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+}
+
+h1 {
+    float: left;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+img {
+    padding-top: 200px;
+    height: 300px;
+}
+
+#model-01:after,
+#model-02:after,
+h1:after,
+img:after,
+#content:after,
+.row-01:after,
+.row-02:after,
+.item:after,
+.item p:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+
+
+
+#content {
+    background-color: #fac7c2;
+    float: left;
+    width: 550px;
+    height: 550px;
+    margin-top: 50px;
+    position: relative;
+}
+
+h2 {
+    font-size: 40px;
+    margin-left: 15px;
+}
+
+.row-01,
+.row-02 {
+    padding-top: 10px;
+}
+
+
+.item {
+    float: left;
+    width: 200px;
+    padding-left: 50px;
+}
+
+label {
+    color: black;
+    font-size: 20px;
+}
+
+
+input[type="text"],
+input[type="date"] {
+    background-color: azure;
+    width: 180px;
+    border-radius: 5px;
+    height: 30px;
+    border: none;
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+#name,
+#breed,
+#birthday {
+    text-align: left;
+    padding-left: 10px;
+}
+
+.row-02 #gender,
+#spaorneu,
+#weight {
+    background-color: azure;
+    width: 200px;
+    border-radius: 5px;
+    height: 30px;
+    border: none;
+    text-align: center;
+    margin-top: 5px;
+    clear: both;
+}
+
+#weight {
+    width: 450px;
+}
+
+.row-02 #gender #female,
+#spayed,
+#weight-01 {
+    height: 21px;
+    width: 90px;
+    background-color: #f7b1ab;
+    float: left;
+    border-radius: 3px;
+    margin-top: 3px;
+    margin-left: 5px;
+}
+
+.row-02 #gender #male,
+#neutered,
+#weight-02,
+#weight-03,
+#weight-04 {
+    float: left;
+    margin-top: 3px;
+    padding-left: 30px;
+}
+
+#weight-02,
+#weight-03,
+#weight-04 {
+    width: 80px;
+}
+
+.row-03 {
+    position: absolute;
+    width: 550px;
+    height: 50px;
+    background-color: #ffffff;
+    bottom: 0;
+    clear: both;
+}
+
+.row-03 #back button {
+    float: left;
+    border-radius: 30px;
+    height: 35px;
+    width: 120px;
+    margin-left: 50px;
+    margin-top: 5px;
+    border: 1px solid #dfdfdf;
+}
+
+.row-03 #next button {
+    float: left;
+    border-radius: 30px;
+    height: 35px;
+    width: 120px;
+    margin-left: 150px;
+    margin-top: 5px;
+    background-color: #807182;
+    color: white;
+    border: 1px solid #dfdfdf;
+}
+
+input[type="file"],
+input[type="radio"] {
+    opacity: 0;
+    z-index: 1;
+    position: absolute;
+}
+
+.item-file {
+    position: relative;
+}
+
+#up-file {
+    position: absolute;
+    top: 27px;
+    padding-left: 75px;
+}
+
+input[type="radio"] {
+    height: 21px;
+    width: 90px;
+}
+
+#male,
+#female {
+    z-index: 0;
+}
