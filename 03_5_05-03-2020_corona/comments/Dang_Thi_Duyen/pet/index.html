@@ -11,7 +11,7 @@
 
 <body>
     <div id="img">
-        <div id="model-01">
+        <div id="model-1">
             <i class='fas fa-paw' style='font-size:22px'></i>
         </div>
         <h1>PUPASSURE</h1>
@@ -20,26 +20,24 @@
     <div id="content">
         <h2>Yay, puppies! Ensure your pup gets the best care!</h2>
         <form action="" method="post" enctype="multipart/form-data">
-            <div class="row-01">
+            <div class="row-1">
                 <div class="item">
                     <label for="">Name</label>
                     <input type="text" name="name" id="name" value="Pet's name">
                 </div>
                 <div class="item item-file">
-
-                    <div id="model-02">
+                    <div id="model-2">
+                        <input type="file" name="file" >
                         <i class='fas fa-camera' style='font-size:24px'></i>
                     </div>
                     <div id="up-file">
                         <input type="file" name="file" id="file">
-                        <label for="">
-                            <span>Up load photo</span>
-                        </label>
+                        <label for="">Up load photo</label>
                     </div>
 
                 </div>
             </div>
-            <div class="row-02">
+            <div class="row-2">
                 <div class="item">
                     <label for="">Breed</label>
                     <input type="text" name="breed" id="breed" value="Pet's breed">
@@ -49,36 +47,43 @@
                     <input type="date" name="birthday" id="birthday" value="MM/DD/YYYY">
                 </div>
             </div>
-            <div class="row-02">
+            <div class="row-2">
                 <div class="item">
                     <label for="">Gender</label>
                     <div id="gender">
-                        <input type="radio" name="" id="" checked>
-                        <div id="female">Female</div>
-                        <input type="radio" name="" id="">
-                        <div id="male">Male</div>
+                        <input type="radio" name="gender" id="female" checked >
+                        <label for="">Female</label>
+                        <input type="radio" name="gender" id="male">
+                        <label for="">Male</label>
                     </div>
                 </div>
                 <div class="item">
                     <label for="">Spayed or Neutered</label>
-                    <div id="spaorneu">
-                        <div id="spayed">Spayed</div>
-                        <div id="neutered">Neutered</div>
+                    <div id="spayneu">
+                        <input type="radio" name="spaorneu" id="spayed" checked >
+                        <label for="">Spayed</label>
+                        <input type="radio" name="spaorneu" id="neutered">
+                        <label for="">Neutered</label>
                     </div>
                 </div>
             </div>
-            <div class="row-02">
+            <div class="row-2">
                 <div class="item">
                     <label for="">Weight</label>
                     <div id="weight">
-                        <div id="weight-01">0-25 lbs</div>
-                        <div id="weight-02">25-50 lbs</div>
-                        <div id="weight-03">50-100 lbs</div>
-                        <div id="weight-04">100+ lbs</div>
+                        <input type="radio" name="weight" id="" checked >
+                        <label for="">0-25 lbs</label>
+                        <input type="radio" name="weight" id="" checked >
+                        <label for="">25-50 lbs</label>
+                        <input type="radio" name="weight" id="" checked >
+                        <label for="">50-100 lbs</label>
+                        <input type="radio" name="weight" id="" checked >
+                        <label for="">100+ lbs</label>
+                        
                     </div>
                 </div>
             </div>
-            <div class="row-03">
+            <div class="row-3">
                 <div id="back">
                     <button type="submit">Back</button>
                 </div>
