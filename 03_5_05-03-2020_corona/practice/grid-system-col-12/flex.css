@@ -1,0 +1,23 @@
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+[class^="col-"] {
+    background: red;
+    height: 60px;
+    border: 1px solid #000;
+    line-height: 60px;
+    text-align: center;
+    color: #fff;
+    box-sizing: border-box;
+}
+.col-1 {
+    width: calc(1/12 * 100%);
+}
+.col-2 {
+    width: calc(2/12 * 100%);
+}
