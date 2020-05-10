@@ -1,0 +1,197 @@
+body {
+    background-color: #d8aa96;
+}
+.container {
+    margin: auto auto;
+    height: 60px;
+    width: 60%;
+}
+.icon_display {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+}
+.icon {
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.icon_i {
+    background-color: #f7b1ab;
+    color: #807182;
+    display: inline-block;
+    padding: 8px;
+    border-radius: 50%;
+    transform: rotateZ(-30deg);
+}
+.camera {
+    display: inline-block;
+}
+.camera_display {
+    padding-top: 60px;
+    font-size: 15px;
+}
+.camera_i {
+    background-color: white;
+    display: inline-block;
+    padding: 8px;
+    border-radius: 50%;
+}
+input[type="file"] {
+    display: none;
+}
+.dog {
+    height: 150px;
+    text-align: center;
+    padding-top: 136px;
+}
+.yay {
+    padding-top: 20px;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.name {
+    padding-left: 30px;
+}
+.input {
+    padding-left: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    height: 20px;
+    border-radius: 2px;
+    border: none;
+    color: grey;
+    padding: 6px;
+}
+
+/* -----------------------Radio------------------------- */
+.radio {
+    background-color: #fff;
+    width: 140px;
+    padding: 5px;
+    border-radius: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.radio input[type="radio"]{
+    display: none;
+}
+.radio input[type="radio"] + label{
+    display: inline-block;
+    background-color: none;
+    flex: 1;
+    border-radius: 3px;
+    padding: 3px;
+    cursor: pointer;
+    transition: background-color .3s ease;
+}
+.radio input[type="radio"]:checked + label{
+    background-color: #F7B1AB;
+}
+/* -------------------------------------------------------- */
+/* ---------------weight-------------------------- */
+.weight {
+    background-color: #fff;
+    width: 355px;
+    padding: 5px;
+    border-radius: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.weight input[type="radio"]{
+    display: none;
+}
+.weight input[type="radio"] + label{
+    display: inline-block;
+    background-color: none;
+    flex: 1;
+    border-radius: 3px;
+    padding: 3px;
+    cursor: pointer;
+    transition: background-color .3s ease;
+}
+.weight input[type="radio"]:checked + label{
+    background-color: #F7B1AB;
+}
+/* ------------------------------------------- */
+.footer {
+    background-color: white;
+    height: 62px;
+    margin-top: 20px;
+}
+.btn {
+    display: block;
+    background-color: #fff;
+    border: .5px solid #ddd;
+    border-radius: 20px;
+    padding: 8px 30px;
+    cursor: pointer;
+    text-transform: capitalize;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.btn_next {
+    background-color: #807182;
+    display: block;
+    border: .5px solid #ddd;
+    border-radius: 20px;
+    padding: 8px 30px;
+    cursor: pointer;
+    text-transform: capitalize;
+    margin-left: 90px;
+    margin-top: 15px;
+    color: white;
+}
+.left {
+    background-color: #807182;
+    height: 500px;
+}
+.right {
+    background-color: #fac7c2;
+    height: 500px;
+}
+.col-1 {
+    width: calc((1/12) * 100%);
+}
+.col-2 {
+    width: calc((2/12) * 100%);
+}
+.col-3 {
+    width: calc((3/12) * 100%);
+}
+.col-4 {
+    width: calc((4/12) * 100%);
+}
+.col-5 {
+    width: calc((5/12) * 100%);
+    float: left;
+}
+.col-6 {
+    width: calc((6/12) * 100%);
+}
+.col-7 {
+    width: calc((7/12) * 100%);
+    float: left;
+}
+.col-7_half {
+    width: calc((6/12) * 100%);
+    float: left;
+}
+.col-8 {
+    width: calc((8/12) * 100%);
+}
+.col-9 {
+    width: calc((9/12) * 100%);
+}
+.col-10 {
+    width: calc((10/12) * 100%);
+}
+.col-11 {
+    width: calc((11/12) * 100%);
+}
+.clear {
+    clear: both;
+}
