@@ -1,0 +1,84 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+h5 {
+    font-size: 20px;
+    font-weight: 900;
+    width: 960px;
+    margin: auto;
+    padding: 30px 0px;
+    background-color: #ccc;
+}
+div {
+    background-color: #333333;
+}
+.c-left {
+    background: #ccc;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 960px;
+    background-color: #ccc;
+    margin: auto;
+}
+.flex-container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 50px;
+    height: 30px;
+    margin: 7px 5px;
+    border-radius: 3px;
+    color: #bababa;
+}
+.col-2, .col-15, .col-16 {
+    flex-grow: 1;
+}
+.col-3 {
+    flex-grow: 2;
+}
+.col-4, .col-1-3rd {
+    flex-grow: 3;
+}
+.col-5 {
+    flex-grow: 4;
+}
+.col-6 {
+    flex-grow: 5;
+}
+.col-7 {
+    flex-grow: 6;
+}
+.col-8, .col-2-3rd {
+    flex-grow: 7;
+}
+.col-9{
+    flex-grow: 8;
+}
+.col-10 {
+    flex-grow: 9;
+}
+.col-11 {
+    flex-grow: 10;
+}
+.col-12 {
+    flex-grow: 11;
+}
+.col-13 {
+    flex-grow: 12;
+}
+.col-14 {
+    flex-grow: 13;
+}
+.gird-3 > div{
+    width: 80px;
+}
+.gird-5 > div{
+    width: 94px;
+}
