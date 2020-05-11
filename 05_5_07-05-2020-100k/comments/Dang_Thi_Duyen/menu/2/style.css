@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    width: 800px;
+    background: #ff7f50;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.menu ul:nth-child(1){
+    float: left;
+}
+
+.menu ul:nth-child(2){
+    float: right;
+}
+
+a[href="#"] li{
+    background-color: #444444;
+}
+
+ul{
+    list-style: none;
+    font-size: 0;
+}
+
+li{
+    display: inline-block;
+    padding: 8px 10px;
+    font-size: 16px;
+}
+
+li:hover{
+    background: #444444;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.clear-fix{
+    clear: both;
+}

@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+h2,
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+[class^="col-"] {
+    background-color: #333333;
+    float: left;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    color: white;
+}
+/* CSS grid-column-16 */
+
+.col-1 {
+    width: calc((1/16) * 100%);
+}
+.col-2 {
+    width: calc((2/16) * 100%);
+}
+
+.col-3 {
+    width: calc((3/16) * 100%);
+}
+
+.col-4 {
+    width: calc((4/16) * 100%);
+}
+
+.col-5 {
+    width: calc((5/16) * 100%);
+}
+
+.col-6 {
+    width: calc((6/16) * 100%);
+}
+
+.col-7 {
+    width: calc((7/16) * 100%);
+}
+
+.col-8 {
+    width: calc((8/16) * 100%);
+}
+
+.col-9 {
+    width: calc((9/16) * 100%);
+}
+
+.col-10 {
+    width: calc((10/16) * 100%);
+}
+
+.col-11 {
+    width: calc((11/16) * 100%);
+}
+
+.col-12 {
+    width: calc((12/16) * 100%);
+}
+
+.col-13 {
+    width: calc((13/16) * 100%);
+}
+
+.col-14 {
+    width: calc((14/16) * 100%);
+}
+
+.col-15 {
+    width: calc((15/16) * 100%);
+}
+
+.col-16 {
+    width: 100%;
+}
+
+div:nth-child(3) .row [class^="col-"],
+.column-2 .row [class^="col-"],
+ .column-3 .row [class^="col-"],
+  .column-4 .row [class^="col-"],
+   .column-5 .row [class^="col-"] {
+    float: right;
+}
+
+/* Css grid-column-3 */
+
+.column-3 .col-1 {
+    width: calc((1/3) * 100%);
+}
+
+.column-3 .col-2 {
+    width: calc((2/3) * 100%);
+}
+
+/* Css grid-column-5 */
+
+.column-5 .col-1 {
+    width: calc((1/5) * 100%);
+}
+
+.column-5 .col-2 {
+    width: calc((2/5) * 100%);
+}
+
+.column-5 .col-3 {
+    width: calc((3/5) * 100%);
+}
+
+.column-5 .col-4 {
+    width: calc((4/5) * 100%);
+}

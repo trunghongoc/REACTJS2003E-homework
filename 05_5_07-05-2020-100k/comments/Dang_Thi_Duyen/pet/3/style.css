@@ -1,0 +1,66 @@
+body {
+    background-color: #d8aa96;
+}
+
+.container {
+    margin: 0 auto;
+    width: 800px;
+}
+
+.row {
+    display: flex;
+    width: 800px;
+}
+
+[class^="col-"] {
+    /* height: 600px; */
+    display: flex;
+}
+
+/* cha : flex-wrap: wrap;
+   con: width: 100%;
+   phần từ con mới nhận chiều rộng.
+ */
+.col-5 {
+    flex-direction: column;
+    width: calc(5/12 * 100%);
+    background-color: #807182;
+}
+
+.col-7 {
+    width: calc(7/12 * 100%);
+    background-color: #fac7c2;
+}
+
+.form-left {
+    text-align: center;
+}
+/* css icon */
+.icon {
+    display: inline-block;
+    background-color: #f6b0aa;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 35px;
+    text-align: center;
+}
+
+.icon i.fas.fa-paw {
+    margin-top: 10px;
+    color: #807182;
+    transform: rotate(-45deg);
+    font-size: 20px;
+}
+
+h3 {
+    display: inline-block;
+    margin-top: 35px;
+    padding-left: 10px;
+    font-size: 25px;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+}
