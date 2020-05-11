@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet - 1</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome-free-5.13.0-web/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-5">
+                <div class="title">
+                    <div class="round">
+                        <i class="fas fa-paw fa-lg"></i>
+                    </div>
+                    <p class="note">PUPASSURE</p>
+                </div>
+            </div>
+            <div class="col-7">
+                <div class="right">
+                    <div class="right-infor">
+                        <div class="text">Yay, puppies! Ensure your pup gets the best care!</div>
+                        <form>
+                            <div class="infor">
+                                <div class="item">
+                                    <span>Name</span>
+                                    <span><input type="text" placeholder="Pet's name"></span>
+                                </div>
+                                <div class="item">
+                                    <span>
+                                        <label for="input-img-camera"><i class="fa fa-camera"></i></label>
+                                        <input type="file" id="input-img-camera"></i>
+                                        <label> Upload a file</label>
+                                    </span>
+                                </div>
+                                <div class="item">
+                                    <span>Breed</span>
+                                    <span><input type="text" placeholder="Pet's breed"></span>
+                                </div>
+                                <div class="item">
+                                    <span>Birthday</span>
+                                    <span><input placeholder="MM/DD/YYYY"></span>
+                                </div>
+                                <div class="item">
+                                    <span>Gender</span>
+                                    <div class="gender">
+                                        <input type="radio" name="gender" id="female" checked>
+                                        <label for="female" class="female">Female</label>
+                                        <input type="radio" name="gender" id="male">
+                                        <label for="male" class="male">Male</label>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <span>Spayed and Neutered</span>
+                                    <div class="gender">
+                                        <input type="radio" name="spayneu" id="spayed" checked>
+                                        <label for="spayed" class="female">Spayed</label>
+                                        <input type="radio" name="spayneu" id="neutered">
+                                        <label for="neutered" class="male">Neutered</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                        <p>Weight</p>
+                        <div class="weight">
+                            <input type="radio" name="weight" checked id="weight-first">
+                            <label for="weight-first">0-25 Ibs</label>
+                            <input type="radio" name="weight" id="weight-second">
+                            <label for="weight-second">25-50 Ibs</label>
+                            <input type="radio" name="weight" id="weight-third">
+                            <label for="weight-third">50-100 Ibs</label>
+                            <input type="radio" name="weight" id="weight-fourth">
+                            <label for="weight-fourth">100+ Ibs</label>
+                        </div>
+                    </div>
+                    <div class="nextBack">
+                        <button class="back">Back</button>
+                        <button class="next">Next</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
