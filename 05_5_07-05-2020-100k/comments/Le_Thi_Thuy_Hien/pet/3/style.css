@@ -1,0 +1,238 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #d8aa96;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.col-5 {
+    width: calc(5/12*100%);
+    background: #807182;
+    height: 700px;
+}
+
+.col-7 {
+    width: calc(7/12*100%);
+    height: 700px;
+    background: #fac7c2;
+}
+
+.dog,
+.pupassure {
+    display: inline-block;
+    font-size: 30px;
+}
+
+.dog {
+    height: 50px;
+    width: 50px;
+    margin-top: 30px;
+    border-radius: 50%;
+    background: #f7b1ab;
+}
+
+.fa-paw {
+    text-align: center;
+    font-size: 20px;
+    color: #807182;
+    margin-top: 12px;
+    transform: rotateZ(-30deg);
+}
+
+.pupassure {
+    padding-left: 20px;
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 40px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.content {
+    height: 600px;
+}
+
+.btn {
+    height: 100px;
+    width: 100%;
+}
+
+form {
+    margin-left: 60px;
+}
+
+#content:after,
+.row-1:after,
+.row-2:after,
+.item:after,
+.item p:after,
+label:after,
+input:after,
+.row-3:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.row-1,
+.row-2 {
+    padding-top: 20px;
+}
+
+.item {
+    float: left;
+    width: 200px;
+    padding-left: 50px;
+}
+
+.item-file {
+    position: relative;
+    display: inline-block;
+}
+
+.model-2 {
+    height: 50px;
+    width: 50px;
+    background: white;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.fa-camera {
+    font-size: 20px;
+    margin-top: 12px;
+}
+
+.up-file {
+    position: absolute;
+    top: 10px;
+    padding-left: 65px;
+    display: inline-block;
+}
+
+#file {
+    width: 114px;
+}
+
+label {
+    color: black;
+    font-size: 20px;
+}
+
+input[type="text"],
+input[type="date"] {
+    background-color: azure;
+    width: 200px;
+    border-radius: 5px;
+    height: 30px;
+    border: none;
+    text-align: center;
+    margin-top: 10px;
+}
+
+input[type="date"] {
+    height: 32px;
+}
+
+#name,
+#breed,
+#birthday {
+    text-align: left;
+    padding-left: 10px;
+}
+
+input[type="file"],
+input[type="radio"] {
+    opacity: 0;
+    z-index: 1;
+    position: absolute;
+}
+
+#gender,
+#spayneu,
+#weight {
+    background-color: azure;
+    width: 210px;
+    border-radius: 5px;
+    height: 30px;
+    border: none;
+    margin-top: 10px;
+}
+
+#weight {
+    width: 460px;
+}
+
+input[type="radio"] {
+    width: 90px;
+    height: 20px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+input[type="radio"]+label {
+    float: left;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 80px;
+    height: 20px;
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+#weight input[type="radio"]+label {
+    width: 90px;
+}
+
+input[type="radio"]:checked+label {
+    background-color: #F7B1AB;
+}
+
+.btn {
+    /* position: absolute; */
+    height: 80px;
+    background-color: #ffffff;
+    bottom: 0;
+}
+
+.btn #back button {
+    float: left;
+    border-radius: 30px;
+    height: 35px;
+    width: 120px;
+    margin-left: 100px;
+    margin-top: 20px;
+    border: 1px solid #dfdfdf;
+}
+
+.btn #next button {
+    float: left;
+    border-radius: 30px;
+    height: 35px;
+    width: 120px;
+    margin-left: 240px;
+    margin-top: 20px;
+    background-color: #807182;
+    color: white;
+    border: 1px solid #dfdfdf;
+}
