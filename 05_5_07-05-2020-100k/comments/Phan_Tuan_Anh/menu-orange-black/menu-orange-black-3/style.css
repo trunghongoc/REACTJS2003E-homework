@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #bfbfbf;
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+}
+
+a.blog {
+    text-decoration: underline;
+    color: blue;
+}
+
+.menu {
+    width: 800px;
+    background-color: #ff7f50;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+ul {
+    list-style: none;
+}
+
+.menu ul:nth-child(1) li:first-child {
+    background: black;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    float: left;
+    padding: 8px 10px;
+}
+
+li:hover {
+    background: black;
+}
+
+ul:nth-child(1) {
+    float: left;
+}
+
+ul:nth-child(2) {
+    float: right;
+}
+
+.clear-fix {
+    clear: both;
+}

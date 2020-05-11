@@ -1,0 +1,25 @@
+.row {
+    display: flex;
+    justify-content: space-between;
+    width: 960px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+div[class^="col-"] {
+    background-color: red;
+    border: 1px solid white;
+    height: 60px;
+    line-height: 60px;
+    box-sizing: border-box;
+    text-align: center;
+    color: white
+}
+
+.col-1 {
+    width: calc(100% / 12);
+}
+
+.col-2 {
+    width: calc(2*100% / 12);
+}

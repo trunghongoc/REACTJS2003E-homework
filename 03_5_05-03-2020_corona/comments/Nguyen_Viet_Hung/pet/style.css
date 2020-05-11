@@ -3,27 +3,36 @@
     padding: 0;
     box-sizing: border-box;
 }
-*:focus{
+
+*:focus {
     outline: none;
 }
+
 body {
     font-family: 'Montserrat', sans-serif;
     background: #D8AA96;
 }
+
+
 /* form color #807182 #FAC7C2*/
+
+
 /* ================================= CSS FORM =================== */
+
 .heading-2 {
     margin: 0;
 }
+
 .form {
     position: absolute;
     width: 700px;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     display: flex;
     align-items: stretch;
 }
+
 .form-left {
     display: flex;
     flex-flow: column wrap;
@@ -68,19 +77,23 @@ body {
 .form-group-control {
     margin-bottom: 15px;
 }
+
 .form-label {
     margin: 0 0 10px 0;
     font-size: 14px;
 }
+
 .form-input-text {
     border: 0;
     padding: 10px 5px;
     border-radius: 5px;
     width: 185px;
 }
+
 .form-input-text[type="text"]::placeholder {
     color: #807182;
 }
+
 .form-input-text[type="date"] {
     text-transform: uppercase;
     color: #807182;
@@ -99,10 +112,12 @@ body {
     flex-wrap: wrap;
     text-align: center;
 }
-.form-group-radio input[type="radio"]{
+
+.form-group-radio input[type="radio"] {
     display: none;
 }
-.form-group-radio input[type="radio"] + label{
+
+.form-group-radio input[type="radio"]+label {
     display: inline-block;
     background-color: none;
     flex: 1;
@@ -111,19 +126,21 @@ body {
     cursor: pointer;
     transition: background-color .3s ease;
 }
-.form-group-radio input[type="radio"]:checked + label{
+
+.form-group-radio input[type="radio"]:checked+label {
     background-color: #F7B1AB;
 }
 
+
 /* =============== CSS CHECKBOX ============= */
-.form-group-radio.w-100{
+
+.form-group-radio.w-100 {
     background-color: #fff;
     width: 100%;
 }
 
 
 /* =============== CSS BUTTON ============= */
-
 
 .form-group-btn {
     display: flex;
@@ -143,18 +160,20 @@ body {
     text-transform: capitalize;
 }
 
-
 .btn.bg-color-1 {
     background-color: #807182;
     color: #fff;
 }
 
+
 /* ===================== CSS ICON ================== */
+
 .form-head {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 .form-icon {
     background-color: #FAC7C2;
     width: 35px;
@@ -165,6 +184,7 @@ body {
     margin-right: 10px;
     transform: rotate(-30deg);
 }
+
 .form-icon-img {
     position: absolute;
     display: block;
@@ -172,18 +192,18 @@ body {
     height: 20px;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     object-fit: cover;
 }
 
 
 /* ===================== CSS Avatar ================== */
 
-
 input[type="file"] {
     display: none;
 }
-.avatar{
+
+.avatar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -196,16 +216,19 @@ input[type="file"] {
     border-radius: 50%;
     margin-right: 10px;
 }
+
 .avatar-icon .avatar-icon-img {
     display: block;
     width: 20px;
     height: 20px;
 }
+
 .avatar .avatar-label {
     padding: 5px 7px;
     border: 1px solid transparent;
     transition: all .3s ease;
 }
+
 .avatar .avatar-label:hover {
     border: 1px solid #807182;
 }
