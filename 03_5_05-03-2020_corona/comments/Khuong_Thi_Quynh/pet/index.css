@@ -1,0 +1,139 @@
+.container {
+    margin: 0 auto;
+    width: 1000px;
+    height: 600px;
+    flex-wrap: wrap;
+ }
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color:#d8aa96 ;
+}
+.row {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    clear: both;
+}
+.col-5 {
+    display: flex;
+    width: calc((5/12)*100%);
+    background-color: #807182;
+    height: 600px;
+    text-align: center;
+}
+.col-7 {
+    display: flex;
+    width: calc((7/12)*100%);
+    background-color: #fac7c2;
+    height: 600px;
+}
+.icon {
+    display: inline-block;
+    background-color: #fac7c2;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.text {
+    display: inline-block;
+    font-size: 20px;
+}
+.fas {
+    text-align: center;
+    padding-top: 10px ;
+    transform: rotateZ(-30deg);
+}
+img {
+    width: 300px;
+    text-align: center;
+    transform: matrix(0,-1);
+    /* position: absolute; */
+    /* bottom: 0%; */
+    margin-top: 300px;
+    padding-left: center;
+}
+.wrap{
+    width: 100%;
+}
+.col-6 {
+    display: flex;
+    width: calc((6/12)*100%);
+}
+.col-12 {
+    display: flex;
+    width: 100%;
+
+}
+.top {
+    /* display: flex; */
+    width: 100%;
+    height: 120px;
+    /* background-color: red; */
+}
+.left {
+    width: 100%;
+    height: 300px;
+    /* background-color: palegreen; */
+    text-align: left;
+    padding-left: 30px;
+}
+.right {
+    width: 100%;
+    height: 300px;
+    /* background-color: peru; */
+    padding-left: 30px;
+}
+.next-back {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    justify-content: space-between;
+    display: flex;
+    padding: 0px;
+}
+.bottom-con {
+    width: 100%;
+    height: 80px;
+    /* background-color: blue; */
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 30px;
+    box-sizing: content-box;
+    flex: 1;
+    cursor: pointer;
+    justify-content: center;
+}
+input {
+    width: 200px;
+    height: 40px;
+    border-radius: 7px 7px 7px 7px;
+}
+#female,
+#male,
+#spayed,
+#neutered,
+#file {
+    display: none;
+}
+.hide {
+    display: none;
+}
+#icon-camera {
+    display: inline-block;
+    background-color: white;
+    transform: rotateZ(30deg);
+    height: 40px;
+    width: 40px;
+}
+#back,
+#next {
+    border-radius: 30px;
+    width: 100px;
+    margin: 30px 30px 30px 30px;
+}
+p{
+    display: inline-block;
+}
+
+
