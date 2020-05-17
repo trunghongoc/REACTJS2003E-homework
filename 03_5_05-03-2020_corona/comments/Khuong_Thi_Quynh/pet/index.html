@@ -28,39 +28,54 @@
                     </div>
                 </div>
                 <div class="row">
+                    <form action="">
+
                     <div class="col-6">
                     <div class="left">
-                        <form action="">
-                        <p>Name</p><br><input type="text" id="name" placeholder="Pet's name"><br>
-                        <p>Breed</p><br>
-                        <input type="text" id="breed" placeholder="Pet's breed"><br>
-                        <p>Gender</p><br>
-                        <label for="female">female</label>
-                        <input type="radio" id="female" name="gender" checked>
-                        <label for="male">male</label>
-                        <input type="radio" id="male" name="gender" >
-                        </form>
+                        <div>
+                            <p>Name</p><input type="text" id="name" placeholder="Pet's name">
+                        </div>
+                        <div>
+                            <p>Breed</p>
+                            <input type="text" id="breed" placeholder="Pet's breed">
+                        </div>
+                        <p>Gender</p>
+                        <div class="radio">
+                            <label for="female">female</label>
+                            <input type="radio" id="female" name="gender" checked>
+                            <label for="male">male</label>
+                            <input type="radio" id="male" name="gender" >
+                        </div>
                     </div>
                     </div>
                     <div class="col-6">
                     <div class="right">
-                        <div class="icon" id="icon-camera"><i class="fas fa-camera-retro"></i></div>
-                        <input type="file" id="file"><p>upload a photo</p><br>
-                        <p>Birthday</p><br><input type="datetime" id="birthday" placeholder="MM/DD/YYYY"><br>
-                        <p>Spayed or Neutered</p><br>
-                        <input type="radio" id="spayed" name="choose" checked><label for="spayed">Spayed</label>
-                        <input type="radio" id="neutered" name="choose"><label for="neutered">Neutered</label>
+                        <div class="row-con">
+                            <div class="icon" id="icon-camera"><i class="fas fa-camera-retro"></i></div>
+                            <input type="file" id="file"><p>upload a photo</p>
+                        </div>
+                        <div>
+                            <p>Birthday</p><br><input type="datetime" id="birthday" placeholder="MM/DD/YYYY">
+                        </div>
+                        <p>Spayed or Neutered</p>
+                        <div class="radio">
+                            <input type="radio" id="spayed" name="choose" checked><label for="spayed">Spayed</label>
+                            <input type="radio" id="neutered" name="choose"><label for="neutered">Neutered</label>
+                        </div>
                     </div>
+                    </form>
                 </div>
             </div>
              <div class="row">
                  <div class="col-12">
-                   <div class="bottom-con">
+                   <div class="bottom">
                        <p>Weight</p><br>
-                       <input type="radio" id="0" name="weight" checked><label for="0">0-25 lbs</label>
-                       <input type="radio" id="1" name="weight"><label for="1">25-50 lbs</label>
-                       <input type="radio" id="=2" name="weight"><label for="2">50-100 lbs</label>
-                       <input type="radio" id="3" name="weight"><label for="3">100+ lbs</label>
+                       <div class="radio2">
+                            <input type="radio" id="0" name="weight" class="hide" checked><label for="0">0-25 lbs</label>
+                            <input type="radio" id="1" name="weight" class="hide"><label for="1">25-50 lbs</label>
+                            <input type="radio" id="=2" name="weight" class="hide"><label for="2">50-100 lbs</label>
+                            <input type="radio" id="3" name="weight" class="hide"><label for="3">100+ lbs</label>
+                        </div>
                    </div>
                 </div>
                </div>
