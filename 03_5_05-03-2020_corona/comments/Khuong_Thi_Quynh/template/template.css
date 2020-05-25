@@ -1,0 +1,331 @@
+@import "https://fonts.googleapis.com/css?family=Raleway:100,300,600";
+* {
+    margin: 0;
+    padding: 0;
+}
+html,
+body {
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
+.flex {
+    display: flex;
+}
+.background {
+    position: fixed;
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+.background img {
+    width: 100%;
+}
+.container {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+.content {
+    width: 100%;
+    border-top: 10px solid #5385c1;
+    padding-bottom: 200px;
+}
+.content .menu {
+    display: flex;
+    padding: 50px 0;
+    color: white;
+}
+.content .menu .left,
+.content .menu .right {
+    display: flex;
+    flex: 1;
+}
+.content .menu .right {
+    justify-content: flex-end;
+}
+.content .menu a {
+    color: white;
+    display: inline-block;
+    margin-right: 40px;
+    text-decoration: none;
+}
+.content .menu .right a {
+    font-size: 0.8em;
+    color: #d4e0ef;
+}
+.content .menu .right span {
+    display: none;
+    cursor: pointer;
+}
+#menu-mobile {
+    width: 280px;
+    padding: 20px;
+    overflow-y: auto;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background: #5385c1;
+    height: 100%;
+    max-width: 80%;
+    width: 20em;
+    z-index: 2;
+    display: -320px;
+    transition: right ease-in-out 0.25s;
+}
+#menu-mobile ul {
+    list-style: none;
+}
+#menu-mobile ul a {
+    text-decoration: none;
+    color: #d4e0ef;
+    display: block;
+    padding: 0.5em 1.25em;
+}
+#menu-mobile ul a:not(:last-child) {
+    border-bottom: solid 1px rgba(255, 255, 255, 0.25);
+}
+#menu-mobile .wrap {
+    position: relative;
+}
+#menu-mobile .wrap .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    color: #d4e0ef;
+    display: flex;
+    height: 40px;
+    width: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.content .menu .left a {
+    font-size: 1em;
+}
+.content .menu .right a :last-child {
+    margin-right: 0;
+}
+.content .menu .right a:hover {
+    color: white;
+}
+.banner {
+    color: white;
+    height: 200px;
+    text-align: center;
+}
+.banner h1 {
+    font-size: 40px;
+}
+.banner p {
+    margin-top: 40px;
+}
+/* news */
+.news {
+    display: block;
+    width: 100%;
+    /* height: 300px; */
+    background-color: white;
+    padding: 60px 0;
+}
+.news .list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.news .item {
+    display: flex;
+    width: calc((1/3)*100%);
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+.news .item .wrap {
+    display: block;
+}
+.news .item:nth-child(1) .wrap,
+.news .item:nth-child(3) .wrap {
+    width: calc(100% - 20px);
+}
+.news .item:nth-child(2) .wrap {
+    width: calc(100% - 40px);
+    margin: 0 auto;
+}
+.news .item:nth-child(3) .wrap {
+    margin-left: 20px;
+}
+.news .item:not(:last-child) {
+    border-right: 1px solid #9A9AAF;
+}
+.news .item .heading {
+    color: #5385c1;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.news .item .desc {
+    color: #9a9a9a;
+    font-size: 16px;
+
+}
+.news .item a {
+    display: inline-block;
+    background-color: #5385c1;
+    margin-top: 25px;
+    text-align: center;
+    padding: 9px 20px;
+    color: white;
+    text-decoration: none;
+}
+.user {
+    background-color: #5385c1;
+    width: 100%;
+    /* height: 500px; */
+    display: block;
+    padding: 60px 0;
+}
+.user .text h2 {
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 .5em 0;
+    font-weight: 100;
+}
+.user .text p {
+    color: #bacee6;
+    font-size: .9em;
+    margin-top: -1em;
+    position: relative;
+    margin: 0 0 1.5em 0;
+    text-align: center;
+}
+.content .user .list {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex: 1; */
+    /* box-sizing: border-box; */
+    width: 100%;
+    /* height: 400px; */
+    /* padding: 20px 30px 0 30px; */justify-content: space-around;
+    margin-top: 2em;
+}
+.content .user .list .item {
+    display: flex;
+    width: 21%;
+    border: solid 1px rgba(255, 255, 255, 0.25);;
+    color: white;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 40px;
+    /* text-align: center; */
+}
+.content .user .list .item img {
+    width: 70%;
+    /* height: 160px; */
+    border-radius: 50%;
+    margin: auto;
+}
+.content .user .list .item .infor h3 {
+    font-size: 1.35em;
+    font-weight: 300;
+    line-height: 1.5
+}
+.content .user .list .item .infor p {
+    color: #dbdbdb;
+    margin: 0 0 2em 0;
+}
+/* special */
+.content .special {
+    width: 100%;
+    background-color: white;
+    padding: 60px 0;
+}
+.content .special .head {
+    text-align: center;
+}
+.content .special .head h2 {
+    color: #5385c1;
+    font-weight: 100;
+    line-height: 1.5;
+    margin: 0 0 .5em 0;
+    font-size: 2em;
+}
+.content .special .head p {
+    color: #bbb;
+}
+.content .special .list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 2em;
+}
+.content .special .list .item {
+    display: flex;
+    width: 45%;
+    flex-direction: column;
+    margin-bottom: 2em;
+}
+.content .special .list .item .pic {
+    overflow: hidden;
+}
+.content .special .list .item .heading {
+    color: #5385c1;
+    font-weight: 300;
+    line-height: 1.5;
+    margin: 2em 0 1em 0;
+    font-size: 1.35em
+}
+.content .special .list .item .desc {
+    color: #9a9a9a;
+    font-size: 16px;
+
+}
+.content .special .list .item a {
+    display: inline-block;
+    background-color: #5385c1;
+    margin-top: 25px;
+    text-align: center;
+    padding: 9px 20px;
+    color: white;
+    text-decoration: none;
+}
+/* footer */
+.content .footer {
+    width: 100%;
+    background-color: white;
+    padding: 50px 0;
+}
+.content .footer .left,
+.content .footer .right {
+    display: flex;
+    flex: 1;
+}
+.content .footer .left {
+    color: #bbb;
+    font-size: 0.8em;
+    margin: 0 0 2em 0;
+    padding: 0;
+}
+.content .footer .left a {
+    color: #bbb;
+    text-decoration: none;
+}
+.content .footer .left a:hover {
+    text-decoration: underline;
+}
+.content .footer .right ul {
+    list-style: none;
+    text-align: right;
+    width: 100%;
+}
+.content .footer .right ul li {
+    display: inline-block;
+}
+.content .footer .right ul li:not(:last-child) {
+    margin-right: 1em;
+}
+.content .footer .right ul li span {
+    display: none;
+}
+.content .footer .right ul li a {
+    color:  #5385c1;;
+}
+
