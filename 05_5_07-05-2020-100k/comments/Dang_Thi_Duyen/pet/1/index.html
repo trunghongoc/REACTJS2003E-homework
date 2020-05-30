@@ -11,18 +11,107 @@
     <div class="container">
         <div class="row">
             <div class="col-5">
-                <div class="form-left">
-                    <div class="icon">
+                <div class="side-left">
+                    <div class="icon-dog">
                         <i class="fas fa-paw"></i>
                     </div>
                     <h3>PUPASSURE</h3>
                 </div>
-                <div>
+                <div class="side-right">
                     <img src="pet.png" alt="">
                 </div>
             </div>
             <div class="col-7">
-            </div>
+                <div class="row">
+                    <h2>Yay, puppies! Ensure your <br> pup gets the best care!</h2>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="row">
+                            <label for="">Name</label>
+                            <input type="text" name="name" id="name" value="Pet's name">
+                        </div>
+                        <div class="row">
+                            <label for="">Breed</label>
+                            <input type="text" name="breed" id="breed" value="Pet's breed">
+                        </div>
+                        <div class="row">
+                            <label for="">Gender</label>
+                            <div class="gender">
+                                <div class="female">
+                                    <input type="radio" name="gender" id="female" checked>
+                                    <label for="">Female</label>
+                                </div>
+                                <div class="male">
+                                    <input type="radio" name="gender" id="male">
+                                    <label for="">Male</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="row">
+                            <div class="file">
+                                <div class="icon-file">
+                                    <input type="file" name="file" id="file">
+                                    <i class='fas fa-camera'></i>
+                                </div>
+                                <div class="up-file">
+                                    <input type="file" name="file" id="file"> 
+                                    <label for="">Up load photo</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <label for="">Birthday</label>
+                            <input type="date" name="birth-day" id="birthday" value="">
+                        </div>
+                        <div class="row">
+                            <label for="">Spayed or Neutered</label>
+                            <div class="spayneu">
+                                <div class="spay">
+                                    <input type="radio" name="spaorneu" id="spayed" checked>
+                                    <label for="">Spayed</label>
+                                </div>
+                                <div class="neu">
+                                    <input type="radio" name="spaorneu" id="neutered">
+                                    <label for="">Neutered</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-weight">
+                    <div>
+                        <label for="">Weight</label>
+                    </div>
+                    <div class="weight">
+                        <div class="weight-1">
+                            <input type="radio" name="weight" id="" checked> 
+                            <label for="">0-25 lbs</label>
+                        </div>
+                        <div class="weight-1">
+                            <input type="radio" name="weight" id="">
+                            <label for="">25-50 lbs</label>
+                        </div>
+                        <div class="weight-1">
+                            <input type="radio" name="weight" id="">
+                            <label for="">50-100 lbs</label>
+                        </div>
+                        <div class="weight-1">
+                            <input type="radio" name="weight" id="">
+                            <label for="">100+ lbs</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row footer">
+                    <div class="col-6 back">
+                        <button type="submit">Back</button>
+                    </div>
+                    <div class="col-6 next">
+                        <button type="submit">Next</button>
+                    </div>
+                </div>
         </div>
     </div>
 </body>
